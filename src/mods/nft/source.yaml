@@ -1,0 +1,80 @@
+dataSources:
+  - name: parcel
+    network: 0
+    source:
+      address: "0x80974C4249b212178B4B54f63F6F4d6597C71c0f"
+      startBlock: 7026465
+      abi: "./abis/Land.json"
+    mapping:
+      file: "./mappings/parcel.ts"
+      eventHandlers: 
+        - event: Transfer
+          handler: handleTransfer
+        - event: MetadataUpdate
+          handler: handleUpdateMetadata
+  - name: estate
+    network: 0
+    source:
+      address: "0x9299C332Db2AFD9B52dC234DdA2BA5614A2dC744"
+      startBlock: 7026562
+      abi: "./abis/Bundle.json"
+    mapping:
+      file: "./mappings/estate.ts"
+      eventHandlers: 
+        - event: Transfer
+          handler: handleTransfer
+        - event: BundleNew
+          handler: handleCreateBundle
+        - event: BundleAdd
+          handler: handleCreateBundle
+        - event: BundleRemove
+          handler: handleBundleRemoveItems
+        - event: MetadataUpdate
+          handler: handleUpdateMetadata
+  - name: scene
+    network: 0
+    source:
+      address: "0x0454A95CE549807EC1427736C9eACC30c1943E94"
+      startBlock: 7163724
+      abi: "./abis/Scene.json"
+    mapping:
+      file: "./mappings/scene.ts"
+      eventHandlers: 
+        - event: Transfer
+          handler: handleTransfer
+        - event: DeployNew
+          handler: handleDeploy
+
+  - name: nft-factory
+    network: 0
+    source:
+      address: "0x49E662ca18F7a2C7b38407f73928d5E83b688C69"
+      startBlock: 7258600
+      abi: "./abis/factory.json"
+    mapping:
+      file: "./mappings/factory.ts"
+      eventHandlers: 
+        - event: CollectionCreated
+          handler: handleCreate
+templates:
+  - name: nft
+    network: 0
+    source:
+      abi: "./abis/nft.json"
+    mapping:
+      file: "./mappings/nft.ts"
+      eventHandlers: 
+        - event: Transfer
+          handler: handleTransfer
+        - event: ItemsAdd
+          handler: handleAddItems
+        - event: ItemsEdit
+          handler: handleEditItems
+        - event: SetApproved
+          handler: handleApprove
+        - event: SetEditable
+          handler: handleEnableEditable
+        - event: Created
+          handler: handleCreate
+        - event: CreatorshipTransferred
+          handler: handleTransferCreator

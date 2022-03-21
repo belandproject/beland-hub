@@ -1,0 +1,128 @@
+{
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "image": {
+            "type": "string"
+        },
+        "animation_url": {
+            "type": "string"
+        },
+        "external_url": {
+            "type": "string"
+        },
+        "youtube_url": {
+            "type": "string"
+        },
+        "mimetype": {
+            "type": "string",
+            "enum": [
+                "image/jpeg",
+                "video/mp4",
+                "image/webp",
+                "image/png",
+                "audio/mpeg"
+            ]
+        },
+        "contents": {
+            "type": "array",
+            "properties": {
+                "path": {
+                    "type": "string"
+                },
+                "hash": {
+                    "type": "string"
+                }
+            }
+        },
+        "representations": {
+            "type": "array",
+            "properties": {
+                "bodyShapes": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "contents": {
+                    "type": "array",
+                    "properties": {
+                        "path": {
+                            "type": "string"
+                        },
+                        "hash": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "mainFile": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "hides": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "uniqueItems": true
+                },
+                "replaces": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "uniqueItems": true
+                },
+                "overrides": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "uniqueItems": true
+                }
+            }
+        },
+        "attributes": {
+            "type": "array",
+            "properties": {
+                "trait_type": {
+                    "type": "string"
+                },
+                "display_type": {
+                    "type": "string",
+                    "enum": [
+                        "string",
+                        "number",
+                        "date"
+                    ]
+                },
+                "value": {
+                    "type": [
+                        "number",
+                        "string"
+                    ]
+                },
+                "max_value": {
+                    "type": "number"
+                },
+                "display_name": {
+                    "type": "string"
+                },
+                "required": [
+                    "value"
+                ]
+            }
+        }
+    },
+    "required": [
+        "name",
+        "image"
+    ]
+}
