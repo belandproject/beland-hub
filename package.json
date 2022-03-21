@@ -5,6 +5,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
+    "import": "ts-node src/import/index.ts",
     "start": "ts-node src/app.ts",
     "start:worker": "ts-node src/worker.ts",
     "start:indexer": "ts-node src/indexer.ts",
