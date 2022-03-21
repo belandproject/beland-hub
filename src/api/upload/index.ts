@@ -1,5 +1,5 @@
 import Router from 'koa-joi-router';
-import multer from 'multer';
+import multer from '@koa/multer';
 import { checkAuthMiddleware } from '../../middlewares/auth';
 import { createMetadata, uploadFile } from './handler';
 
