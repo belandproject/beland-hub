@@ -10,7 +10,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmWvrCW5SBFgp2b9pLRb4JMxrsVD7ZzcghaY8cAZevjvSY",
+          "mainFile": "BaseFemale.glb",
           "contents": [
             {
               "hash": "ipfs://QmWvrCW5SBFgp2b9pLRb4JMxrsVD7ZzcghaY8cAZevjvSY",
@@ -54,7 +54,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmR3uPuFP4yjeCh6X4czgZ5gUgWvPVFrTZgST7ZzfmVeZ4",
+          "mainFile": "BaseMale.glb",
           "contents": [
             {
               "hash": "ipfs://QmR3uPuFP4yjeCh6X4czgZ5gUgWvPVFrTZgST7ZzfmVeZ4",
@@ -98,7 +98,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmYLxZrMAMnWREkmwN5RGpX91KSy2oeqB1uJNY4SSq21Ur",
+          "mainFile": "F_Earrings_BlueStar.glb",
           "contents": [
             {
               "hash": "ipfs://QmYLxZrMAMnWREkmwN5RGpX91KSy2oeqB1uJNY4SSq21Ur",
@@ -142,7 +142,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmf56VCW9jRDbAJpTCEKtycjQs3nLrMsaq2NxMdgb3S2qB",
+          "mainFile": "Earring_GreenFeather.glb",
           "contents": [
             {
               "hash": "ipfs://Qmf56VCW9jRDbAJpTCEKtycjQs3nLrMsaq2NxMdgb3S2qB",
@@ -186,7 +186,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmREzw2CaG9Wu4GnJ9zvJWi7ZuHnZKKZQGpjKpdjrr4Ki7",
+          "mainFile": "Earring_SquareEarring.glb",
           "contents": [
             {
               "hash": "ipfs://QmREzw2CaG9Wu4GnJ9zvJWi7ZuHnZKKZQGpjKpdjrr4Ki7",
@@ -230,7 +230,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmPRUEQ29iYdZ2nHUfs2qKsArYm9oPcdYLz8hunffig1LY",
+          "mainFile": "F_Earrings_PInkGem.glb",
           "contents": [
             {
               "hash": "ipfs://QmPRUEQ29iYdZ2nHUfs2qKsArYm9oPcdYLz8hunffig1LY",
@@ -274,7 +274,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmVxgx6659AiHkjx873VsgcVZzWtZJwhMTf7bT1mDL7GtK",
+          "mainFile": "F_Earrings_Skull.glb",
           "contents": [
             {
               "hash": "ipfs://QmVxgx6659AiHkjx873VsgcVZzWtZJwhMTf7bT1mDL7GtK",
@@ -318,7 +318,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmUwuNuTv5ecSpS3Gr3nerKtV4KxaRcN5na5SiShqXo5v4",
+          "mainFile": "F_Earrings_Thunder.glb",
           "contents": [
             {
               "hash": "ipfs://QmUwuNuTv5ecSpS3Gr3nerKtV4KxaRcN5na5SiShqXo5v4",
@@ -362,7 +362,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmQ6vmY9S4hm1iXdzqj95nvA9AHuLpH3qCnad4Zn6q7MK9",
+          "mainFile": "F_Earrings_PunkPiercing.glb",
           "contents": [
             {
               "hash": "ipfs://QmQ6vmY9S4hm1iXdzqj95nvA9AHuLpH3qCnad4Zn6q7MK9",
@@ -374,7 +374,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmQ6vmY9S4hm1iXdzqj95nvA9AHuLpH3qCnad4Zn6q7MK9",
+          "mainFile": "F_Earrings_PunkPiercing.glb",
           "contents": [
             {
               "hash": "ipfs://QmQ6vmY9S4hm1iXdzqj95nvA9AHuLpH3qCnad4Zn6q7MK9",
@@ -426,7 +426,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://Qmb61X1fHzgLbDvJqpPNw285oKKXgitNycsMjhnbz1LxSU",
+          "mainFile": "RightGoldEarring_01.glb",
           "contents": [
             {
               "hash": "ipfs://Qmb61X1fHzgLbDvJqpPNw285oKKXgitNycsMjhnbz1LxSU",
@@ -438,7 +438,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmb61X1fHzgLbDvJqpPNw285oKKXgitNycsMjhnbz1LxSU",
+          "mainFile": "RightGoldEarring_01.glb",
           "contents": [
             {
               "hash": "ipfs://Qmb61X1fHzgLbDvJqpPNw285oKKXgitNycsMjhnbz1LxSU",
@@ -490,7 +490,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmPAVXWBxnyrMN9WDjmLVsGKaM9siXdkKeV6mzWTYwxzQD",
+          "mainFile": "F_Earrings_ThunderRight.glb",
           "contents": [
             {
               "hash": "ipfs://QmPAVXWBxnyrMN9WDjmLVsGKaM9siXdkKeV6mzWTYwxzQD",
@@ -502,7 +502,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmPAVXWBxnyrMN9WDjmLVsGKaM9siXdkKeV6mzWTYwxzQD",
+          "mainFile": "F_Earrings_ThunderRight.glb",
           "contents": [
             {
               "hash": "ipfs://QmPAVXWBxnyrMN9WDjmLVsGKaM9siXdkKeV6mzWTYwxzQD",
@@ -554,7 +554,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmX1qwLdNU6bxeakE75psWgURRRsM8fFA7yavyCQRa6mUC",
+          "mainFile": "TorusPiercing.glb",
           "contents": [
             {
               "hash": "ipfs://QmX1qwLdNU6bxeakE75psWgURRRsM8fFA7yavyCQRa6mUC",
@@ -566,7 +566,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmX1qwLdNU6bxeakE75psWgURRRsM8fFA7yavyCQRa6mUC",
+          "mainFile": "TorusPiercing.glb",
           "contents": [
             {
               "hash": "ipfs://QmX1qwLdNU6bxeakE75psWgURRRsM8fFA7yavyCQRa6mUC",
@@ -618,7 +618,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmWqSABj35KQ3jiWDAoUoxGCXyQwvW27eztGvCqoim9X6Q",
+          "mainFile": "M_Earrings_TripleRing.glb",
           "contents": [
             {
               "hash": "ipfs://QmWqSABj35KQ3jiWDAoUoxGCXyQwvW27eztGvCqoim9X6Q",
@@ -630,7 +630,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmWqSABj35KQ3jiWDAoUoxGCXyQwvW27eztGvCqoim9X6Q",
+          "mainFile": "M_Earrings_TripleRing.glb",
           "contents": [
             {
               "hash": "ipfs://QmWqSABj35KQ3jiWDAoUoxGCXyQwvW27eztGvCqoim9X6Q",
@@ -682,7 +682,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmdPJATebwFUGyij2uHwZ4brb9faNfjmhB79dxA3gBpocn",
+          "mainFile": "F_Earrings_Pearls.glb",
           "contents": [
             {
               "hash": "ipfs://QmdPJATebwFUGyij2uHwZ4brb9faNfjmhB79dxA3gBpocn",
@@ -1246,7 +1246,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmXqPxhpVaNx7KfiWDjBoufQK28373nbZhNqWbKSwcGwUr",
+          "mainFile": "F_Eyebrows_00.png",
           "contents": [
             {
               "hash": "ipfs://QmXqPxhpVaNx7KfiWDjBoufQK28373nbZhNqWbKSwcGwUr",
@@ -1258,7 +1258,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmXqPxhpVaNx7KfiWDjBoufQK28373nbZhNqWbKSwcGwUr",
+          "mainFile": "F_Eyebrows_00.png",
           "contents": [
             {
               "hash": "ipfs://QmXqPxhpVaNx7KfiWDjBoufQK28373nbZhNqWbKSwcGwUr",
@@ -1298,7 +1298,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmVbxn91ZRByw9u5jRSuxzs6wrdnLhMqiTX7LXH27CEngb",
+          "mainFile": "F_Eyebrows_01.png",
           "contents": [
             {
               "hash": "ipfs://QmVbxn91ZRByw9u5jRSuxzs6wrdnLhMqiTX7LXH27CEngb",
@@ -1310,7 +1310,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmVbxn91ZRByw9u5jRSuxzs6wrdnLhMqiTX7LXH27CEngb",
+          "mainFile": "F_Eyebrows_01.png",
           "contents": [
             {
               "hash": "ipfs://QmVbxn91ZRByw9u5jRSuxzs6wrdnLhMqiTX7LXH27CEngb",
@@ -1350,7 +1350,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmNM7wkfpUDULNJ7FC8AGua7b9hNnUtw9zMR676bt57v6J",
+          "mainFile": "F_Eyebrows_02.png",
           "contents": [
             {
               "hash": "ipfs://QmNM7wkfpUDULNJ7FC8AGua7b9hNnUtw9zMR676bt57v6J",
@@ -1362,7 +1362,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmNM7wkfpUDULNJ7FC8AGua7b9hNnUtw9zMR676bt57v6J",
+          "mainFile": "F_Eyebrows_02.png",
           "contents": [
             {
               "hash": "ipfs://QmNM7wkfpUDULNJ7FC8AGua7b9hNnUtw9zMR676bt57v6J",
@@ -1402,7 +1402,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmQErsfExFULBqSAnp4csu11ZzBDrubLTyazpnEUSGxnKi",
+          "mainFile": "F_Eyebrows_03.png",
           "contents": [
             {
               "hash": "ipfs://QmQErsfExFULBqSAnp4csu11ZzBDrubLTyazpnEUSGxnKi",
@@ -1414,7 +1414,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmQErsfExFULBqSAnp4csu11ZzBDrubLTyazpnEUSGxnKi",
+          "mainFile": "F_Eyebrows_03.png",
           "contents": [
             {
               "hash": "ipfs://QmQErsfExFULBqSAnp4csu11ZzBDrubLTyazpnEUSGxnKi",
@@ -1454,7 +1454,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmPMh5FgJQGRqyoYrgLeBxX7tF4jKsZ1mZct7bKynzyuoo",
+          "mainFile": "F_Eyebrows_04.png",
           "contents": [
             {
               "hash": "ipfs://QmPMh5FgJQGRqyoYrgLeBxX7tF4jKsZ1mZct7bKynzyuoo",
@@ -1466,7 +1466,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmPMh5FgJQGRqyoYrgLeBxX7tF4jKsZ1mZct7bKynzyuoo",
+          "mainFile": "F_Eyebrows_04.png",
           "contents": [
             {
               "hash": "ipfs://QmPMh5FgJQGRqyoYrgLeBxX7tF4jKsZ1mZct7bKynzyuoo",
@@ -1506,7 +1506,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmQLA3rK18r2yxKjtGT5stCUN8gCLwsEQPawszxzC24hPV",
+          "mainFile": "F_Eyebrows_05.png",
           "contents": [
             {
               "hash": "ipfs://QmQLA3rK18r2yxKjtGT5stCUN8gCLwsEQPawszxzC24hPV",
@@ -1518,7 +1518,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmQLA3rK18r2yxKjtGT5stCUN8gCLwsEQPawszxzC24hPV",
+          "mainFile": "F_Eyebrows_05.png",
           "contents": [
             {
               "hash": "ipfs://QmQLA3rK18r2yxKjtGT5stCUN8gCLwsEQPawszxzC24hPV",
@@ -1558,7 +1558,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmdhHxosuViop4i85K2wYDcv1Pyu5uYEw5tndX1HagtxVs",
+          "mainFile": "F_Eyebrows_06.png",
           "contents": [
             {
               "hash": "ipfs://QmdhHxosuViop4i85K2wYDcv1Pyu5uYEw5tndX1HagtxVs",
@@ -1570,7 +1570,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmdhHxosuViop4i85K2wYDcv1Pyu5uYEw5tndX1HagtxVs",
+          "mainFile": "F_Eyebrows_06.png",
           "contents": [
             {
               "hash": "ipfs://QmdhHxosuViop4i85K2wYDcv1Pyu5uYEw5tndX1HagtxVs",
@@ -1610,7 +1610,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmbZt4ucT5r2tMzFmJAw3dEBoRm7LarzAr3VeNiFFsTfhU",
+          "mainFile": "F_Eyebrows_07.png",
           "contents": [
             {
               "hash": "ipfs://QmbZt4ucT5r2tMzFmJAw3dEBoRm7LarzAr3VeNiFFsTfhU",
@@ -1622,7 +1622,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmbZt4ucT5r2tMzFmJAw3dEBoRm7LarzAr3VeNiFFsTfhU",
+          "mainFile": "F_Eyebrows_07.png",
           "contents": [
             {
               "hash": "ipfs://QmbZt4ucT5r2tMzFmJAw3dEBoRm7LarzAr3VeNiFFsTfhU",
@@ -1662,7 +1662,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmZWwUgq6UYJLCgtPbzVdhThkPTNPHqezWiQKw7Lg3yqKV",
+          "mainFile": "M_EyeBrows_00.png",
           "contents": [
             {
               "hash": "ipfs://QmZWwUgq6UYJLCgtPbzVdhThkPTNPHqezWiQKw7Lg3yqKV",
@@ -1674,7 +1674,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmZWwUgq6UYJLCgtPbzVdhThkPTNPHqezWiQKw7Lg3yqKV",
+          "mainFile": "M_EyeBrows_00.png",
           "contents": [
             {
               "hash": "ipfs://QmZWwUgq6UYJLCgtPbzVdhThkPTNPHqezWiQKw7Lg3yqKV",
@@ -1714,7 +1714,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmbWE3gyKGdm6kQUxxSzF1rBky9UBAx2Kt686QcuVdTgWM",
+          "mainFile": "M_EyeBrows_01.png",
           "contents": [
             {
               "hash": "ipfs://QmbWE3gyKGdm6kQUxxSzF1rBky9UBAx2Kt686QcuVdTgWM",
@@ -1726,7 +1726,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmbWE3gyKGdm6kQUxxSzF1rBky9UBAx2Kt686QcuVdTgWM",
+          "mainFile": "M_EyeBrows_01.png",
           "contents": [
             {
               "hash": "ipfs://QmbWE3gyKGdm6kQUxxSzF1rBky9UBAx2Kt686QcuVdTgWM",
@@ -1766,7 +1766,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmaPGCFTsiAPGYkhmDbTcxvM5SyqWyhHraPJ65Rzfp4dWi",
+          "mainFile": "M_EyeBrows_02.png",
           "contents": [
             {
               "hash": "ipfs://QmaPGCFTsiAPGYkhmDbTcxvM5SyqWyhHraPJ65Rzfp4dWi",
@@ -1778,7 +1778,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmaPGCFTsiAPGYkhmDbTcxvM5SyqWyhHraPJ65Rzfp4dWi",
+          "mainFile": "M_EyeBrows_02.png",
           "contents": [
             {
               "hash": "ipfs://QmaPGCFTsiAPGYkhmDbTcxvM5SyqWyhHraPJ65Rzfp4dWi",
@@ -1818,7 +1818,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmYsSia1G9PyFgkR6N72JmxrNYQxqa5UHc6Arp6TiqGynn",
+          "mainFile": "M_EyeBrows_03.png",
           "contents": [
             {
               "hash": "ipfs://QmYsSia1G9PyFgkR6N72JmxrNYQxqa5UHc6Arp6TiqGynn",
@@ -1830,7 +1830,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmYsSia1G9PyFgkR6N72JmxrNYQxqa5UHc6Arp6TiqGynn",
+          "mainFile": "M_EyeBrows_03.png",
           "contents": [
             {
               "hash": "ipfs://QmYsSia1G9PyFgkR6N72JmxrNYQxqa5UHc6Arp6TiqGynn",
@@ -1870,7 +1870,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmenmqyYDRAyg1P5jZmr8wfFmtsodjfDvzWsVrGM7mBw7f",
+          "mainFile": "M_EyeBrows_04.png",
           "contents": [
             {
               "hash": "ipfs://QmenmqyYDRAyg1P5jZmr8wfFmtsodjfDvzWsVrGM7mBw7f",
@@ -1882,7 +1882,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmenmqyYDRAyg1P5jZmr8wfFmtsodjfDvzWsVrGM7mBw7f",
+          "mainFile": "M_EyeBrows_04.png",
           "contents": [
             {
               "hash": "ipfs://QmenmqyYDRAyg1P5jZmr8wfFmtsodjfDvzWsVrGM7mBw7f",
@@ -1922,7 +1922,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmfYm4Jpjcv5MyBZMAa9LozxDtoegSLYrCAT3HBfFLiMC6",
+          "mainFile": "M_EyeBrows_05.png",
           "contents": [
             {
               "hash": "ipfs://QmfYm4Jpjcv5MyBZMAa9LozxDtoegSLYrCAT3HBfFLiMC6",
@@ -1934,7 +1934,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmfYm4Jpjcv5MyBZMAa9LozxDtoegSLYrCAT3HBfFLiMC6",
+          "mainFile": "M_EyeBrows_05.png",
           "contents": [
             {
               "hash": "ipfs://QmfYm4Jpjcv5MyBZMAa9LozxDtoegSLYrCAT3HBfFLiMC6",
@@ -1974,7 +1974,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmWvSyafpKiT32YBkhe4kDz3SvJvuUKxJJGx43AAGoh1KT",
+          "mainFile": "M_EyeBrows_06.png",
           "contents": [
             {
               "hash": "ipfs://QmWvSyafpKiT32YBkhe4kDz3SvJvuUKxJJGx43AAGoh1KT",
@@ -1986,7 +1986,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmWvSyafpKiT32YBkhe4kDz3SvJvuUKxJJGx43AAGoh1KT",
+          "mainFile": "M_EyeBrows_06.png",
           "contents": [
             {
               "hash": "ipfs://QmWvSyafpKiT32YBkhe4kDz3SvJvuUKxJJGx43AAGoh1KT",
@@ -2026,7 +2026,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmZGhEFGs2dBhwE1aAcA831d8nPYQZ6AkH3E1dcCWeWf86",
+          "mainFile": "M_EyeBrows_07.png",
           "contents": [
             {
               "hash": "ipfs://QmZGhEFGs2dBhwE1aAcA831d8nPYQZ6AkH3E1dcCWeWf86",
@@ -2038,7 +2038,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmZGhEFGs2dBhwE1aAcA831d8nPYQZ6AkH3E1dcCWeWf86",
+          "mainFile": "M_EyeBrows_07.png",
           "contents": [
             {
               "hash": "ipfs://QmZGhEFGs2dBhwE1aAcA831d8nPYQZ6AkH3E1dcCWeWf86",
@@ -2078,7 +2078,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmZ9A2XqJ17czo89JVmhNQSXhNKvVfHA3PDFEYeRnCpjfQ",
+          "mainFile": "Eyes_12.png",
           "contents": [
             {
               "hash": "ipfs://QmZ9A2XqJ17czo89JVmhNQSXhNKvVfHA3PDFEYeRnCpjfQ",
@@ -2094,7 +2094,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmZ9A2XqJ17czo89JVmhNQSXhNKvVfHA3PDFEYeRnCpjfQ",
+          "mainFile": "Eyes_12.png",
           "contents": [
             {
               "hash": "ipfs://QmZ9A2XqJ17czo89JVmhNQSXhNKvVfHA3PDFEYeRnCpjfQ",
@@ -2138,7 +2138,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qma8xJZh54zByHy3cSNSdgDtXh17MTCNGqHZYLfTiqLLnY",
+          "mainFile": "Eyes_13.png",
           "contents": [
             {
               "hash": "ipfs://Qma8xJZh54zByHy3cSNSdgDtXh17MTCNGqHZYLfTiqLLnY",
@@ -2154,7 +2154,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://Qma8xJZh54zByHy3cSNSdgDtXh17MTCNGqHZYLfTiqLLnY",
+          "mainFile": "Eyes_13.png",
           "contents": [
             {
               "hash": "ipfs://Qma8xJZh54zByHy3cSNSdgDtXh17MTCNGqHZYLfTiqLLnY",
@@ -2198,7 +2198,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmVQ6aq83dCb3UVUityNAJKAoqBpNnCpPbRjU5TSdQXAvu",
+          "mainFile": "Eyes_14.png",
           "contents": [
             {
               "hash": "ipfs://QmVQ6aq83dCb3UVUityNAJKAoqBpNnCpPbRjU5TSdQXAvu",
@@ -2214,7 +2214,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmVQ6aq83dCb3UVUityNAJKAoqBpNnCpPbRjU5TSdQXAvu",
+          "mainFile": "Eyes_14.png",
           "contents": [
             {
               "hash": "ipfs://QmVQ6aq83dCb3UVUityNAJKAoqBpNnCpPbRjU5TSdQXAvu",
@@ -2258,7 +2258,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmeUDL2YgajsEiehJmGMttZqvP1N1URHfLFJPPPQY2Z4CD",
+          "mainFile": "Eyes_15.png",
           "contents": [
             {
               "hash": "ipfs://QmeUDL2YgajsEiehJmGMttZqvP1N1URHfLFJPPPQY2Z4CD",
@@ -2270,7 +2270,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmeUDL2YgajsEiehJmGMttZqvP1N1URHfLFJPPPQY2Z4CD",
+          "mainFile": "Eyes_15.png",
           "contents": [
             {
               "hash": "ipfs://QmeUDL2YgajsEiehJmGMttZqvP1N1URHfLFJPPPQY2Z4CD",
@@ -2310,7 +2310,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmYxTkpKxjjByH8vDCLZoc17BbMM8in7aFF8z9TC3cdhLX",
+          "mainFile": "Eyes_16.png",
           "contents": [
             {
               "hash": "ipfs://QmYxTkpKxjjByH8vDCLZoc17BbMM8in7aFF8z9TC3cdhLX",
@@ -2322,7 +2322,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmYxTkpKxjjByH8vDCLZoc17BbMM8in7aFF8z9TC3cdhLX",
+          "mainFile": "Eyes_16.png",
           "contents": [
             {
               "hash": "ipfs://QmYxTkpKxjjByH8vDCLZoc17BbMM8in7aFF8z9TC3cdhLX",
@@ -2362,7 +2362,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmbVisJqHPBA9ikXf9sZrjDS5Hnt23E4tRGs8WN6oVeaGo",
+          "mainFile": "Eyes_17.png",
           "contents": [
             {
               "hash": "ipfs://QmbVisJqHPBA9ikXf9sZrjDS5Hnt23E4tRGs8WN6oVeaGo",
@@ -2378,7 +2378,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmbVisJqHPBA9ikXf9sZrjDS5Hnt23E4tRGs8WN6oVeaGo",
+          "mainFile": "Eyes_17.png",
           "contents": [
             {
               "hash": "ipfs://QmbVisJqHPBA9ikXf9sZrjDS5Hnt23E4tRGs8WN6oVeaGo",
@@ -2422,7 +2422,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmZfmW93X3VfCeYNZ5Lx926dxepU5bJksfTDwaYjRPXCdB",
+          "mainFile": "Eyes_18.png",
           "contents": [
             {
               "hash": "ipfs://QmZfmW93X3VfCeYNZ5Lx926dxepU5bJksfTDwaYjRPXCdB",
@@ -2434,7 +2434,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmZfmW93X3VfCeYNZ5Lx926dxepU5bJksfTDwaYjRPXCdB",
+          "mainFile": "Eyes_18.png",
           "contents": [
             {
               "hash": "ipfs://QmZfmW93X3VfCeYNZ5Lx926dxepU5bJksfTDwaYjRPXCdB",
@@ -2474,7 +2474,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmW5EvbG1mJc8RYrMLjkxCJERVHghaCwLZi2vCQkqgSMHu",
+          "mainFile": "Eyes_19.png",
           "contents": [
             {
               "hash": "ipfs://QmW5EvbG1mJc8RYrMLjkxCJERVHghaCwLZi2vCQkqgSMHu",
@@ -2486,7 +2486,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmW5EvbG1mJc8RYrMLjkxCJERVHghaCwLZi2vCQkqgSMHu",
+          "mainFile": "Eyes_19.png",
           "contents": [
             {
               "hash": "ipfs://QmW5EvbG1mJc8RYrMLjkxCJERVHghaCwLZi2vCQkqgSMHu",
@@ -2526,7 +2526,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmQnQMedNtLPLh3MYJUEVZxMNzMmMwcuDeDT3q9cgyzVcF",
+          "mainFile": "Eyes_20.png",
           "contents": [
             {
               "hash": "ipfs://QmQnQMedNtLPLh3MYJUEVZxMNzMmMwcuDeDT3q9cgyzVcF",
@@ -2538,7 +2538,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmQnQMedNtLPLh3MYJUEVZxMNzMmMwcuDeDT3q9cgyzVcF",
+          "mainFile": "Eyes_20.png",
           "contents": [
             {
               "hash": "ipfs://QmQnQMedNtLPLh3MYJUEVZxMNzMmMwcuDeDT3q9cgyzVcF",
@@ -2578,7 +2578,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmbT2mxk6bZFjp5ZQyqgCGUqY5jEvazDyBvB2wPHRhWj7G",
+          "mainFile": "Eyes_21.png",
           "contents": [
             {
               "hash": "ipfs://QmbT2mxk6bZFjp5ZQyqgCGUqY5jEvazDyBvB2wPHRhWj7G",
@@ -2590,7 +2590,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmbT2mxk6bZFjp5ZQyqgCGUqY5jEvazDyBvB2wPHRhWj7G",
+          "mainFile": "Eyes_21.png",
           "contents": [
             {
               "hash": "ipfs://QmbT2mxk6bZFjp5ZQyqgCGUqY5jEvazDyBvB2wPHRhWj7G",
@@ -2630,7 +2630,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qma4DGnPDYTiStr3eWARqo6K5QLxLEP5FSRQVKnb1N8RoY",
+          "mainFile": "Eyes_22.png",
           "contents": [
             {
               "hash": "ipfs://Qma4DGnPDYTiStr3eWARqo6K5QLxLEP5FSRQVKnb1N8RoY",
@@ -2642,7 +2642,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://Qma4DGnPDYTiStr3eWARqo6K5QLxLEP5FSRQVKnb1N8RoY",
+          "mainFile": "Eyes_22.png",
           "contents": [
             {
               "hash": "ipfs://Qma4DGnPDYTiStr3eWARqo6K5QLxLEP5FSRQVKnb1N8RoY",
@@ -2682,7 +2682,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmPt59PBdQkYZw9A7KRHx8hBbUSXkWfXmxEATvnDavJ7gR",
+          "mainFile": "F_Eyes_00.png",
           "contents": [
             {
               "hash": "ipfs://QmPt59PBdQkYZw9A7KRHx8hBbUSXkWfXmxEATvnDavJ7gR",
@@ -2694,7 +2694,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmPt59PBdQkYZw9A7KRHx8hBbUSXkWfXmxEATvnDavJ7gR",
+          "mainFile": "F_Eyes_00.png",
           "contents": [
             {
               "hash": "ipfs://QmPt59PBdQkYZw9A7KRHx8hBbUSXkWfXmxEATvnDavJ7gR",
@@ -2734,7 +2734,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmbar9bThqMwjzN6LD7KhtSJshMp6ACAVXC3cgLjnoBBin",
+          "mainFile": "F_Eyes_01.png",
           "contents": [
             {
               "hash": "ipfs://Qmbar9bThqMwjzN6LD7KhtSJshMp6ACAVXC3cgLjnoBBin",
@@ -2750,7 +2750,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://Qmbar9bThqMwjzN6LD7KhtSJshMp6ACAVXC3cgLjnoBBin",
+          "mainFile": "F_Eyes_01.png",
           "contents": [
             {
               "hash": "ipfs://Qmbar9bThqMwjzN6LD7KhtSJshMp6ACAVXC3cgLjnoBBin",
@@ -2794,7 +2794,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmbiVLgN11AaMuGW8Lu3747gwqxpU8wwuuGdWc32vUBeRP",
+          "mainFile": "F_Eyes_02.png",
           "contents": [
             {
               "hash": "ipfs://QmbiVLgN11AaMuGW8Lu3747gwqxpU8wwuuGdWc32vUBeRP",
@@ -2810,7 +2810,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmbiVLgN11AaMuGW8Lu3747gwqxpU8wwuuGdWc32vUBeRP",
+          "mainFile": "F_Eyes_02.png",
           "contents": [
             {
               "hash": "ipfs://QmbiVLgN11AaMuGW8Lu3747gwqxpU8wwuuGdWc32vUBeRP",
@@ -2854,7 +2854,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmRAymNrDWZ6udwMiEayNZgR623kLHiaKjYCV6wUtBeb3T",
+          "mainFile": "F_Eyes_03.png",
           "contents": [
             {
               "hash": "ipfs://QmRAymNrDWZ6udwMiEayNZgR623kLHiaKjYCV6wUtBeb3T",
@@ -2866,7 +2866,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmRAymNrDWZ6udwMiEayNZgR623kLHiaKjYCV6wUtBeb3T",
+          "mainFile": "F_Eyes_03.png",
           "contents": [
             {
               "hash": "ipfs://QmRAymNrDWZ6udwMiEayNZgR623kLHiaKjYCV6wUtBeb3T",
@@ -2906,7 +2906,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmW86GNt8Khf2Zpq2J584eEz4WqQjpoXCQ5cWyNAFxAW3k",
+          "mainFile": "F_Eyes_04.png",
           "contents": [
             {
               "hash": "ipfs://QmW86GNt8Khf2Zpq2J584eEz4WqQjpoXCQ5cWyNAFxAW3k",
@@ -2922,7 +2922,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmW86GNt8Khf2Zpq2J584eEz4WqQjpoXCQ5cWyNAFxAW3k",
+          "mainFile": "F_Eyes_04.png",
           "contents": [
             {
               "hash": "ipfs://QmW86GNt8Khf2Zpq2J584eEz4WqQjpoXCQ5cWyNAFxAW3k",
@@ -2966,7 +2966,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmRy1tM8RgaaAGzSdBEt5UtDrfese9Zm3LreBZieSJZtxL",
+          "mainFile": "F_Eyes_05.png",
           "contents": [
             {
               "hash": "ipfs://QmRy1tM8RgaaAGzSdBEt5UtDrfese9Zm3LreBZieSJZtxL",
@@ -2978,7 +2978,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmRy1tM8RgaaAGzSdBEt5UtDrfese9Zm3LreBZieSJZtxL",
+          "mainFile": "F_Eyes_05.png",
           "contents": [
             {
               "hash": "ipfs://QmRy1tM8RgaaAGzSdBEt5UtDrfese9Zm3LreBZieSJZtxL",
@@ -3018,7 +3018,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmYE6US2MZKmMHUyt9pG1ZzZJFoVVa5fkYrEDySqzFuGHY",
+          "mainFile": "F_Eyes_06.png",
           "contents": [
             {
               "hash": "ipfs://QmYE6US2MZKmMHUyt9pG1ZzZJFoVVa5fkYrEDySqzFuGHY",
@@ -3034,7 +3034,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmYE6US2MZKmMHUyt9pG1ZzZJFoVVa5fkYrEDySqzFuGHY",
+          "mainFile": "F_Eyes_06.png",
           "contents": [
             {
               "hash": "ipfs://QmYE6US2MZKmMHUyt9pG1ZzZJFoVVa5fkYrEDySqzFuGHY",
@@ -3078,7 +3078,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmcjwBHKkdhQryfNbKuspLN1qbLcMxtik5D91rN1LyQkQS",
+          "mainFile": "F_Eyes_07.png",
           "contents": [
             {
               "hash": "ipfs://QmcjwBHKkdhQryfNbKuspLN1qbLcMxtik5D91rN1LyQkQS",
@@ -3094,7 +3094,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmcjwBHKkdhQryfNbKuspLN1qbLcMxtik5D91rN1LyQkQS",
+          "mainFile": "F_Eyes_07.png",
           "contents": [
             {
               "hash": "ipfs://QmcjwBHKkdhQryfNbKuspLN1qbLcMxtik5D91rN1LyQkQS",
@@ -3138,7 +3138,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmTAQdTdSLcuYfprcs9W7aL7KLkjtZCcjxQfqqo56S5EXy",
+          "mainFile": "F_Eyes_08.png",
           "contents": [
             {
               "hash": "ipfs://QmTAQdTdSLcuYfprcs9W7aL7KLkjtZCcjxQfqqo56S5EXy",
@@ -3154,7 +3154,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmTAQdTdSLcuYfprcs9W7aL7KLkjtZCcjxQfqqo56S5EXy",
+          "mainFile": "F_Eyes_08.png",
           "contents": [
             {
               "hash": "ipfs://QmTAQdTdSLcuYfprcs9W7aL7KLkjtZCcjxQfqqo56S5EXy",
@@ -3198,7 +3198,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmQRF9rj8HrC96pXRpHvC4n2w6FssxStFaqdLu3A23nFVp",
+          "mainFile": "F_Eyes_09.png",
           "contents": [
             {
               "hash": "ipfs://QmQRF9rj8HrC96pXRpHvC4n2w6FssxStFaqdLu3A23nFVp",
@@ -3214,7 +3214,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmQRF9rj8HrC96pXRpHvC4n2w6FssxStFaqdLu3A23nFVp",
+          "mainFile": "F_Eyes_09.png",
           "contents": [
             {
               "hash": "ipfs://QmQRF9rj8HrC96pXRpHvC4n2w6FssxStFaqdLu3A23nFVp",
@@ -3258,7 +3258,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmTsVfs4MZvj54eFQJhQGBcjGZ92fd3TwfsgTjjNcvKzP4",
+          "mainFile": "F_Eyes_10.png",
           "contents": [
             {
               "hash": "ipfs://QmTsVfs4MZvj54eFQJhQGBcjGZ92fd3TwfsgTjjNcvKzP4",
@@ -3274,7 +3274,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmTsVfs4MZvj54eFQJhQGBcjGZ92fd3TwfsgTjjNcvKzP4",
+          "mainFile": "F_Eyes_10.png",
           "contents": [
             {
               "hash": "ipfs://QmTsVfs4MZvj54eFQJhQGBcjGZ92fd3TwfsgTjjNcvKzP4",
@@ -3318,7 +3318,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmTHXXLgeJJiZ4iYB8sv4dTHqXUvivFFMGz8aiQsfTgLRo",
+          "mainFile": "F_Eyes_11.png",
           "contents": [
             {
               "hash": "ipfs://QmTHXXLgeJJiZ4iYB8sv4dTHqXUvivFFMGz8aiQsfTgLRo",
@@ -3334,7 +3334,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmTHXXLgeJJiZ4iYB8sv4dTHqXUvivFFMGz8aiQsfTgLRo",
+          "mainFile": "F_Eyes_11.png",
           "contents": [
             {
               "hash": "ipfs://QmTHXXLgeJJiZ4iYB8sv4dTHqXUvivFFMGz8aiQsfTgLRo",
@@ -3378,7 +3378,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmdPqHWhGTu6H3Dtn1SgvatmpxWeCR9Dm2Qb2hofAHqg1A",
+          "mainFile": "M_Eyes_00.png",
           "contents": [
             {
               "hash": "ipfs://QmdPqHWhGTu6H3Dtn1SgvatmpxWeCR9Dm2Qb2hofAHqg1A",
@@ -3390,7 +3390,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmdPqHWhGTu6H3Dtn1SgvatmpxWeCR9Dm2Qb2hofAHqg1A",
+          "mainFile": "M_Eyes_00.png",
           "contents": [
             {
               "hash": "ipfs://QmdPqHWhGTu6H3Dtn1SgvatmpxWeCR9Dm2Qb2hofAHqg1A",
@@ -3430,7 +3430,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://Qma1q4mpb3moQYFSqTLShzWMJ6gMhMSR74cCyg8zgZGCnC",
+          "mainFile": "M_Eyes_01.png",
           "contents": [
             {
               "hash": "ipfs://Qma1q4mpb3moQYFSqTLShzWMJ6gMhMSR74cCyg8zgZGCnC",
@@ -3442,7 +3442,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qma1q4mpb3moQYFSqTLShzWMJ6gMhMSR74cCyg8zgZGCnC",
+          "mainFile": "M_Eyes_01.png",
           "contents": [
             {
               "hash": "ipfs://Qma1q4mpb3moQYFSqTLShzWMJ6gMhMSR74cCyg8zgZGCnC",
@@ -3482,7 +3482,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmeTxEdW7kp52RV8vZHsrzqed268D5m41T5dVp9JjLXiEr",
+          "mainFile": "M_Eyes_02.png",
           "contents": [
             {
               "hash": "ipfs://QmeTxEdW7kp52RV8vZHsrzqed268D5m41T5dVp9JjLXiEr",
@@ -3498,7 +3498,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmeTxEdW7kp52RV8vZHsrzqed268D5m41T5dVp9JjLXiEr",
+          "mainFile": "M_Eyes_02.png",
           "contents": [
             {
               "hash": "ipfs://QmeTxEdW7kp52RV8vZHsrzqed268D5m41T5dVp9JjLXiEr",
@@ -3542,7 +3542,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmUuiz4pY1SvxkzwbzCoHD9xXbuT51E7ZFrD5aC31CjUW2",
+          "mainFile": "M_Eyes_03.png",
           "contents": [
             {
               "hash": "ipfs://QmUuiz4pY1SvxkzwbzCoHD9xXbuT51E7ZFrD5aC31CjUW2",
@@ -3554,7 +3554,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmUuiz4pY1SvxkzwbzCoHD9xXbuT51E7ZFrD5aC31CjUW2",
+          "mainFile": "M_Eyes_03.png",
           "contents": [
             {
               "hash": "ipfs://QmUuiz4pY1SvxkzwbzCoHD9xXbuT51E7ZFrD5aC31CjUW2",
@@ -3594,7 +3594,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmRQSdpHpmKEYf4JzEWZCRHZDYBc7RN5cqxvxMcL6sMzTq",
+          "mainFile": "M_Eyes_04.png",
           "contents": [
             {
               "hash": "ipfs://QmRQSdpHpmKEYf4JzEWZCRHZDYBc7RN5cqxvxMcL6sMzTq",
@@ -3610,7 +3610,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmRQSdpHpmKEYf4JzEWZCRHZDYBc7RN5cqxvxMcL6sMzTq",
+          "mainFile": "M_Eyes_04.png",
           "contents": [
             {
               "hash": "ipfs://QmRQSdpHpmKEYf4JzEWZCRHZDYBc7RN5cqxvxMcL6sMzTq",
@@ -3654,7 +3654,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmaZBKp3h9dZgBCqbfdMDYjuPFqVdFXMLTmS5cD98wykfY",
+          "mainFile": "M_Eyes_05.png",
           "contents": [
             {
               "hash": "ipfs://QmaZBKp3h9dZgBCqbfdMDYjuPFqVdFXMLTmS5cD98wykfY",
@@ -3666,7 +3666,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmaZBKp3h9dZgBCqbfdMDYjuPFqVdFXMLTmS5cD98wykfY",
+          "mainFile": "M_Eyes_05.png",
           "contents": [
             {
               "hash": "ipfs://QmaZBKp3h9dZgBCqbfdMDYjuPFqVdFXMLTmS5cD98wykfY",
@@ -3706,7 +3706,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmYjB8VKjD6ZibVpErKCPgb3T3oHDXWuwj3FTcXsnawHYJ",
+          "mainFile": "M_Eyes_06.png",
           "contents": [
             {
               "hash": "ipfs://QmYjB8VKjD6ZibVpErKCPgb3T3oHDXWuwj3FTcXsnawHYJ",
@@ -3722,7 +3722,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmYjB8VKjD6ZibVpErKCPgb3T3oHDXWuwj3FTcXsnawHYJ",
+          "mainFile": "M_Eyes_06.png",
           "contents": [
             {
               "hash": "ipfs://QmYjB8VKjD6ZibVpErKCPgb3T3oHDXWuwj3FTcXsnawHYJ",
@@ -3766,7 +3766,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmXQijrrpU5DWSjnLZND71UTankGvkow97DH6DTzK7wheN",
+          "mainFile": "M_Eyes_07.png",
           "contents": [
             {
               "hash": "ipfs://QmXQijrrpU5DWSjnLZND71UTankGvkow97DH6DTzK7wheN",
@@ -3782,7 +3782,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmXQijrrpU5DWSjnLZND71UTankGvkow97DH6DTzK7wheN",
+          "mainFile": "M_Eyes_07.png",
           "contents": [
             {
               "hash": "ipfs://QmXQijrrpU5DWSjnLZND71UTankGvkow97DH6DTzK7wheN",
@@ -3826,7 +3826,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmbYXQxmRVgZLkJLy16XgM11iTV6h5YWwK1sijemX46qCr",
+          "mainFile": "M_Eyes_08.png",
           "contents": [
             {
               "hash": "ipfs://QmbYXQxmRVgZLkJLy16XgM11iTV6h5YWwK1sijemX46qCr",
@@ -3842,7 +3842,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmbYXQxmRVgZLkJLy16XgM11iTV6h5YWwK1sijemX46qCr",
+          "mainFile": "M_Eyes_08.png",
           "contents": [
             {
               "hash": "ipfs://QmbYXQxmRVgZLkJLy16XgM11iTV6h5YWwK1sijemX46qCr",
@@ -3886,7 +3886,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmRz8wJmyZnmLZSVc1YBv3xwrkiNHdRQLrGZi1kRrLobQ6",
+          "mainFile": "M_Eyes_09.png",
           "contents": [
             {
               "hash": "ipfs://QmRz8wJmyZnmLZSVc1YBv3xwrkiNHdRQLrGZi1kRrLobQ6",
@@ -3898,7 +3898,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmRz8wJmyZnmLZSVc1YBv3xwrkiNHdRQLrGZi1kRrLobQ6",
+          "mainFile": "M_Eyes_09.png",
           "contents": [
             {
               "hash": "ipfs://QmRz8wJmyZnmLZSVc1YBv3xwrkiNHdRQLrGZi1kRrLobQ6",
@@ -3938,7 +3938,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmQrXXoYnnpx3SBA9U78gHvczKXS77cQJDxWtkoK4xKazd",
+          "mainFile": "M_Eyes_10.png",
           "contents": [
             {
               "hash": "ipfs://QmQrXXoYnnpx3SBA9U78gHvczKXS77cQJDxWtkoK4xKazd",
@@ -3950,7 +3950,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmQrXXoYnnpx3SBA9U78gHvczKXS77cQJDxWtkoK4xKazd",
+          "mainFile": "M_Eyes_10.png",
           "contents": [
             {
               "hash": "ipfs://QmQrXXoYnnpx3SBA9U78gHvczKXS77cQJDxWtkoK4xKazd",
@@ -3990,7 +3990,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmPmtaiV74A6jgwo1KcdWwoyHznizT1EX3RzxV7UyDAxsy",
+          "mainFile": "M_Eyes_11.png",
           "contents": [
             {
               "hash": "ipfs://QmPmtaiV74A6jgwo1KcdWwoyHznizT1EX3RzxV7UyDAxsy",
@@ -4006,7 +4006,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmPmtaiV74A6jgwo1KcdWwoyHznizT1EX3RzxV7UyDAxsy",
+          "mainFile": "M_Eyes_11.png",
           "contents": [
             {
               "hash": "ipfs://QmPmtaiV74A6jgwo1KcdWwoyHznizT1EX3RzxV7UyDAxsy",
@@ -4050,7 +4050,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmdNMna4tCxHBNvFVKkxhc4pHSnYW8E2HumutQRJ4WF4ZA",
+          "mainFile": "F_Eyewear_BlackSunglasses.glb",
           "contents": [
             {
               "hash": "ipfs://QmdNMna4tCxHBNvFVKkxhc4pHSnYW8E2HumutQRJ4WF4ZA",
@@ -4062,7 +4062,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmdNMna4tCxHBNvFVKkxhc4pHSnYW8E2HumutQRJ4WF4ZA",
+          "mainFile": "F_Eyewear_BlackSunglasses.glb",
           "contents": [
             {
               "hash": "ipfs://QmdNMna4tCxHBNvFVKkxhc4pHSnYW8E2HumutQRJ4WF4ZA",
@@ -4114,7 +4114,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmVSm6PbvJzJXtMLujMfS7nhfYKLwraVRtfEdBdNRFiQ1n",
+          "mainFile": "F_Eyewear_Cyclope.glb",
           "contents": [
             {
               "hash": "ipfs://QmVSm6PbvJzJXtMLujMfS7nhfYKLwraVRtfEdBdNRFiQ1n",
@@ -4126,7 +4126,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmVSm6PbvJzJXtMLujMfS7nhfYKLwraVRtfEdBdNRFiQ1n",
+          "mainFile": "F_Eyewear_Cyclope.glb",
           "contents": [
             {
               "hash": "ipfs://QmVSm6PbvJzJXtMLujMfS7nhfYKLwraVRtfEdBdNRFiQ1n",
@@ -4178,7 +4178,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmdXDYRS2cKmJiseyr5JAHrbvBW72KUvNQVjjqfN77c8B7",
+          "mainFile": "F_Eyewear_CatStyle.glb",
           "contents": [
             {
               "hash": "ipfs://QmdXDYRS2cKmJiseyr5JAHrbvBW72KUvNQVjjqfN77c8B7",
@@ -4222,7 +4222,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmNjsaBJ9yXpEG8N4jwcXYF2KRDe63dxbP7x6BcNmNv5NR",
+          "mainFile": "F_Eyewear_CitySunglasses.glb",
           "contents": [
             {
               "hash": "ipfs://QmNjsaBJ9yXpEG8N4jwcXYF2KRDe63dxbP7x6BcNmNv5NR",
@@ -4266,7 +4266,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmYUtp2tvSa1uztsEcnwZNnks8iqVuTubSQstQf5hLUs9s",
+          "mainFile": "F_Eyewear_Fashion.glb",
           "contents": [
             {
               "hash": "ipfs://QmYUtp2tvSa1uztsEcnwZNnks8iqVuTubSQstQf5hLUs9s",
@@ -4310,7 +4310,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmSg1pufvyeBSzKMWkZumzQokGhxrTgj5DMCm2GHN7Qjf2",
+          "mainFile": "F_Glasses_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmSg1pufvyeBSzKMWkZumzQokGhxrTgj5DMCm2GHN7Qjf2",
@@ -4354,7 +4354,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmXhtT33PfRfjqnc6Vb9PiCt1sRp4kdckYfKZUahiZuhhK",
+          "mainFile": "F_Eyewear_Heart.glb",
           "contents": [
             {
               "hash": "ipfs://QmXhtT33PfRfjqnc6Vb9PiCt1sRp4kdckYfKZUahiZuhhK",
@@ -4398,7 +4398,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://Qmbg1S8aXCj8oQgtEF2BBQDWcBbWSXQYmaAu3F4d3PStR9",
+          "mainFile": "F_Eyewear_ItalianDirector.glb",
           "contents": [
             {
               "hash": "ipfs://Qmbg1S8aXCj8oQgtEF2BBQDWcBbWSXQYmaAu3F4d3PStR9",
@@ -4410,7 +4410,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmbg1S8aXCj8oQgtEF2BBQDWcBbWSXQYmaAu3F4d3PStR9",
+          "mainFile": "F_Eyewear_ItalianDirector.glb",
           "contents": [
             {
               "hash": "ipfs://Qmbg1S8aXCj8oQgtEF2BBQDWcBbWSXQYmaAu3F4d3PStR9",
@@ -4462,7 +4462,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmXC7fqMenuAngHRnd965NDnBKiGP8TSpEQs7r9bqwS4eB",
+          "mainFile": "M_Eyewear_AviatorStyle.glb",
           "contents": [
             {
               "hash": "ipfs://QmXC7fqMenuAngHRnd965NDnBKiGP8TSpEQs7r9bqwS4eB",
@@ -4506,7 +4506,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmX2TxYLkEcFnyyeqRs9v2CYnrsamym69EYAiKZeVbtRq6",
+          "mainFile": "M_Eyewear_MatrixSunGlasses.glb",
           "contents": [
             {
               "hash": "ipfs://QmX2TxYLkEcFnyyeqRs9v2CYnrsamym69EYAiKZeVbtRq6",
@@ -4518,7 +4518,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmX2TxYLkEcFnyyeqRs9v2CYnrsamym69EYAiKZeVbtRq6",
+          "mainFile": "M_Eyewear_MatrixSunGlasses.glb",
           "contents": [
             {
               "hash": "ipfs://QmX2TxYLkEcFnyyeqRs9v2CYnrsamym69EYAiKZeVbtRq6",
@@ -4570,7 +4570,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmVt7ApNB5WWfBT6rhSYqJr58NP6gPr7mukT13riFLx9Hj",
+          "mainFile": "PiratePatch.glb",
           "contents": [
             {
               "hash": "ipfs://QmVt7ApNB5WWfBT6rhSYqJr58NP6gPr7mukT13riFLx9Hj",
@@ -4582,7 +4582,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmVt7ApNB5WWfBT6rhSYqJr58NP6gPr7mukT13riFLx9Hj",
+          "mainFile": "PiratePatch.glb",
           "contents": [
             {
               "hash": "ipfs://QmVt7ApNB5WWfBT6rhSYqJr58NP6gPr7mukT13riFLx9Hj",
@@ -4634,7 +4634,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmWg56Bf4GcQxXwP6sWqx6oWjZRX5rg1Gt875GXREhgFb9",
+          "mainFile": "F_Eyewear_RetroGlasses.glb",
           "contents": [
             {
               "hash": "ipfs://QmWg56Bf4GcQxXwP6sWqx6oWjZRX5rg1Gt875GXREhgFb9",
@@ -4646,7 +4646,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmWg56Bf4GcQxXwP6sWqx6oWjZRX5rg1Gt875GXREhgFb9",
+          "mainFile": "F_Eyewear_RetroGlasses.glb",
           "contents": [
             {
               "hash": "ipfs://QmWg56Bf4GcQxXwP6sWqx6oWjZRX5rg1Gt875GXREhgFb9",
@@ -4698,7 +4698,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmahVBCPcET81nDwXKg4P6Lmg8vU6jcRdZYPAL85TmPNiL",
+          "mainFile": "RoundSunglasses_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmahVBCPcET81nDwXKg4P6Lmg8vU6jcRdZYPAL85TmPNiL",
@@ -4710,7 +4710,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmahVBCPcET81nDwXKg4P6Lmg8vU6jcRdZYPAL85TmPNiL",
+          "mainFile": "RoundSunglasses_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmahVBCPcET81nDwXKg4P6Lmg8vU6jcRdZYPAL85TmPNiL",
@@ -4762,7 +4762,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmUanN7swGvUvt6T4axEjpmoHA37AYnfiTJJQ6c7r3y9di",
+          "mainFile": "ThugLife_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmUanN7swGvUvt6T4axEjpmoHA37AYnfiTJJQ6c7r3y9di",
@@ -4806,7 +4806,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmQuqQMyUzPdzewxWhnR9yiqkueYG9iGeZCTk4DbhfLBCU",
+          "mainFile": "M_FacialHair_BalboBeard.glb",
           "contents": [
             {
               "hash": "ipfs://QmPqjtyAe8kd3vMd6B4C1YrUMcTab36awcTX8PpP9xQot4",
@@ -4822,7 +4822,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmPqjtyAe8kd3vMd6B4C1YrUMcTab36awcTX8PpP9xQot4",
+          "mainFile": "F_FacialHair_BalboBeard.glb",
           "contents": [
             {
               "hash": "ipfs://QmPqjtyAe8kd3vMd6B4C1YrUMcTab36awcTX8PpP9xQot4",
@@ -4866,7 +4866,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmQuK6esUuWLczRT1X5shgrB7ECWAUYtrCuJs8U89VQtgS",
+          "mainFile": "M_FacialHair_BeardGoatee.glb",
           "contents": [
             {
               "hash": "ipfs://QmPvQSmfbbL6AVJQeugB8GGiTuSpRtMLVcHjs1a2rN9ECG",
@@ -4882,7 +4882,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmPvQSmfbbL6AVJQeugB8GGiTuSpRtMLVcHjs1a2rN9ECG",
+          "mainFile": "F_FacialHair_BeardGoatee.glb",
           "contents": [
             {
               "hash": "ipfs://QmPvQSmfbbL6AVJQeugB8GGiTuSpRtMLVcHjs1a2rN9ECG",
@@ -4926,7 +4926,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmV7XGgxTmyXLCjYiDdW3um3ifnfjXbJ4i22D8Pp3RLJKL",
+          "mainFile": "M_Beard.glb",
           "contents": [
             {
               "hash": "ipfs://QmRGuhL8V9XPwmKsvWjh6bMjFR2WqmrrG6B9cz9HRsxjoT",
@@ -4942,7 +4942,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmRGuhL8V9XPwmKsvWjh6bMjFR2WqmrrG6B9cz9HRsxjoT",
+          "mainFile": "F_Beard.glb",
           "contents": [
             {
               "hash": "ipfs://QmRGuhL8V9XPwmKsvWjh6bMjFR2WqmrrG6B9cz9HRsxjoT",
@@ -4986,7 +4986,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmY2tyCy7YRijdoMUAA3VA2Fjsn9VPx96aJiwy4Dhmw3Hm",
+          "mainFile": "M_FacialHair_ChinBeard.glb",
           "contents": [
             {
               "hash": "ipfs://QmaYGatPEPDmMMjCoANgNULsFxJnDUbkEgUikWeoA2pamb",
@@ -5002,7 +5002,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmaYGatPEPDmMMjCoANgNULsFxJnDUbkEgUikWeoA2pamb",
+          "mainFile": "F_FacialHair_ChinBeard.glb",
           "contents": [
             {
               "hash": "ipfs://QmaYGatPEPDmMMjCoANgNULsFxJnDUbkEgUikWeoA2pamb",
@@ -5046,7 +5046,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmanUYmaU7VWwjiRBWKpYZa44AybULoFFgVGZP6pGdiqPX",
+          "mainFile": "M_FacialHair_FrenchMoustache.glb",
           "contents": [
             {
               "hash": "ipfs://QmWu3heqZTA2rBgc1QpzESvh5YEtyKKPLq97bVXrfH32SZ",
@@ -5062,7 +5062,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmWu3heqZTA2rBgc1QpzESvh5YEtyKKPLq97bVXrfH32SZ",
+          "mainFile": "F_FacialHair_FrenchMoustache.glb",
           "contents": [
             {
               "hash": "ipfs://QmWu3heqZTA2rBgc1QpzESvh5YEtyKKPLq97bVXrfH32SZ",
@@ -5106,7 +5106,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmWchPLThx8DxZkm513gTTnL4fjkkoBJcME4JaTXTny9qt",
+          "mainFile": "M_FacialHair_FullBeard.glb",
           "contents": [
             {
               "hash": "ipfs://QmVAHGPkox1DBD5xzi2CPT8VAipLx2zANdXEj6GC7p5JVb",
@@ -5122,7 +5122,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmVAHGPkox1DBD5xzi2CPT8VAipLx2zANdXEj6GC7p5JVb",
+          "mainFile": "F_FacialHair_FullBeard.glb",
           "contents": [
             {
               "hash": "ipfs://QmVAHGPkox1DBD5xzi2CPT8VAipLx2zANdXEj6GC7p5JVb",
@@ -5166,7 +5166,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://Qmei6PrEzF8Yea7h4gFfVqrw4X1nGgmXLUpGh98Rdj6Ntu",
+          "mainFile": "M_FacialHair_Goatee.glb",
           "contents": [
             {
               "hash": "ipfs://Qmf8bhTMXBUQD2xYovk3iVN7qxKkWWDQKk5aBGDe6ywgcy",
@@ -5182,7 +5182,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmf8bhTMXBUQD2xYovk3iVN7qxKkWWDQKk5aBGDe6ywgcy",
+          "mainFile": "F_FacialHair_Goatee.glb",
           "contents": [
             {
               "hash": "ipfs://Qmf8bhTMXBUQD2xYovk3iVN7qxKkWWDQKk5aBGDe6ywgcy",
@@ -5226,7 +5226,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://Qmea98WjH8Zxwnhpkx5dj4M6FRz6Qi99YaieRDKtHtSVw1",
+          "mainFile": "M_FacialHair_GrandPaMoustache.glb",
           "contents": [
             {
               "hash": "ipfs://QmfFun9NRhZgZptfTbi514p8aTW7v3THnpoLLJTC6XRwJY",
@@ -5242,7 +5242,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmfFun9NRhZgZptfTbi514p8aTW7v3THnpoLLJTC6XRwJY",
+          "mainFile": "F_FacialHair_GrandPaMoustache.glb",
           "contents": [
             {
               "hash": "ipfs://QmfFun9NRhZgZptfTbi514p8aTW7v3THnpoLLJTC6XRwJY",
@@ -5286,7 +5286,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmaKTTgCZWbdkC8TY9ox9b3WiyjKnzBzHAwFvcoex98j7u",
+          "mainFile": "M_FacialHair_LongMoustache.glb",
           "contents": [
             {
               "hash": "ipfs://QmWvCAqgx9NQcttCip5EQaVj3BLVLaNnJKBjg52dv5NVBk",
@@ -5302,7 +5302,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmWvCAqgx9NQcttCip5EQaVj3BLVLaNnJKBjg52dv5NVBk",
+          "mainFile": "F_FacialHair_LongMoustache.glb",
           "contents": [
             {
               "hash": "ipfs://QmWvCAqgx9NQcttCip5EQaVj3BLVLaNnJKBjg52dv5NVBk",
@@ -5346,7 +5346,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmXSpYcDrToBHqY38dPyRA3B5f2M3o1wQErYqnQzQDMTVF",
+          "mainFile": "M_Moustache.glb",
           "contents": [
             {
               "hash": "ipfs://QmXikMSthwQGrte14wqCYKa5vYiDGt4xV9F9dDQNwrEvjP",
@@ -5362,7 +5362,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmXikMSthwQGrte14wqCYKa5vYiDGt4xV9F9dDQNwrEvjP",
+          "mainFile": "F_Moustache.glb",
           "contents": [
             {
               "hash": "ipfs://QmXikMSthwQGrte14wqCYKa5vYiDGt4xV9F9dDQNwrEvjP",
@@ -5406,7 +5406,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmQLgHcHfntwuPay3xNDKjnCNAPhkxAiH5gkfHW6Ng7qRD",
+          "mainFile": "M_FacialHair_MoustacheShortBeard.glb",
           "contents": [
             {
               "hash": "ipfs://QmcCCk6vSzyVskuQJL4B95mbVoJgjfGCt9qxTPq2BFUV6T",
@@ -5422,7 +5422,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmcCCk6vSzyVskuQJL4B95mbVoJgjfGCt9qxTPq2BFUV6T",
+          "mainFile": "F_FacialHair_MoustacheShortBeard.glb",
           "contents": [
             {
               "hash": "ipfs://QmcCCk6vSzyVskuQJL4B95mbVoJgjfGCt9qxTPq2BFUV6T",
@@ -5466,7 +5466,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmVbz3YwCV1m4yVeBCG1MR71N9YMZSVZxPAjKvMVp1FCBK",
+          "mainFile": "M_FacialHair_MoustacheSmallBeard.glb",
           "contents": [
             {
               "hash": "ipfs://QmTJjvahYax2YTtqK5FsKt7ZN78QJkevxxDpJCoQDpkGPD",
@@ -5482,7 +5482,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmTJjvahYax2YTtqK5FsKt7ZN78QJkevxxDpJCoQDpkGPD",
+          "mainFile": "F_FacialHair_MoustacheSmallBeard.glb",
           "contents": [
             {
               "hash": "ipfs://QmTJjvahYax2YTtqK5FsKt7ZN78QJkevxxDpJCoQDpkGPD",
@@ -5526,7 +5526,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmNgaq6XkomZ2fkaX26Mu45oghDrWfJxvNp6H3AFW2V17C",
+          "mainFile": "M_FacialHair_OldMoustache.glb",
           "contents": [
             {
               "hash": "ipfs://QmRiFfhQj2GovRDW48YpfK3fwBobkkNCHybfS6e6Md7Ahk",
@@ -5542,7 +5542,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmRiFfhQj2GovRDW48YpfK3fwBobkkNCHybfS6e6Md7Ahk",
+          "mainFile": "F_FacialHair_OldMoustache.glb",
           "contents": [
             {
               "hash": "ipfs://QmRiFfhQj2GovRDW48YpfK3fwBobkkNCHybfS6e6Md7Ahk",
@@ -5586,7 +5586,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmUk9xZYhgdNUx1gXctXgMYhzpWWinhjtcqCdRPyEv8RGR",
+          "mainFile": "BearSlippers_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmUk9xZYhgdNUx1gXctXgMYhzpWWinhjtcqCdRPyEv8RGR",
@@ -5598,7 +5598,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmUk9xZYhgdNUx1gXctXgMYhzpWWinhjtcqCdRPyEv8RGR",
+          "mainFile": "BearSlippers_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmUk9xZYhgdNUx1gXctXgMYhzpWWinhjtcqCdRPyEv8RGR",
@@ -5650,7 +5650,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmfAGTqMfUVpuFXjPjAfCCzPEGhinGQGknchJ4gSYVfamP",
+          "mainFile": "CityComfortableShoes.glb",
           "contents": [
             {
               "hash": "ipfs://QmfAGTqMfUVpuFXjPjAfCCzPEGhinGQGknchJ4gSYVfamP",
@@ -5662,7 +5662,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmfAGTqMfUVpuFXjPjAfCCzPEGhinGQGknchJ4gSYVfamP",
+          "mainFile": "CityComfortableShoes.glb",
           "contents": [
             {
               "hash": "ipfs://QmfAGTqMfUVpuFXjPjAfCCzPEGhinGQGknchJ4gSYVfamP",
@@ -5714,7 +5714,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmeGg3SL4XdYLFjxgJCG9VEh5TD9SfBkmv3yatb9xFgXZj",
+          "mainFile": "M_Feet_ClassicShoes.glb",
           "contents": [
             {
               "hash": "ipfs://QmeGg3SL4XdYLFjxgJCG9VEh5TD9SfBkmv3yatb9xFgXZj",
@@ -5726,7 +5726,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmeGg3SL4XdYLFjxgJCG9VEh5TD9SfBkmv3yatb9xFgXZj",
+          "mainFile": "M_Feet_ClassicShoes.glb",
           "contents": [
             {
               "hash": "ipfs://QmeGg3SL4XdYLFjxgJCG9VEh5TD9SfBkmv3yatb9xFgXZj",
@@ -5778,7 +5778,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmUuk5vM2g5QijRiGsashWPyVkfmGxF2cU3AC1XoLrEkVn",
+          "mainFile": "Crocs.glb",
           "contents": [
             {
               "hash": "ipfs://QmUuk5vM2g5QijRiGsashWPyVkfmGxF2cU3AC1XoLrEkVn",
@@ -5790,7 +5790,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmUuk5vM2g5QijRiGsashWPyVkfmGxF2cU3AC1XoLrEkVn",
+          "mainFile": "Crocs.glb",
           "contents": [
             {
               "hash": "ipfs://QmUuk5vM2g5QijRiGsashWPyVkfmGxF2cU3AC1XoLrEkVn",
@@ -5842,7 +5842,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmVSBnSpe3DZPdBBPMEdJKoa8gswfqyAErf1GSdSvNDHCq",
+          "mainFile": "CrocsSocks.glb",
           "contents": [
             {
               "hash": "ipfs://QmVSBnSpe3DZPdBBPMEdJKoa8gswfqyAErf1GSdSvNDHCq",
@@ -5854,7 +5854,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmVSBnSpe3DZPdBBPMEdJKoa8gswfqyAErf1GSdSvNDHCq",
+          "mainFile": "CrocsSocks.glb",
           "contents": [
             {
               "hash": "ipfs://QmVSBnSpe3DZPdBBPMEdJKoa8gswfqyAErf1GSdSvNDHCq",
@@ -5906,7 +5906,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmRBeZRjZK6E4SgnXjWWqYJqY9P3aKH8GspxrYszsrQWdp",
+          "mainFile": "M_Feet_Espadrilles.glb",
           "contents": [
             {
               "hash": "ipfs://QmRBeZRjZK6E4SgnXjWWqYJqY9P3aKH8GspxrYszsrQWdp",
@@ -5918,7 +5918,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmRBeZRjZK6E4SgnXjWWqYJqY9P3aKH8GspxrYszsrQWdp",
+          "mainFile": "M_Feet_Espadrilles.glb",
           "contents": [
             {
               "hash": "ipfs://QmRBeZRjZK6E4SgnXjWWqYJqY9P3aKH8GspxrYszsrQWdp",
@@ -5970,7 +5970,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmR2Snin8YVjaTPmUqwTVvFztHxKbbBMeQLAGA1g2HezRv",
+          "mainFile": "F_BunShoes_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmR2Snin8YVjaTPmUqwTVvFztHxKbbBMeQLAGA1g2HezRv",
@@ -6014,7 +6014,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmc3uTrxYDb1Lh3sDTJ3uJ8F7WPoZZr6hV8jrFP9j5J3fM",
+          "mainFile": "F_Feet_ComfortGreenSandals.glb",
           "contents": [
             {
               "hash": "ipfs://Qmc3uTrxYDb1Lh3sDTJ3uJ8F7WPoZZr6hV8jrFP9j5J3fM",
@@ -6058,7 +6058,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmc9ZGU3Y63zj7anuQE4nhWrRkzLDMhf8LQZK9UAwN5K6P",
+          "mainFile": "F_Feet_PinkSleepers.glb",
           "contents": [
             {
               "hash": "ipfs://Qmc9ZGU3Y63zj7anuQE4nhWrRkzLDMhf8LQZK9UAwN5K6P",
@@ -6102,7 +6102,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmNryCaFtBDmgtz4r8BWdXubw8aNUVG7dh5hwcJABFaDhT",
+          "mainFile": "F_Feet_RubyBlueSleepers.glb",
           "contents": [
             {
               "hash": "ipfs://QmNryCaFtBDmgtz4r8BWdXubw8aNUVG7dh5hwcJABFaDhT",
@@ -6146,7 +6146,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmRy1qmhFJZnevkMhfoy6qwgQ824HrWegPefbhvnceWW5z",
+          "mainFile": "F_Feet_RubyRedSleepers.glb",
           "contents": [
             {
               "hash": "ipfs://QmRy1qmhFJZnevkMhfoy6qwgQ824HrWegPefbhvnceWW5z",
@@ -6190,7 +6190,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmSEBawUmRQSmoyg9axd1gPuC1gQVyJZGLoqdFPABoB6iQ",
+          "mainFile": "F_Feet_SchoolShoes.glb",
           "contents": [
             {
               "hash": "ipfs://QmSEBawUmRQSmoyg9axd1gPuC1gQVyJZGLoqdFPABoB6iQ",
@@ -6234,7 +6234,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmPHuDXr92MRQuqReGywS5XnH3k3vkLV3rexJpQbr4peDe",
+          "mainFile": "F_Feet_SportBlackShoes.glb",
           "contents": [
             {
               "hash": "ipfs://QmPHuDXr92MRQuqReGywS5XnH3k3vkLV3rexJpQbr4peDe",
@@ -6246,7 +6246,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmPHuDXr92MRQuqReGywS5XnH3k3vkLV3rexJpQbr4peDe",
+          "mainFile": "F_Feet_SportBlackShoes.glb",
           "contents": [
             {
               "hash": "ipfs://QmPHuDXr92MRQuqReGywS5XnH3k3vkLV3rexJpQbr4peDe",
@@ -6298,7 +6298,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmaQPRczmHirTrkz2T2iyUj6b14uuimpLghrUZU5gAZAB3",
+          "mainFile": "F_Feet_SportColorShoes.glb",
           "contents": [
             {
               "hash": "ipfs://QmaQPRczmHirTrkz2T2iyUj6b14uuimpLghrUZU5gAZAB3",
@@ -6342,7 +6342,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmf5C1k7Lu4wGRZo8kp878aed6uHjuW1HjyzM4HtWujEMR",
+          "mainFile": "F_Feet_PinkBlueSocks.glb",
           "contents": [
             {
               "hash": "ipfs://Qmf5C1k7Lu4wGRZo8kp878aed6uHjuW1HjyzM4HtWujEMR",
@@ -6386,7 +6386,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmbTSB6PYQTSA5vHLsj9X2QDLdVpAL2UQQNaiiP9iaZa8M",
+          "mainFile": "F_Feet_RedSandals.glb",
           "contents": [
             {
               "hash": "ipfs://QmbTSB6PYQTSA5vHLsj9X2QDLdVpAL2UQQNaiiP9iaZa8M",
@@ -6430,7 +6430,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmXQYH1PkqqKhX7cEjn6Fix6tLYidSufs3Y2UdSfL4wV9A",
+          "mainFile": "M_Feet_ComfortSportSandals.glb",
           "contents": [
             {
               "hash": "ipfs://QmXQYH1PkqqKhX7cEjn6Fix6tLYidSufs3Y2UdSfL4wV9A",
@@ -6474,7 +6474,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmRccqAkfDei5xQDYXzosbGLhA7osNRTivcrqm5nvy7Ud8",
+          "mainFile": "M_Feet_GreenFlipFlops.glb",
           "contents": [
             {
               "hash": "ipfs://QmRccqAkfDei5xQDYXzosbGLhA7osNRTivcrqm5nvy7Ud8",
@@ -6518,7 +6518,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmZQKtBrvgwxa4Xe3iZXZJ4dm58Wb6K3vcsZyd3RK7SXgf",
+          "mainFile": "M_Feet_MountainShoes.glb",
           "contents": [
             {
               "hash": "ipfs://QmZQKtBrvgwxa4Xe3iZXZJ4dm58Wb6K3vcsZyd3RK7SXgf",
@@ -6562,7 +6562,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmW1sbqAdFAopRUavAidGG1VghH9EZfaMQaYXRNWVhhbC7",
+          "mainFile": "M_Feet_SoccerShoes.glb",
           "contents": [
             {
               "hash": "ipfs://QmW1sbqAdFAopRUavAidGG1VghH9EZfaMQaYXRNWVhhbC7",
@@ -6606,7 +6606,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmZm3zn6kkbUX2RvzkWMcebdpaH5vVwXzf23vw8NG2349m",
+          "mainFile": "M_Feet_Moccasin.glb",
           "contents": [
             {
               "hash": "ipfs://QmZm3zn6kkbUX2RvzkWMcebdpaH5vVwXzf23vw8NG2349m",
@@ -6650,7 +6650,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmQwND2AeHKwZJesddTvQiXU6GA7AYbRvkdJjBZWzop6qF",
+          "mainFile": "M_Feet_Sandals.glb",
           "contents": [
             {
               "hash": "ipfs://QmQwND2AeHKwZJesddTvQiXU6GA7AYbRvkdJjBZWzop6qF",
@@ -6662,7 +6662,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmQwND2AeHKwZJesddTvQiXU6GA7AYbRvkdJjBZWzop6qF",
+          "mainFile": "M_Feet_Sandals.glb",
           "contents": [
             {
               "hash": "ipfs://QmQwND2AeHKwZJesddTvQiXU6GA7AYbRvkdJjBZWzop6qF",
@@ -6714,7 +6714,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmPb334qkMcKgCV3Nnquf4EzPmZB6hPYyzCpaDv4ACVtP2",
+          "mainFile": "Sneakers_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmPb334qkMcKgCV3Nnquf4EzPmZB6hPYyzCpaDv4ACVtP2",
@@ -6726,7 +6726,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmPb334qkMcKgCV3Nnquf4EzPmZB6hPYyzCpaDv4ACVtP2",
+          "mainFile": "Sneakers_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmPb334qkMcKgCV3Nnquf4EzPmZB6hPYyzCpaDv4ACVtP2",
@@ -6778,7 +6778,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://Qmdoo5PLu9MH8AVZTHtVW8ByZjSnCQLc5CGQfFKvrF7aw5",
+          "mainFile": "M_Feet_SportBlueShoes.glb",
           "contents": [
             {
               "hash": "ipfs://Qmdoo5PLu9MH8AVZTHtVW8ByZjSnCQLc5CGQfFKvrF7aw5",
@@ -6790,7 +6790,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmdoo5PLu9MH8AVZTHtVW8ByZjSnCQLc5CGQfFKvrF7aw5",
+          "mainFile": "M_Feet_SportBlueShoes.glb",
           "contents": [
             {
               "hash": "ipfs://Qmdoo5PLu9MH8AVZTHtVW8ByZjSnCQLc5CGQfFKvrF7aw5",
@@ -6842,7 +6842,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qma4pe25A6iGyo2hpGGHojtSfKLKX6MuCvLuUWhrV8T3aj",
+          "mainFile": "Hair_Anime_Fringe.glb",
           "contents": [
             {
               "hash": "ipfs://Qma4pe25A6iGyo2hpGGHojtSfKLKX6MuCvLuUWhrV8T3aj",
@@ -6854,7 +6854,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://Qma4pe25A6iGyo2hpGGHojtSfKLKX6MuCvLuUWhrV8T3aj",
+          "mainFile": "Hair_Anime_Fringe.glb",
           "contents": [
             {
               "hash": "ipfs://Qma4pe25A6iGyo2hpGGHojtSfKLKX6MuCvLuUWhrV8T3aj",
@@ -6898,7 +6898,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmX9wwL6M9UdvEVvHBmgM6WpksxsUJh8QTEa2xRk42FXRu",
+          "mainFile": "Hair_Anime_Long.glb",
           "contents": [
             {
               "hash": "ipfs://QmX9wwL6M9UdvEVvHBmgM6WpksxsUJh8QTEa2xRk42FXRu",
@@ -6910,7 +6910,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmX9wwL6M9UdvEVvHBmgM6WpksxsUJh8QTEa2xRk42FXRu",
+          "mainFile": "Hair_Anime_Long.glb",
           "contents": [
             {
               "hash": "ipfs://QmX9wwL6M9UdvEVvHBmgM6WpksxsUJh8QTEa2xRk42FXRu",
@@ -6946,7 +6946,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmYKrUNcrHTE4fy7YCC9GBgZgHCfaK8GNsGtdwgBVY5zPP",
+          "mainFile": "F_Hair_Bun.glb",
           "contents": [
             {
               "hash": "ipfs://QmYKrUNcrHTE4fy7YCC9GBgZgHCfaK8GNsGtdwgBVY5zPP",
@@ -6962,7 +6962,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmdfvTbk9gnhVhqZu6WKRXk7drBZRTdYHGqvKWExKiJJ98",
+          "mainFile": "M_Hair_Bun.glb",
           "contents": [
             {
               "hash": "ipfs://QmYKrUNcrHTE4fy7YCC9GBgZgHCfaK8GNsGtdwgBVY5zPP",
@@ -7002,7 +7002,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmS9dn2M55DcQ1GtAA8vL1rcjuHULsc7BhcVQti9CisTcc",
+          "mainFile": "F_Hair_CoolShortStyle.glb",
           "contents": [
             {
               "hash": "ipfs://QmS9dn2M55DcQ1GtAA8vL1rcjuHULsc7BhcVQti9CisTcc",
@@ -7018,7 +7018,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmPV5Kq9ZCnNJKDbdsRHLv6r4LtYmXy34XhQEvcJB5xbT2",
+          "mainFile": "M_Hair_CoolShortStyle.glb",
           "contents": [
             {
               "hash": "ipfs://QmS9dn2M55DcQ1GtAA8vL1rcjuHULsc7BhcVQti9CisTcc",
@@ -7058,7 +7058,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmPPnsjDUoGrDKDD9mmA1EwEfumy6SwxFYncw5nBXifour",
+          "mainFile": "F_Hair_Cornrows.glb",
           "contents": [
             {
               "hash": "ipfs://QmPPnsjDUoGrDKDD9mmA1EwEfumy6SwxFYncw5nBXifour",
@@ -7074,7 +7074,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://Qmb2RPzFdwvHaePuRtTxnWVeSNno8DrN4oxi2EktuAFqdx",
+          "mainFile": "M_Hair_Cornrows.glb",
           "contents": [
             {
               "hash": "ipfs://QmPPnsjDUoGrDKDD9mmA1EwEfumy6SwxFYncw5nBXifour",
@@ -7114,7 +7114,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmcYUQZ2DLjgmun2A76uhk45gVSRhA1Mk51RbKNeJVYurL",
+          "mainFile": "F_Hair_DoubleBun.glb",
           "contents": [
             {
               "hash": "ipfs://QmcYUQZ2DLjgmun2A76uhk45gVSRhA1Mk51RbKNeJVYurL",
@@ -7130,7 +7130,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmX9sPFrAxyBZf4fquA8qp4Pm68yGQSNcdRWCCP48zYUc3",
+          "mainFile": "M_Hair_DoubleBun.glb",
           "contents": [
             {
               "hash": "ipfs://QmcYUQZ2DLjgmun2A76uhk45gVSRhA1Mk51RbKNeJVYurL",
@@ -7170,7 +7170,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmPMZrb3NZfT88QaDeW5SmSWSfpQ7JitmMcb16oYAnFP3K",
+          "mainFile": "F_Hair_ModernHair.glb",
           "contents": [
             {
               "hash": "ipfs://QmPMZrb3NZfT88QaDeW5SmSWSfpQ7JitmMcb16oYAnFP3K",
@@ -7186,7 +7186,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmS2cE9Lqh3ihMJHot1zBLMe5Dg1WkQ5ZkqWY1Z2Mg6C7v",
+          "mainFile": "M_Hair_ModernHair.glb",
           "contents": [
             {
               "hash": "ipfs://QmPMZrb3NZfT88QaDeW5SmSWSfpQ7JitmMcb16oYAnFP3K",
@@ -7226,7 +7226,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmYtuccjFf2VMhuApQHWjTVZYFG2QP1qDMQQxdXuuLsMTn",
+          "mainFile": "F_Hair_Oldie_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmYtuccjFf2VMhuApQHWjTVZYFG2QP1qDMQQxdXuuLsMTn",
@@ -7242,7 +7242,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmRSrx5XZDfgiLccp8zwcSmEdPEfVvAi2QHGRpC4sKUPYQ",
+          "mainFile": "M_Hair_Oldie_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmYtuccjFf2VMhuApQHWjTVZYFG2QP1qDMQQxdXuuLsMTn",
@@ -7282,7 +7282,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmf4FhtCFru6eo8TvLu1ciymzjqQM974wHZMxdpD2i4MeR",
+          "mainFile": "F_Hair_Oldie_02.glb",
           "contents": [
             {
               "hash": "ipfs://Qmf4FhtCFru6eo8TvLu1ciymzjqQM974wHZMxdpD2i4MeR",
@@ -7298,7 +7298,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmRTiEBZ1wjAgREKV273VJ5KnBzDuRBisDaCVYRG1564Qt",
+          "mainFile": "M_Hair_Oldie_02.glb",
           "contents": [
             {
               "hash": "ipfs://Qmf4FhtCFru6eo8TvLu1ciymzjqQM974wHZMxdpD2i4MeR",
@@ -7338,7 +7338,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmb1RKh9eMV56gKc3vFCgYvaJF4Y6MJB67bvZ86wbcKzNV",
+          "mainFile": "F_Hair_PompousHair.glb",
           "contents": [
             {
               "hash": "ipfs://Qmb1RKh9eMV56gKc3vFCgYvaJF4Y6MJB67bvZ86wbcKzNV",
@@ -7354,7 +7354,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmVB4t6sbMBjZHaNMWGontWwXnMkZfjsTeo3kuMs76x1CZ",
+          "mainFile": "M_Hair_PompousHair.glb",
           "contents": [
             {
               "hash": "ipfs://Qmb1RKh9eMV56gKc3vFCgYvaJF4Y6MJB67bvZ86wbcKzNV",
@@ -7394,7 +7394,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmV76w9PcXfS4QvAwkG8h7oYigZJnuP1KiLYb9PiCrZfqu",
+          "mainFile": "F_Hair_PonyTail.glb",
           "contents": [
             {
               "hash": "ipfs://QmV76w9PcXfS4QvAwkG8h7oYigZJnuP1KiLYb9PiCrZfqu",
@@ -7410,7 +7410,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmbwVRjrbPya4PNqunk53qrycqw6dV6AvhtYWA4wCqwLwL",
+          "mainFile": "M_Hair_PonyTail.glb",
           "contents": [
             {
               "hash": "ipfs://QmV76w9PcXfS4QvAwkG8h7oYigZJnuP1KiLYb9PiCrZfqu",
@@ -7450,7 +7450,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmSzpCt89WNo8K1eYGsQYi4LNcF35DxctyUoYtENhx4DyK",
+          "mainFile": "Hair_Punk.glb",
           "contents": [
             {
               "hash": "ipfs://QmSzpCt89WNo8K1eYGsQYi4LNcF35DxctyUoYtENhx4DyK",
@@ -7462,7 +7462,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmSzpCt89WNo8K1eYGsQYi4LNcF35DxctyUoYtENhx4DyK",
+          "mainFile": "Hair_Punk.glb",
           "contents": [
             {
               "hash": "ipfs://QmSzpCt89WNo8K1eYGsQYi4LNcF35DxctyUoYtENhx4DyK",
@@ -7498,7 +7498,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmfGHF9MNcbdSG3mEPDNbuaHSezYNwhCSHnckCYfMsDJ59",
+          "mainFile": "F_Hair_ShoulderBobHair.glb",
           "contents": [
             {
               "hash": "ipfs://QmfGHF9MNcbdSG3mEPDNbuaHSezYNwhCSHnckCYfMsDJ59",
@@ -7514,7 +7514,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmZWRH4KFeLMQ3gSgFmHRX9YwqsLunS5BBzgW95rZC1nCx",
+          "mainFile": "M_Hair_ShoulderBobHair.glb",
           "contents": [
             {
               "hash": "ipfs://QmfGHF9MNcbdSG3mEPDNbuaHSezYNwhCSHnckCYfMsDJ59",
@@ -7554,7 +7554,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmeKoFnmkWGGpHPd6Tx21RMgSAuT7UNTnJcqDf7YekhTnK",
+          "mainFile": "F_Hair_ShoulderCurlyHair.glb",
           "contents": [
             {
               "hash": "ipfs://QmeKoFnmkWGGpHPd6Tx21RMgSAuT7UNTnJcqDf7YekhTnK",
@@ -7570,7 +7570,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmNuZwur2chDBfARCnKPH8XFQhk7Mi8uhdsDCWJV6MgtDu",
+          "mainFile": "M_Hair_ShoulderCurlyHair.glb",
           "contents": [
             {
               "hash": "ipfs://QmeKoFnmkWGGpHPd6Tx21RMgSAuT7UNTnJcqDf7YekhTnK",
@@ -7610,7 +7610,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmTaUPhXxns2cnWqgwjP7JSbv27iy4nWBNGRwPQ9vUivnB",
+          "mainFile": "F_Hair_ShoulderHair.glb",
           "contents": [
             {
               "hash": "ipfs://QmTaUPhXxns2cnWqgwjP7JSbv27iy4nWBNGRwPQ9vUivnB",
@@ -7626,7 +7626,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmZDmmD1cUmJVeTbqDgM1k6pautYa6VFE9QmFVXznqGctQ",
+          "mainFile": "M_Hair_ShoulderHair.glb",
           "contents": [
             {
               "hash": "ipfs://QmTaUPhXxns2cnWqgwjP7JSbv27iy4nWBNGRwPQ9vUivnB",
@@ -7666,7 +7666,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmStegFqf1EzVr1TiFf5BvGYbadb4V6Kd5KgJkHxJHWZzF",
+          "mainFile": "F_Hair_Standard.glb",
           "contents": [
             {
               "hash": "ipfs://QmStegFqf1EzVr1TiFf5BvGYbadb4V6Kd5KgJkHxJHWZzF",
@@ -7682,7 +7682,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmacdVgx5Y36TJVsdkydPvMjg8eDang6MLkqy3rqLGVvUG",
+          "mainFile": "M_Hair_Standard.glb",
           "contents": [
             {
               "hash": "ipfs://QmStegFqf1EzVr1TiFf5BvGYbadb4V6Kd5KgJkHxJHWZzF",
@@ -7722,7 +7722,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmbYXqmRUyLYbGdhz4MSJXFPEjhsEdKzMjA1BFvAnE1tiX",
+          "mainFile": "F_Hair_StylishHair.glb",
           "contents": [
             {
               "hash": "ipfs://QmbYXqmRUyLYbGdhz4MSJXFPEjhsEdKzMjA1BFvAnE1tiX",
@@ -7738,7 +7738,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmQA3awgHuB8A8DSa3fUnoYfdueubNUU8qm5E7QAvFmMuE",
+          "mainFile": "M_Hair_StylishHair.glb",
           "contents": [
             {
               "hash": "ipfs://QmbYXqmRUyLYbGdhz4MSJXFPEjhsEdKzMjA1BFvAnE1tiX",
@@ -7778,7 +7778,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmeUAS5RdrPTh6VQenLqyFKZSihfSQhZJdDcMF4GzN7TSK",
+          "mainFile": "F_Hair_TwoTails.glb",
           "contents": [
             {
               "hash": "ipfs://QmeUAS5RdrPTh6VQenLqyFKZSihfSQhZJdDcMF4GzN7TSK",
@@ -7794,7 +7794,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmeNpkFXCazL2YPdyApAAKPu7CrBpyw4VUMu5Sez5CJ2MG",
+          "mainFile": "M_Hair_TwoTails.glb",
           "contents": [
             {
               "hash": "ipfs://QmeUAS5RdrPTh6VQenLqyFKZSihfSQhZJdDcMF4GzN7TSK",
@@ -7834,7 +7834,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmQdYc8yySXwUC7DsRaGrPXV7yYQ33bHygdz4JxWCgovGV",
+          "mainFile": "Hair_Beatle.glb",
           "contents": [
             {
               "hash": "ipfs://QmQdYc8yySXwUC7DsRaGrPXV7yYQ33bHygdz4JxWCgovGV",
@@ -7846,7 +7846,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmQdYc8yySXwUC7DsRaGrPXV7yYQ33bHygdz4JxWCgovGV",
+          "mainFile": "Hair_Beatle.glb",
           "contents": [
             {
               "hash": "ipfs://QmQdYc8yySXwUC7DsRaGrPXV7yYQ33bHygdz4JxWCgovGV",
@@ -7882,7 +7882,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmUJw41TBsXxbemHqc5ZN8stFzvhX3dh8poxC4nXqNW9Y5",
+          "mainFile": "M_Hair_BookStyle.glb",
           "contents": [
             {
               "hash": "ipfs://QmP4npCntpqGMvvCfakUWs6AR35TWdHbzyt8eJaVi2ibK9",
@@ -7898,7 +7898,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmP4npCntpqGMvvCfakUWs6AR35TWdHbzyt8eJaVi2ibK9",
+          "mainFile": "F_Hair_BookStyle.glb",
           "contents": [
             {
               "hash": "ipfs://QmP4npCntpqGMvvCfakUWs6AR35TWdHbzyt8eJaVi2ibK9",
@@ -7938,7 +7938,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmXDyPS9uTEbfgQXysP7ya9wG6x6EvTCM4c6zp1Jo97MWf",
+          "mainFile": "M_Hair_Cool.glb",
           "contents": [
             {
               "hash": "ipfs://QmZTawJNvAj7y7298caiyQ8WB22bU7c91iDNA8a5i34EjX",
@@ -7954,7 +7954,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmZTawJNvAj7y7298caiyQ8WB22bU7c91iDNA8a5i34EjX",
+          "mainFile": "F_Hair_Cool.glb",
           "contents": [
             {
               "hash": "ipfs://QmZTawJNvAj7y7298caiyQ8WB22bU7c91iDNA8a5i34EjX",
@@ -7994,7 +7994,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmfQxNEwGJ9xmNC6WbqQktv2nNxyHZ9U6rwKMFHJcfWSKe",
+          "mainFile": "M_Hair_Keanu.glb",
           "contents": [
             {
               "hash": "ipfs://QmdjrEEA3C7ztd5yUYsXu8T72H2EHB51HPtKEN5QXVoghY",
@@ -8010,7 +8010,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmdjrEEA3C7ztd5yUYsXu8T72H2EHB51HPtKEN5QXVoghY",
+          "mainFile": "F_Hair_Keanu.glb",
           "contents": [
             {
               "hash": "ipfs://QmdjrEEA3C7ztd5yUYsXu8T72H2EHB51HPtKEN5QXVoghY",
@@ -8050,7 +8050,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmPXjsSE223fMGiCCpuDuNRRv4Eses87e9fx6wPdiSgYMs",
+          "mainFile": "M_Hair_Lamas.glb",
           "contents": [
             {
               "hash": "ipfs://QmTQDgB7mSZrLn2MZwrCTZidgZrqVc2J4gVY7aLgMUrdyK",
@@ -8066,7 +8066,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmTQDgB7mSZrLn2MZwrCTZidgZrqVc2J4gVY7aLgMUrdyK",
+          "mainFile": "F_Hair_Lamas.glb",
           "contents": [
             {
               "hash": "ipfs://QmTQDgB7mSZrLn2MZwrCTZidgZrqVc2J4gVY7aLgMUrdyK",
@@ -8106,7 +8106,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmZdeSspYmjhqx3SfSp1hgiZz1QmCCDWYDVHJRpga5Xo46",
+          "mainFile": "M_Hair_Oldie_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmUN19gTfthsH66z6RJRcyBPLsWkUYKMkaERp67VUfaFe6",
@@ -8122,7 +8122,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmUN19gTfthsH66z6RJRcyBPLsWkUYKMkaERp67VUfaFe6",
+          "mainFile": "F_Hair_Oldie_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmUN19gTfthsH66z6RJRcyBPLsWkUYKMkaERp67VUfaFe6",
@@ -8162,7 +8162,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmXanv8RGa9sNG2ZRqK6LWBJFHe8AaNqRgthpngk4xDqs7",
+          "mainFile": "Mohawk.glb",
           "contents": [
             {
               "hash": "ipfs://QmXanv8RGa9sNG2ZRqK6LWBJFHe8AaNqRgthpngk4xDqs7",
@@ -8174,7 +8174,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmXanv8RGa9sNG2ZRqK6LWBJFHe8AaNqRgthpngk4xDqs7",
+          "mainFile": "Mohawk.glb",
           "contents": [
             {
               "hash": "ipfs://QmXanv8RGa9sNG2ZRqK6LWBJFHe8AaNqRgthpngk4xDqs7",
@@ -8210,7 +8210,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmVzDmUoN56hXCdHGWi4qkfi7WmmAH3MyHnMDANDc2nHUx",
+          "mainFile": "M_Hair_Rasta_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmXpVkg3LuUTmSsSHBL1BoX4ZoPULXKZfbv42Kd3smSE19",
@@ -8226,7 +8226,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmXpVkg3LuUTmSsSHBL1BoX4ZoPULXKZfbv42Kd3smSE19",
+          "mainFile": "F_Hair_Rasta_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmXpVkg3LuUTmSsSHBL1BoX4ZoPULXKZfbv42Kd3smSE19",
@@ -8266,7 +8266,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmNmMmBN7bH9fiRzko2jBYZ5UnhPaNt8TQjwyJoHF7WKac",
+          "mainFile": "M_Hair_SemiAfro_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmfLqH2ZSaSLmVk8CBaNErDLtr8F2p9cTx133Bwb9ZPRAJ",
@@ -8282,7 +8282,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmfLqH2ZSaSLmVk8CBaNErDLtr8F2p9cTx133Bwb9ZPRAJ",
+          "mainFile": "F_Hair_SemiAfro_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmfLqH2ZSaSLmVk8CBaNErDLtr8F2p9cTx133Bwb9ZPRAJ",
@@ -8322,7 +8322,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmUVCw5rt63B5xSFcUgEvAy5KoeSmkJPWprdZuunat8ijX",
+          "mainFile": "M_Hair_SemiBald_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmW9oFikxq2Rdkju6cGc2TnTBQMS5A63S1rkH3JUy4b8tc",
@@ -8338,7 +8338,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmW9oFikxq2Rdkju6cGc2TnTBQMS5A63S1rkH3JUy4b8tc",
+          "mainFile": "F_Hair_SemiBald_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmW9oFikxq2Rdkju6cGc2TnTBQMS5A63S1rkH3JUy4b8tc",
@@ -8378,7 +8378,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmRMEVNwXsLhNMnWRG9aLeZ4QjViNvqrR4qa7h95o7r7ST",
+          "mainFile": "M_Hair_ShortHair_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmU2EPrG7gTruqA7QoGWtWR6LuRaLYD342hBEm2HWZbCHP",
@@ -8394,7 +8394,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmU2EPrG7gTruqA7QoGWtWR6LuRaLYD342hBEm2HWZbCHP",
+          "mainFile": "F_Hair_ShortHair_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmU2EPrG7gTruqA7QoGWtWR6LuRaLYD342hBEm2HWZbCHP",
@@ -8434,7 +8434,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmapYaSruQtegCmMZoWqJkX8sXWAhMbjiHf3FR2q3QiHuf",
+          "mainFile": "M_Hair_Standard_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmZoSoGHHX8JQ54UNc9M5eefyMnfYaQVCMoQYyezm9Tpwk",
@@ -8450,7 +8450,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmZoSoGHHX8JQ54UNc9M5eefyMnfYaQVCMoQYyezm9Tpwk",
+          "mainFile": "F_Hair_Standard_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmZoSoGHHX8JQ54UNc9M5eefyMnfYaQVCMoQYyezm9Tpwk",
@@ -8490,7 +8490,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmZEWqWpn3U5S3ho5eE9oJvMxB22Vu7Aw9ejtJNguvMT3m",
+          "mainFile": "M_Hair_Standard_02.glb",
           "contents": [
             {
               "hash": "ipfs://QmNT1kdK7CXTPzAuEdxWkqc5TbE8MGGZub5LB1mmQE2yN6",
@@ -8506,7 +8506,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmNT1kdK7CXTPzAuEdxWkqc5TbE8MGGZub5LB1mmQE2yN6",
+          "mainFile": "F_Hair_Standard_02.glb",
           "contents": [
             {
               "hash": "ipfs://QmNT1kdK7CXTPzAuEdxWkqc5TbE8MGGZub5LB1mmQE2yN6",
@@ -8546,7 +8546,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmWHyE7zsmu6Ft4KfQDgYf5NaGiNvRHMXUcJYDc445aqnz",
+          "mainFile": "M_Hair_Standard_03.glb",
           "contents": [
             {
               "hash": "ipfs://QmedMyPuQqD8T9M6wTdXDyuLEGdVCoDAGHQRRCNUgqkL2B",
@@ -8562,7 +8562,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmedMyPuQqD8T9M6wTdXDyuLEGdVCoDAGHQRRCNUgqkL2B",
+          "mainFile": "F_Hair_Standard_03.glb",
           "contents": [
             {
               "hash": "ipfs://QmedMyPuQqD8T9M6wTdXDyuLEGdVCoDAGHQRRCNUgqkL2B",
@@ -8602,7 +8602,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmatAPQdN9uCeQMRNFgMMi7EasXtYaZP96XoFp8uYkVnxY",
+          "mainFile": "M_Hair_TallFront.glb",
           "contents": [
             {
               "hash": "ipfs://QmZnFxYFjai8fkB7ciQHQkWhYwqWL8xqoxfpbm96zn5XzC",
@@ -8618,7 +8618,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmZnFxYFjai8fkB7ciQHQkWhYwqWL8xqoxfpbm96zn5XzC",
+          "mainFile": "F_Hair_TallFront.glb",
           "contents": [
             {
               "hash": "ipfs://QmZnFxYFjai8fkB7ciQHQkWhYwqWL8xqoxfpbm96zn5XzC",
@@ -8658,7 +8658,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmRPrFTVqUcu6PxSH8WHZBoBb8RzaBLceatU9fu3Qhajfp",
+          "mainFile": "F_lBody_AfricanLeggings.glb",
           "contents": [
             {
               "hash": "ipfs://QmRPrFTVqUcu6PxSH8WHZBoBb8RzaBLceatU9fu3Qhajfp",
@@ -8702,7 +8702,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmax9Ryc55mxvNWXasN9yth4hDW6qz5BrtLR9ajLB7gaTK",
+          "mainFile": "F_lBody_BrownKneesTrousers.glb",
           "contents": [
             {
               "hash": "ipfs://Qmax9Ryc55mxvNWXasN9yth4hDW6qz5BrtLR9ajLB7gaTK",
@@ -8746,7 +8746,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmZRihKJoQcXmJj4xAa83B71wBxQhq4YYDnLJrxbY1yGMe",
+          "mainFile": "F_lBody_BrownSkirtDress.glb",
           "contents": [
             {
               "hash": "ipfs://QmZRihKJoQcXmJj4xAa83B71wBxQhq4YYDnLJrxbY1yGMe",
@@ -8790,7 +8790,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmSntcHeiYrYnkGAY4ZcPostfMHZQUKdNa74sqQqgnmNB3",
+          "mainFile": "F_lBody_BrownTrousers.glb",
           "contents": [
             {
               "hash": "ipfs://QmSntcHeiYrYnkGAY4ZcPostfMHZQUKdNa74sqQqgnmNB3",
@@ -8834,7 +8834,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmTLwqN25mqjbKdt13YqyUQXpH9KcGnhEjKHFjSNTxN4qA",
+          "mainFile": "F_lBody_CountryPant.glb",
           "contents": [
             {
               "hash": "ipfs://QmTLwqN25mqjbKdt13YqyUQXpH9KcGnhEjKHFjSNTxN4qA",
@@ -8878,7 +8878,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmWope6ZfRBnPysGP6QmBL1LyctdNDzP6QEbNgtRzdBteC",
+          "mainFile": "F_lBody_DiamondLeggings.glb",
           "contents": [
             {
               "hash": "ipfs://QmWope6ZfRBnPysGP6QmBL1LyctdNDzP6QEbNgtRzdBteC",
@@ -8922,7 +8922,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmY2bp7SgpSdu7JwHWzJDuoQcbywTiNR4qkws8RQgeQ6cH",
+          "mainFile": "F_lBody_DistressedBlackJeans.glb",
           "contents": [
             {
               "hash": "ipfs://QmY2bp7SgpSdu7JwHWzJDuoQcbywTiNR4qkws8RQgeQ6cH",
@@ -8966,7 +8966,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmXNKQExKnahDyvg7ReHGuYVJJUCowCRNkm9LthydAB88p",
+          "mainFile": "F_lBody_ElegantBlueTrousers.glb",
           "contents": [
             {
               "hash": "ipfs://QmXNKQExKnahDyvg7ReHGuYVJJUCowCRNkm9LthydAB88p",
@@ -9010,7 +9010,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmRCDGx7ggqoV7kRZzR4Vpm9UeXdtfNr76FaaaTLox38kc",
+          "mainFile": "F_lBody_Jeans_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmRCDGx7ggqoV7kRZzR4Vpm9UeXdtfNr76FaaaTLox38kc",
@@ -9054,7 +9054,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmcC1GK88mo1i3RZBwo5i1P3UvZvJcUPUNj4x7aZss39V1",
+          "mainFile": "F_lBody_RedComfortPants.glb",
           "contents": [
             {
               "hash": "ipfs://QmcC1GK88mo1i3RZBwo5i1P3UvZvJcUPUNj4x7aZss39V1",
@@ -9098,7 +9098,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmaChLAL1S363tsyDMHn3iB93nmNiFMfrbcgCoA5zV9ALM",
+          "mainFile": "F_lBody_RedModernPant.glb",
           "contents": [
             {
               "hash": "ipfs://QmaChLAL1S363tsyDMHn3iB93nmNiFMfrbcgCoA5zV9ALM",
@@ -9142,7 +9142,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qma3EMe5QU34KcdxBXAxacxpbdSrD8NTM4o7HqmLyPBDqX",
+          "mainFile": "F_lBody_RollerLeggings.glb",
           "contents": [
             {
               "hash": "ipfs://Qma3EMe5QU34KcdxBXAxacxpbdSrD8NTM4o7HqmLyPBDqX",
@@ -9186,7 +9186,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmdJr2bStg61ZQ4bwqvdME4GA5xtJJ6iWRsbTu5e4R5rYx",
+          "mainFile": "F_lBody_SchoolSkirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmdJr2bStg61ZQ4bwqvdME4GA5xtJJ6iWRsbTu5e4R5rYx",
@@ -9230,7 +9230,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmZ4EzVKFFmRbKw6AKbbWSa8LTFdkPnp59DqUR4Y9qjv18",
+          "mainFile": "F_lBody_ShortBlueJeans.glb",
           "contents": [
             {
               "hash": "ipfs://QmZ4EzVKFFmRbKw6AKbbWSa8LTFdkPnp59DqUR4Y9qjv18",
@@ -9274,7 +9274,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmSHWeaNdxW9ck9KFBmpTax6gMSy8eN9C3SfyHaajV8N1Q",
+          "mainFile": "F_lBody_ShortColoredLeggings.glb",
           "contents": [
             {
               "hash": "ipfs://QmSHWeaNdxW9ck9KFBmpTax6gMSy8eN9C3SfyHaajV8N1Q",
@@ -9318,7 +9318,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmd6p6hXboZBEZsWiUEjQUqii4PZKPxHhMsCckinDvCv2n",
+          "mainFile": "F_lBody_SportShorts.glb",
           "contents": [
             {
               "hash": "ipfs://Qmd6p6hXboZBEZsWiUEjQUqii4PZKPxHhMsCckinDvCv2n",
@@ -9362,7 +9362,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmWXcR522G7uABpNKKw9kUiSxnmDPRxkCeLmeY3P2sRyew",
+          "mainFile": "F_lBody_StripeLongSkirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmWXcR522G7uABpNKKw9kUiSxnmDPRxkCeLmeY3P2sRyew",
@@ -9406,7 +9406,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmZ7qAvQfaaXUW6TMSSrKzn6njhRvSNRoGdWh1PLFBy8FL",
+          "mainFile": "F_lBody_StripeWhitePant.glb",
           "contents": [
             {
               "hash": "ipfs://QmZ7qAvQfaaXUW6TMSSrKzn6njhRvSNRoGdWh1PLFBy8FL",
@@ -9450,7 +9450,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmYhV4PJwBfVNSXdNSfT56kxpi8fdzvSrAm7FzkVZJG66J",
+          "mainFile": "F_lBody_YogaTrousers.glb",
           "contents": [
             {
               "hash": "ipfs://QmYhV4PJwBfVNSXdNSfT56kxpi8fdzvSrAm7FzkVZJG66J",
@@ -9494,7 +9494,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmfY9ZLsKk9ezMJFmKY5dwA4rbJaJXp6STyt8AyKKcUAUi",
+          "mainFile": "M_lBody_BasketballShorts.glb",
           "contents": [
             {
               "hash": "ipfs://QmfY9ZLsKk9ezMJFmKY5dwA4rbJaJXp6STyt8AyKKcUAUi",
@@ -9538,7 +9538,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmZJLXPtAqQsqfkD8NZcRrcgNZAUeiwz119To12Q5Y3QNd",
+          "mainFile": "M_lBody_BrownPants.glb",
           "contents": [
             {
               "hash": "ipfs://QmZJLXPtAqQsqfkD8NZcRrcgNZAUeiwz119To12Q5Y3QNd",
@@ -9582,7 +9582,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmWH8iFsUgGYzLfAkzWJ8fxUK2qsAoLnZmM48jn2FGxHhM",
+          "mainFile": "M_lBody_CargoShorts.glb",
           "contents": [
             {
               "hash": "ipfs://QmWH8iFsUgGYzLfAkzWJ8fxUK2qsAoLnZmM48jn2FGxHhM",
@@ -9626,7 +9626,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmVrhB5zRno6MQ5NNtqguATa8ayEzoGqLuYT1b388Y694C",
+          "mainFile": "M_lBody_ComfortablePants.glb",
           "contents": [
             {
               "hash": "ipfs://QmVrhB5zRno6MQ5NNtqguATa8ayEzoGqLuYT1b388Y694C",
@@ -9670,7 +9670,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmUeHFvZrxWxaDuza5WxAQ75kkvYk3hMNQGYaF68qJ3fMN",
+          "mainFile": "M_lBody_GreyJoggers.glb",
           "contents": [
             {
               "hash": "ipfs://QmUeHFvZrxWxaDuza5WxAQ75kkvYk3hMNQGYaF68qJ3fMN",
@@ -9714,7 +9714,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmeCbcgegaDzyV3PTuMaL2A3JJCJvfHSDvrsycAPxcupLj",
+          "mainFile": "M_lBody_HipHopJoggers.glb",
           "contents": [
             {
               "hash": "ipfs://QmeCbcgegaDzyV3PTuMaL2A3JJCJvfHSDvrsycAPxcupLj",
@@ -9758,7 +9758,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmZDNbSz85CbohjEpKp6PVgq7HPsq4RTRqM4NQyTdyUYLn",
+          "mainFile": "M_lBody_Kilt.glb",
           "contents": [
             {
               "hash": "ipfs://QmZDNbSz85CbohjEpKp6PVgq7HPsq4RTRqM4NQyTdyUYLn",
@@ -9802,7 +9802,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmWHTtjepE5gByzrKYjm2ouqrqoYRDAEMFJXXaxbKcwntA",
+          "mainFile": "M_lBody_LongPants_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmWHTtjepE5gByzrKYjm2ouqrqoYRDAEMFJXXaxbKcwntA",
@@ -9846,7 +9846,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmXV3eotBYNdSZdkEi6Asmpspyh5a3iMXQeuEV5Sd6UQ8B",
+          "mainFile": "M_lBody_OxfordPants.glb",
           "contents": [
             {
               "hash": "ipfs://QmXV3eotBYNdSZdkEi6Asmpspyh5a3iMXQeuEV5Sd6UQ8B",
@@ -9890,7 +9890,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmcmsQZiUVTNud6USvjySmTeoit7iUygi4HZXkzYCmgG4T",
+          "mainFile": "M_lBody_SafariPants_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmcmsQZiUVTNud6USvjySmTeoit7iUygi4HZXkzYCmgG4T",
@@ -9934,7 +9934,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmaEaDU32XQNunitWWx8uPhhktR6T3XdQeo6oTMkMdYQUx",
+          "mainFile": "M_lBody_ShortPants_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmaEaDU32XQNunitWWx8uPhhktR6T3XdQeo6oTMkMdYQUx",
@@ -9978,7 +9978,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmTnHFFXeVAtqhaiHCUEFYyW67QebCy8yW3RQwW2ZK3fJk",
+          "mainFile": "M_lBody_SoccerPants.glb",
           "contents": [
             {
               "hash": "ipfs://QmTnHFFXeVAtqhaiHCUEFYyW67QebCy8yW3RQwW2ZK3fJk",
@@ -10022,7 +10022,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmZc6YK8pKvbub7pX6YqoP51zpZVv5BLRfG2kRH3pove9S",
+          "mainFile": "M_lBody_StripePijama_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmZc6YK8pKvbub7pX6YqoP51zpZVv5BLRfG2kRH3pove9S",
@@ -10066,7 +10066,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmYivmCtU7guiuUfMFZeVGeFHni4PT9d5yjnvVsFkjnar2",
+          "mainFile": "M_lBody_StripeSwimSuit.glb",
           "contents": [
             {
               "hash": "ipfs://QmYivmCtU7guiuUfMFZeVGeFHni4PT9d5yjnvVsFkjnar2",
@@ -10110,7 +10110,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmUW7sUfBW7W6Y9XXTBuknfEagdmbNyQzrDrH1sbVuZ57K",
+          "mainFile": "M_lBody_SwimShort.glb",
           "contents": [
             {
               "hash": "ipfs://QmUW7sUfBW7W6Y9XXTBuknfEagdmbNyQzrDrH1sbVuZ57K",
@@ -10154,7 +10154,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmTLMHLmhiu55BKqbx7CLTRTxR9JfZLnoeTu3ZkL9Avm2y",
+          "mainFile": "M_lBody_TrashJeans_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmTLMHLmhiu55BKqbx7CLTRTxR9JfZLnoeTu3ZkL9Avm2y",
@@ -10198,7 +10198,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmdkR9bpZinQGvs5MS3bZwHcrTNpZxpWFznxpoyYwXFRKj",
+          "mainFile": "F_CorduroyGreenPants.glb",
           "contents": [
             {
               "hash": "ipfs://QmdkR9bpZinQGvs5MS3bZwHcrTNpZxpWFznxpoyYwXFRKj",
@@ -10214,7 +10214,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmWkFFa83tS417LkZMWu8XDbDvMBNbqYwYLAm6Deyx7kua",
+          "mainFile": "M_CorduroyGreenPants.glb",
           "contents": [
             {
               "hash": "ipfs://QmdkR9bpZinQGvs5MS3bZwHcrTNpZxpWFznxpoyYwXFRKj",
@@ -10258,7 +10258,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmRYSPkVbZodUX1PU3YQMiPKigALF3rjLJfAc4Mg49aX5F",
+          "mainFile": "F_CorduroyPurplePants.glb",
           "contents": [
             {
               "hash": "ipfs://QmRYSPkVbZodUX1PU3YQMiPKigALF3rjLJfAc4Mg49aX5F",
@@ -10274,7 +10274,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmZF8zpGDxDFjYbyKwQMzjyARMJwG5u43kWuzUU1oXwJz9",
+          "mainFile": "M_CorduroyPurplePants.glb",
           "contents": [
             {
               "hash": "ipfs://QmRYSPkVbZodUX1PU3YQMiPKigALF3rjLJfAc4Mg49aX5F",
@@ -10318,7 +10318,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmZoWBdziLTGV8N96tygzkSFUnRaSLwd4cdQFsWgcS1XyT",
+          "mainFile": "F_CorduroySandyPants.glb",
           "contents": [
             {
               "hash": "ipfs://QmZoWBdziLTGV8N96tygzkSFUnRaSLwd4cdQFsWgcS1XyT",
@@ -10334,7 +10334,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmYNiagg8F8uc9ezMbithUSqTuhKzSSfqL4GZujy29diYS",
+          "mainFile": "M_CorduroySandyPants.glb",
           "contents": [
             {
               "hash": "ipfs://QmZoWBdziLTGV8N96tygzkSFUnRaSLwd4cdQFsWgcS1XyT",
@@ -10378,7 +10378,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmdG4aqspAAksNFyr68sz8XqFcN2ynENaQovJ2BBsyWtD2",
+          "mainFile": "F_Mouth_00.png",
           "contents": [
             {
               "hash": "ipfs://QmdG4aqspAAksNFyr68sz8XqFcN2ynENaQovJ2BBsyWtD2",
@@ -10390,7 +10390,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmdG4aqspAAksNFyr68sz8XqFcN2ynENaQovJ2BBsyWtD2",
+          "mainFile": "F_Mouth_00.png",
           "contents": [
             {
               "hash": "ipfs://QmdG4aqspAAksNFyr68sz8XqFcN2ynENaQovJ2BBsyWtD2",
@@ -10430,7 +10430,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmZo5JVQTyR9Ua5VcEXn2e47KKW99L6cYuj15zFWMya7dR",
+          "mainFile": "F_Mouth_01.png",
           "contents": [
             {
               "hash": "ipfs://QmZo5JVQTyR9Ua5VcEXn2e47KKW99L6cYuj15zFWMya7dR",
@@ -10442,7 +10442,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmZo5JVQTyR9Ua5VcEXn2e47KKW99L6cYuj15zFWMya7dR",
+          "mainFile": "F_Mouth_01.png",
           "contents": [
             {
               "hash": "ipfs://QmZo5JVQTyR9Ua5VcEXn2e47KKW99L6cYuj15zFWMya7dR",
@@ -10482,7 +10482,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmV8rtHCvztYEPHA78BybsGsbqder8nTm2uezdnHfNz6Tv",
+          "mainFile": "F_Mouth_02.png",
           "contents": [
             {
               "hash": "ipfs://QmV8rtHCvztYEPHA78BybsGsbqder8nTm2uezdnHfNz6Tv",
@@ -10494,7 +10494,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmV8rtHCvztYEPHA78BybsGsbqder8nTm2uezdnHfNz6Tv",
+          "mainFile": "F_Mouth_02.png",
           "contents": [
             {
               "hash": "ipfs://QmV8rtHCvztYEPHA78BybsGsbqder8nTm2uezdnHfNz6Tv",
@@ -10534,7 +10534,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmepuvwanooeXqaNcLxGuWe92yc4Z1STbw3MRwUm8C45tw",
+          "mainFile": "F_Mouth_03.png",
           "contents": [
             {
               "hash": "ipfs://QmepuvwanooeXqaNcLxGuWe92yc4Z1STbw3MRwUm8C45tw",
@@ -10546,7 +10546,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmepuvwanooeXqaNcLxGuWe92yc4Z1STbw3MRwUm8C45tw",
+          "mainFile": "F_Mouth_03.png",
           "contents": [
             {
               "hash": "ipfs://QmepuvwanooeXqaNcLxGuWe92yc4Z1STbw3MRwUm8C45tw",
@@ -10586,7 +10586,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmdFDnVsaCySMW8pumn9qFBairTwxLFqbmuZJVEZx8VWgL",
+          "mainFile": "F_Mouth_04.png",
           "contents": [
             {
               "hash": "ipfs://QmdFDnVsaCySMW8pumn9qFBairTwxLFqbmuZJVEZx8VWgL",
@@ -10598,7 +10598,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmdFDnVsaCySMW8pumn9qFBairTwxLFqbmuZJVEZx8VWgL",
+          "mainFile": "F_Mouth_04.png",
           "contents": [
             {
               "hash": "ipfs://QmdFDnVsaCySMW8pumn9qFBairTwxLFqbmuZJVEZx8VWgL",
@@ -10638,7 +10638,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmf16cQidTNPwViHR2A9YmSbSYXFz7dP7YYxdsNwwHF3fG",
+          "mainFile": "F_Mouth_05.png",
           "contents": [
             {
               "hash": "ipfs://Qmf16cQidTNPwViHR2A9YmSbSYXFz7dP7YYxdsNwwHF3fG",
@@ -10650,7 +10650,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://Qmf16cQidTNPwViHR2A9YmSbSYXFz7dP7YYxdsNwwHF3fG",
+          "mainFile": "F_Mouth_05.png",
           "contents": [
             {
               "hash": "ipfs://Qmf16cQidTNPwViHR2A9YmSbSYXFz7dP7YYxdsNwwHF3fG",
@@ -10690,7 +10690,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmVq2nQJSDBVotXazfu1TkCiZs8RPnTG2hxvgusjCKEnFd",
+          "mainFile": "F_Mouth_06.png",
           "contents": [
             {
               "hash": "ipfs://QmVq2nQJSDBVotXazfu1TkCiZs8RPnTG2hxvgusjCKEnFd",
@@ -10702,7 +10702,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmVq2nQJSDBVotXazfu1TkCiZs8RPnTG2hxvgusjCKEnFd",
+          "mainFile": "F_Mouth_06.png",
           "contents": [
             {
               "hash": "ipfs://QmVq2nQJSDBVotXazfu1TkCiZs8RPnTG2hxvgusjCKEnFd",
@@ -10742,7 +10742,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmRrKyedET3zXWQVnEb4NYasBQAbucHrbU16Mtj5uD2Lge",
+          "mainFile": "F_Mouth_07.png",
           "contents": [
             {
               "hash": "ipfs://QmRrKyedET3zXWQVnEb4NYasBQAbucHrbU16Mtj5uD2Lge",
@@ -10754,7 +10754,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmRrKyedET3zXWQVnEb4NYasBQAbucHrbU16Mtj5uD2Lge",
+          "mainFile": "F_Mouth_07.png",
           "contents": [
             {
               "hash": "ipfs://QmRrKyedET3zXWQVnEb4NYasBQAbucHrbU16Mtj5uD2Lge",
@@ -10794,7 +10794,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmc7LQtTLzecFH2g2eJRcgZnBUjE9VYWS6agJWvGv4amvT",
+          "mainFile": "F_Mouth_08.png",
           "contents": [
             {
               "hash": "ipfs://Qmc7LQtTLzecFH2g2eJRcgZnBUjE9VYWS6agJWvGv4amvT",
@@ -10806,7 +10806,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://Qmc7LQtTLzecFH2g2eJRcgZnBUjE9VYWS6agJWvGv4amvT",
+          "mainFile": "F_Mouth_08.png",
           "contents": [
             {
               "hash": "ipfs://Qmc7LQtTLzecFH2g2eJRcgZnBUjE9VYWS6agJWvGv4amvT",
@@ -10846,7 +10846,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmQZ6MAyHpGaPpntHJnU3x4o2dUvz5KhvNtWbbzvbAE34T",
+          "mainFile": "M_Mouth_00.png",
           "contents": [
             {
               "hash": "ipfs://QmQZ6MAyHpGaPpntHJnU3x4o2dUvz5KhvNtWbbzvbAE34T",
@@ -10858,7 +10858,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmQZ6MAyHpGaPpntHJnU3x4o2dUvz5KhvNtWbbzvbAE34T",
+          "mainFile": "M_Mouth_00.png",
           "contents": [
             {
               "hash": "ipfs://QmQZ6MAyHpGaPpntHJnU3x4o2dUvz5KhvNtWbbzvbAE34T",
@@ -10898,7 +10898,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmbmS6hy2CyiB3XxDATfJ96pF9ge1KqNYEgeU8kSyUQiRj",
+          "mainFile": "M_Mouth_01.png",
           "contents": [
             {
               "hash": "ipfs://QmbmS6hy2CyiB3XxDATfJ96pF9ge1KqNYEgeU8kSyUQiRj",
@@ -10910,7 +10910,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmbmS6hy2CyiB3XxDATfJ96pF9ge1KqNYEgeU8kSyUQiRj",
+          "mainFile": "M_Mouth_01.png",
           "contents": [
             {
               "hash": "ipfs://QmbmS6hy2CyiB3XxDATfJ96pF9ge1KqNYEgeU8kSyUQiRj",
@@ -10950,7 +10950,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmPeDgQ6TgKiK8er9H8udHUhggBf1gKtrBrYh5m6StjufB",
+          "mainFile": "M_Mouth_02.png",
           "contents": [
             {
               "hash": "ipfs://QmPeDgQ6TgKiK8er9H8udHUhggBf1gKtrBrYh5m6StjufB",
@@ -10962,7 +10962,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmPeDgQ6TgKiK8er9H8udHUhggBf1gKtrBrYh5m6StjufB",
+          "mainFile": "M_Mouth_02.png",
           "contents": [
             {
               "hash": "ipfs://QmPeDgQ6TgKiK8er9H8udHUhggBf1gKtrBrYh5m6StjufB",
@@ -11002,7 +11002,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmVkJS2PgS1EZXJS76JYY2jCYbj5mCrJCWieZCg3B9RK2B",
+          "mainFile": "M_Mouth_03.png",
           "contents": [
             {
               "hash": "ipfs://QmVkJS2PgS1EZXJS76JYY2jCYbj5mCrJCWieZCg3B9RK2B",
@@ -11014,7 +11014,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmVkJS2PgS1EZXJS76JYY2jCYbj5mCrJCWieZCg3B9RK2B",
+          "mainFile": "M_Mouth_03.png",
           "contents": [
             {
               "hash": "ipfs://QmVkJS2PgS1EZXJS76JYY2jCYbj5mCrJCWieZCg3B9RK2B",
@@ -11054,7 +11054,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://Qmckm8DfKGjVRWV8SbLmdE6La6AZ3ybEFYZBX7jtpp4Gim",
+          "mainFile": "M_Mouth_04.png",
           "contents": [
             {
               "hash": "ipfs://Qmckm8DfKGjVRWV8SbLmdE6La6AZ3ybEFYZBX7jtpp4Gim",
@@ -11066,7 +11066,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmckm8DfKGjVRWV8SbLmdE6La6AZ3ybEFYZBX7jtpp4Gim",
+          "mainFile": "M_Mouth_04.png",
           "contents": [
             {
               "hash": "ipfs://Qmckm8DfKGjVRWV8SbLmdE6La6AZ3ybEFYZBX7jtpp4Gim",
@@ -11106,7 +11106,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmdHVjonR2TNxQ5azeMYem3F3v9yViqkTUYyVHM9EsmfWj",
+          "mainFile": "M_Mouth_05.png",
           "contents": [
             {
               "hash": "ipfs://QmdHVjonR2TNxQ5azeMYem3F3v9yViqkTUYyVHM9EsmfWj",
@@ -11118,7 +11118,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmdHVjonR2TNxQ5azeMYem3F3v9yViqkTUYyVHM9EsmfWj",
+          "mainFile": "M_Mouth_05.png",
           "contents": [
             {
               "hash": "ipfs://QmdHVjonR2TNxQ5azeMYem3F3v9yViqkTUYyVHM9EsmfWj",
@@ -11158,7 +11158,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmRm3yzEmQACsKmiFm1JXmmpb62cgCFCoNKtprHty6kcnF",
+          "mainFile": "M_Mouth_06.png",
           "contents": [
             {
               "hash": "ipfs://QmRm3yzEmQACsKmiFm1JXmmpb62cgCFCoNKtprHty6kcnF",
@@ -11170,7 +11170,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmRm3yzEmQACsKmiFm1JXmmpb62cgCFCoNKtprHty6kcnF",
+          "mainFile": "M_Mouth_06.png",
           "contents": [
             {
               "hash": "ipfs://QmRm3yzEmQACsKmiFm1JXmmpb62cgCFCoNKtprHty6kcnF",
@@ -11210,7 +11210,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmXTvQ7rj1pZWsbad67xD9iC9XA8ZhvkvhddyET9bHkVXY",
+          "mainFile": "M_Mouth_07.png",
           "contents": [
             {
               "hash": "ipfs://QmXTvQ7rj1pZWsbad67xD9iC9XA8ZhvkvhddyET9bHkVXY",
@@ -11222,7 +11222,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmXTvQ7rj1pZWsbad67xD9iC9XA8ZhvkvhddyET9bHkVXY",
+          "mainFile": "M_Mouth_07.png",
           "contents": [
             {
               "hash": "ipfs://QmXTvQ7rj1pZWsbad67xD9iC9XA8ZhvkvhddyET9bHkVXY",
@@ -11262,7 +11262,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmNScZYp9hwyHDwqgDSmCae8y4VsMdCWjbrGFRZFdqgAq6",
+          "mainFile": "Mouth_09.png",
           "contents": [
             {
               "hash": "ipfs://QmNScZYp9hwyHDwqgDSmCae8y4VsMdCWjbrGFRZFdqgAq6",
@@ -11278,7 +11278,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmNScZYp9hwyHDwqgDSmCae8y4VsMdCWjbrGFRZFdqgAq6",
+          "mainFile": "Mouth_09.png",
           "contents": [
             {
               "hash": "ipfs://QmNScZYp9hwyHDwqgDSmCae8y4VsMdCWjbrGFRZFdqgAq6",
@@ -11322,7 +11322,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmaxnu4ZUQq1gSdjYk6uEFuBHywwp4RKmfJLcJfFHrkRqs",
+          "mainFile": "Mouth_10.png",
           "contents": [
             {
               "hash": "ipfs://Qmaxnu4ZUQq1gSdjYk6uEFuBHywwp4RKmfJLcJfFHrkRqs",
@@ -11334,7 +11334,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://Qmaxnu4ZUQq1gSdjYk6uEFuBHywwp4RKmfJLcJfFHrkRqs",
+          "mainFile": "Mouth_10.png",
           "contents": [
             {
               "hash": "ipfs://Qmaxnu4ZUQq1gSdjYk6uEFuBHywwp4RKmfJLcJfFHrkRqs",
@@ -11374,7 +11374,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmTaux5Bb7jQaNh8R28UQw3EZoBnJh22uRaxMcFyW2viaH",
+          "mainFile": "Mouth_11.png",
           "contents": [
             {
               "hash": "ipfs://QmTaux5Bb7jQaNh8R28UQw3EZoBnJh22uRaxMcFyW2viaH",
@@ -11386,7 +11386,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmTaux5Bb7jQaNh8R28UQw3EZoBnJh22uRaxMcFyW2viaH",
+          "mainFile": "Mouth_11.png",
           "contents": [
             {
               "hash": "ipfs://QmTaux5Bb7jQaNh8R28UQw3EZoBnJh22uRaxMcFyW2viaH",
@@ -11426,7 +11426,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmdQJX1HcDUtYHnqxAzDzCCJ1Z3X526b5QbpWLx8pWR1q5",
+          "mainFile": "BlueBandana.glb",
           "contents": [
             {
               "hash": "ipfs://QmdQJX1HcDUtYHnqxAzDzCCJ1Z3X526b5QbpWLx8pWR1q5",
@@ -11438,7 +11438,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmdQJX1HcDUtYHnqxAzDzCCJ1Z3X526b5QbpWLx8pWR1q5",
+          "mainFile": "BlueBandana.glb",
           "contents": [
             {
               "hash": "ipfs://QmdQJX1HcDUtYHnqxAzDzCCJ1Z3X526b5QbpWLx8pWR1q5",
@@ -11490,7 +11490,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmRfrWX7n4rmvizSXDQFYqfAceGUoag3Q3duf9zMdsqdHW",
+          "mainFile": "F_Tiara_ColoredDiamond.glb",
           "contents": [
             {
               "hash": "ipfs://QmRfrWX7n4rmvizSXDQFYqfAceGUoag3Q3duf9zMdsqdHW",
@@ -11534,7 +11534,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmX8w37Tbf3URTapdNyGzKk2LJUNpTar8LaxxwiQDAc9dS",
+          "mainFile": "F_Tiara_GreenStone.glb",
           "contents": [
             {
               "hash": "ipfs://QmX8w37Tbf3URTapdNyGzKk2LJUNpTar8LaxxwiQDAc9dS",
@@ -11578,7 +11578,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmQSd9z5Q5ijKUWTjCTNX6y26pG1oxrUxxCPMbyVBatbfC",
+          "mainFile": "F_Tiara_LaurelWreath.glb",
           "contents": [
             {
               "hash": "ipfs://QmQSd9z5Q5ijKUWTjCTNX6y26pG1oxrUxxCPMbyVBatbfC",
@@ -11622,7 +11622,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmPDAWsNuycEvpG7JudGeNwWZnzdXbTguogvRUZKgGpTBU",
+          "mainFile": "RedBandana.glb",
           "contents": [
             {
               "hash": "ipfs://QmPDAWsNuycEvpG7JudGeNwWZnzdXbTguogvRUZKgGpTBU",
@@ -11634,7 +11634,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmPDAWsNuycEvpG7JudGeNwWZnzdXbTguogvRUZKgGpTBU",
+          "mainFile": "RedBandana.glb",
           "contents": [
             {
               "hash": "ipfs://QmPDAWsNuycEvpG7JudGeNwWZnzdXbTguogvRUZKgGpTBU",
@@ -11686,7 +11686,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmSPKdYsdGvaPK6qvjCgzGvf7yXFxockaoGv9wgx7inZUP",
+          "mainFile": "F_uBody_BeeTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmSPKdYsdGvaPK6qvjCgzGvf7yXFxockaoGv9wgx7inZUP",
@@ -11730,7 +11730,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmPojLnH6CQ2ec9mNzzEfDjDoN9JRebr8h8WXsnGUBxGKf",
+          "mainFile": "F_uBody_BlackTop.glb",
           "contents": [
             {
               "hash": "ipfs://QmPojLnH6CQ2ec9mNzzEfDjDoN9JRebr8h8WXsnGUBxGKf",
@@ -11774,7 +11774,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmSr3gZBLabaJTyQK9E1v4Pyc57wrR3fYegQ3N7Ec5AEUN",
+          "mainFile": "F_uBody_BlueBasicTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmSr3gZBLabaJTyQK9E1v4Pyc57wrR3fYegQ3N7Ec5AEUN",
@@ -11818,7 +11818,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmWTkK9UNMdAk4fv64CpSr3CoAKosQtpGywxTsYnzHaSEz",
+          "mainFile": "F_uBody_BlueElegantShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmWTkK9UNMdAk4fv64CpSr3CoAKosQtpGywxTsYnzHaSEz",
@@ -11862,7 +11862,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmduz3gmEkWqjZSaTvJMd95KQTNf5ZZ9tXkkTsWNroBpjo",
+          "mainFile": "F_uBody_BlueJacket.glb",
           "contents": [
             {
               "hash": "ipfs://Qmduz3gmEkWqjZSaTvJMd95KQTNf5ZZ9tXkkTsWNroBpjo",
@@ -11906,7 +11906,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmRnhYNsbfSU4NR2o4GkuRuHqwNF6TTDi8ZE8wj9pPxrPT",
+          "mainFile": "F_uBody_BrownSlevelessDress.glb",
           "contents": [
             {
               "hash": "ipfs://QmRnhYNsbfSU4NR2o4GkuRuHqwNF6TTDi8ZE8wj9pPxrPT",
@@ -11950,7 +11950,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmaeLHbnXYGvkseXWPVCShFKFGoSagsnQ8JozwXihXKtXs",
+          "mainFile": "F_uBody_CasinoShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmaeLHbnXYGvkseXWPVCShFKFGoSagsnQ8JozwXihXKtXs",
@@ -11994,7 +11994,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmNnHHQxTdBow3wNMqYaC8PJ5nBJQN6VhJGfkiXSQPsymG",
+          "mainFile": "F_uBody_ColoredPullover.glb",
           "contents": [
             {
               "hash": "ipfs://QmNnHHQxTdBow3wNMqYaC8PJ5nBJQN6VhJGfkiXSQPsymG",
@@ -12038,7 +12038,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmT5it5G1VwfQYkfzcjpRUrqZjN3h4XRhrBu1ygBZk6AZL",
+          "mainFile": "F_uBody_ElegantStripeShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmT5it5G1VwfQYkfzcjpRUrqZjN3h4XRhrBu1ygBZk6AZL",
@@ -12082,7 +12082,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmXLXHvxBnvmkZZGv2oDLAbBESKFKkz6sG8b6FaoSJgKp1",
+          "mainFile": "F_uBody_GreenBasicTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmXLXHvxBnvmkZZGv2oDLAbBESKFKkz6sG8b6FaoSJgKp1",
@@ -12126,7 +12126,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmaNJ63oJtVPBWRGMfpQcmLswFXq2bW1Koj36fSpxro4qD",
+          "mainFile": "F_uBody_LightGreenShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmaNJ63oJtVPBWRGMfpQcmLswFXq2bW1Koj36fSpxro4qD",
@@ -12170,7 +12170,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmTNii6wfN75jea6RHcm9jyBdjGun5tQGmAJT9rSJngqL9",
+          "mainFile": "F_uBody_PinkBasicTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmTNii6wfN75jea6RHcm9jyBdjGun5tQGmAJT9rSJngqL9",
@@ -12214,7 +12214,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmf86tWatZzPc7dvJyA4JgcCU15xpN834dqrMuaiAP7gEN",
+          "mainFile": "F_uBody_PrideTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://Qmf86tWatZzPc7dvJyA4JgcCU15xpN834dqrMuaiAP7gEN",
@@ -12258,7 +12258,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmcP8EbkhH5Mj9EXryfqJ2n1sF6VTHrMB82iXyhEWsCKJq",
+          "mainFile": "F_uBody_RedBasicTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmcP8EbkhH5Mj9EXryfqJ2n1sF6VTHrMB82iXyhEWsCKJq",
@@ -12302,7 +12302,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qma2XheUqbQW92CivBRAdi3HCHiHMLN7fJgwDhPHCrq5j5",
+          "mainFile": "F_uBody_RedElgantJacket.glb",
           "contents": [
             {
               "hash": "ipfs://Qma2XheUqbQW92CivBRAdi3HCHiHMLN7fJgwDhPHCrq5j5",
@@ -12346,7 +12346,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmcXvGMWsbubZa7b6XvGz31pkNYPSxszN6RxXHPcRPMTu5",
+          "mainFile": "F_uBody_RedJacket.glb",
           "contents": [
             {
               "hash": "ipfs://QmcXvGMWsbubZa7b6XvGz31pkNYPSxszN6RxXHPcRPMTu5",
@@ -12390,7 +12390,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmWHbnm5w4mm5nsaNsioNdHVRRYzwNB1xWXxaahczB6J8o",
+          "mainFile": "F_uBody_RollerOutfit.glb",
           "contents": [
             {
               "hash": "ipfs://QmWHbnm5w4mm5nsaNsioNdHVRRYzwNB1xWXxaahczB6J8o",
@@ -12434,7 +12434,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmUNtssxtk7Z8GQkHp9r3Nin9VWYv6nf8Hha1putW2cBsH",
+          "mainFile": "F_uBody_SchoolShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmUNtssxtk7Z8GQkHp9r3Nin9VWYv6nf8Hha1putW2cBsH",
@@ -12478,7 +12478,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://Qmc36zMWkJEH5G34mxgTiMWg7DoSgtQhojfY9E4QVDUscD",
+          "mainFile": "F_uBody_SolidPullover.glb",
           "contents": [
             {
               "hash": "ipfs://Qmc36zMWkJEH5G34mxgTiMWg7DoSgtQhojfY9E4QVDUscD",
@@ -12522,7 +12522,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmTYDaG3j3nKPi94HdicQhMeAfvcMpuwAsrxfuynBrqu9V",
+          "mainFile": "F_uBody_SportPurpleTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmTYDaG3j3nKPi94HdicQhMeAfvcMpuwAsrxfuynBrqu9V",
@@ -12566,7 +12566,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmVGNmitVhxDR5URvEYVgsuu9UxJDSsMPPbKra5xRtXEsT",
+          "mainFile": "F_uBody_StripeTop.glb",
           "contents": [
             {
               "hash": "ipfs://QmVGNmitVhxDR5URvEYVgsuu9UxJDSsMPPbKra5xRtXEsT",
@@ -12610,7 +12610,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmZC3MFXMiEohmegtqHU2x9YzV5ZJHzA2DEw4rzHWkALJ1",
+          "mainFile": "F_uBody_Sweater_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmZC3MFXMiEohmegtqHU2x9YzV5ZJHzA2DEw4rzHWkALJ1",
@@ -12654,7 +12654,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmRkdjmmjV8vnJSpSfNeBaxacFb5iGSTgVwWkjzLW24Bqn",
+          "mainFile": "F_uBody_Swimsuit_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmRkdjmmjV8vnJSpSfNeBaxacFb5iGSTgVwWkjzLW24Bqn",
@@ -12698,7 +12698,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmW8EMKG5GQDxTKQJPULYL73ugMyJKkMm525Jzfr845ed3",
+          "mainFile": "F_uBody_WhiteShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmW8EMKG5GQDxTKQJPULYL73ugMyJKkMm525Jzfr845ed3",
@@ -12742,7 +12742,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmXNiBsHptwkLcMSeAhGesiDNbtZg1yp9nWeDqs3wjnEUx",
+          "mainFile": "F_uBody_WhiteTop.glb",
           "contents": [
             {
               "hash": "ipfs://QmXNiBsHptwkLcMSeAhGesiDNbtZg1yp9nWeDqs3wjnEUx",
@@ -12786,7 +12786,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmfVjdv3vR2NjKPpdja1b1QX4mHMFKDCjAnsmycTQyPo3p",
+          "mainFile": "F_uBody_YellowBasicTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmfVjdv3vR2NjKPpdja1b1QX4mHMFKDCjAnsmycTQyPo3p",
@@ -12830,7 +12830,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmSTNJRRJnhJh8gQn3HYfNphrteyhV32yfpP986ZTRNJke",
+          "mainFile": "F_uBody_YellowLovelyTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmSTNJRRJnhJh8gQn3HYfNphrteyhV32yfpP986ZTRNJke",
@@ -12874,7 +12874,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmcdpP4ujvZs3ix1QhKnBrcbyLhmjGHPnuzwWhPXG4TePr",
+          "mainFile": "M_uBody_BlackJacket_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmcdpP4ujvZs3ix1QhKnBrcbyLhmjGHPnuzwWhPXG4TePr",
@@ -12918,7 +12918,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmPj5fPEo2fwgo2aaQqo6CQGicYngWy22VWcRGgizp1Qwq",
+          "mainFile": "M_uBody_BlueTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmPj5fPEo2fwgo2aaQqo6CQGicYngWy22VWcRGgizp1Qwq",
@@ -12962,7 +12962,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmUVyD5Z2PMfZ8Tb3xoLpYnYSeoKXWvhmo4fRj5C82uYJv",
+          "mainFile": "M_uBody_ElegantSweater.glb",
           "contents": [
             {
               "hash": "ipfs://QmUVyD5Z2PMfZ8Tb3xoLpYnYSeoKXWvhmo4fRj5C82uYJv",
@@ -13006,7 +13006,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmS3sX6eUygRCQUtTs5vkWee5bYDoC6KtJcJE57BnUBhdm",
+          "mainFile": "M_uBody_GreenSquareShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmS3sX6eUygRCQUtTs5vkWee5bYDoC6KtJcJE57BnUBhdm",
@@ -13050,7 +13050,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmbJbVyxxGZgzJR62L6FJjXqFC8dRh17CX3jAceW7siW1C",
+          "mainFile": "M_uBody_GreenTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmbJbVyxxGZgzJR62L6FJjXqFC8dRh17CX3jAceW7siW1C",
@@ -13094,7 +13094,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmfBfdsZ4KtQEEByfbGpejiamTC5Hyr2aGJwzhmHfiUUov",
+          "mainFile": "M_uBody_Hoodie_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmfBfdsZ4KtQEEByfbGpejiamTC5Hyr2aGJwzhmHfiUUov",
@@ -13138,7 +13138,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://Qma94qWPjnbuyuWfaMBTwgTtyrmQKw68SGdeRqEBhX23VV",
+          "mainFile": "M_uBody_PrideTshirt_01.glb",
           "contents": [
             {
               "hash": "ipfs://Qma94qWPjnbuyuWfaMBTwgTtyrmQKw68SGdeRqEBhX23VV",
@@ -13182,7 +13182,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://Qmci9MR2zP5NEVyEnL97QD2odQHGmifqBfsD5oc4Ewk6bB",
+          "mainFile": "M_uBody_PuffJacketHoodie_01.glb",
           "contents": [
             {
               "hash": "ipfs://Qmci9MR2zP5NEVyEnL97QD2odQHGmifqBfsD5oc4Ewk6bB",
@@ -13226,7 +13226,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmdGuodLU5neJeHrYykUCTVMuYejfa6w9yvNxXX2cdZifL",
+          "mainFile": "M_uBody_PuffJacket_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmdGuodLU5neJeHrYykUCTVMuYejfa6w9yvNxXX2cdZifL",
@@ -13270,7 +13270,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmSZoN3okTh1eVS7n9Vu5erZ8VqnjKmiqE8LzcAK2KYCRM",
+          "mainFile": "M_uBody_RedSquareShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmSZoN3okTh1eVS7n9Vu5erZ8VqnjKmiqE8LzcAK2KYCRM",
@@ -13314,7 +13314,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmamqQdnFgEmokzwCqofe9HNXT58gjFQt9Ux3Tje2NE1FG",
+          "mainFile": "M_uBody_RedTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmamqQdnFgEmokzwCqofe9HNXT58gjFQt9Ux3Tje2NE1FG",
@@ -13358,7 +13358,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmSrc3xUSB3pePTw7iQiyS4Z4tkdFPgkweGg9qxbDRsjRf",
+          "mainFile": "M_uBody_SafaraiShirt_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmSrc3xUSB3pePTw7iQiyS4Z4tkdFPgkweGg9qxbDRsjRf",
@@ -13406,7 +13406,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmWRCoh9Zz2GZigso5ierbUmQfmfTE3YQ1dXAAQy7Z1ceU",
+          "mainFile": "M_uBody_SleevelessPunkShirt_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmWRCoh9Zz2GZigso5ierbUmQfmfTE3YQ1dXAAQy7Z1ceU",
@@ -13450,7 +13450,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmbzAo1GiXTDZoSoq35KSy57ouyg3Hth4TyZjccnqBYV4i",
+          "mainFile": "M_uBody_SoccerTshirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmbzAo1GiXTDZoSoq35KSy57ouyg3Hth4TyZjccnqBYV4i",
@@ -13494,7 +13494,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmcH3rtSY6MUGVLDjLYeeiWxLzUdTn2osLQXHPTt5ykR1Z",
+          "mainFile": "M_uBody_SportJacket.glb",
           "contents": [
             {
               "hash": "ipfs://QmcH3rtSY6MUGVLDjLYeeiWxLzUdTn2osLQXHPTt5ykR1Z",
@@ -13538,7 +13538,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmfEf7UG9ciWKH88wCbxXYyryDWs1Y2ibtteBoRbptoDaL",
+          "mainFile": "M_uBody_StripePijama_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmfEf7UG9ciWKH88wCbxXYyryDWs1Y2ibtteBoRbptoDaL",
@@ -13582,7 +13582,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmXixNdLoafDy7rxY3BPTcW7Es3UuKtEDh8d9qfbSu442W",
+          "mainFile": "M_uBody_StripedShirt_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmXixNdLoafDy7rxY3BPTcW7Es3UuKtEDh8d9qfbSu442W",
@@ -13626,7 +13626,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmcLpkcxWgcjuncvtFRLRFwUSy76Uvb9bUoP13dFPaaDX4",
+          "mainFile": "M_uBody_Sweater_01.glb",
           "contents": [
             {
               "hash": "ipfs://QmcLpkcxWgcjuncvtFRLRFwUSy76Uvb9bUoP13dFPaaDX4",
@@ -13670,7 +13670,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmYeSHsCnrmoZoeHaFQkq8fnHFPxwx4zUvDkVAeMAJYLep",
+          "mainFile": "M_uBody_Sweater_02.glb",
           "contents": [
             {
               "hash": "ipfs://QmYeSHsCnrmoZoeHaFQkq8fnHFPxwx4zUvDkVAeMAJYLep",
@@ -13714,7 +13714,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmcUcTDGSjThQCY6BDKJYpbN3PwfvtiLZU8muUe2wL2XHQ",
+          "mainFile": "M_uBody_TurtleNeckSweater.glb",
           "contents": [
             {
               "hash": "ipfs://QmcUcTDGSjThQCY6BDKJYpbN3PwfvtiLZU8muUe2wL2XHQ",
@@ -13758,7 +13758,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmQEu3GbTroosogGAqr6LviM9HKk6CX1HYxkMXERumzzVg",
+          "mainFile": "M_uBody_YellowTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmQEu3GbTroosogGAqr6LviM9HKk6CX1HYxkMXERumzzVg",
@@ -13982,7 +13982,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmdjuD4iUYjww6Jopuf515mb798paaCqG6fbLpSMm24Uk5",
+          "mainFile": "F_DenimDungareesBlue.glb",
           "contents": [
             {
               "hash": "ipfs://QmdjuD4iUYjww6Jopuf515mb798paaCqG6fbLpSMm24Uk5",
@@ -13998,7 +13998,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmRCdppG9QCPZSH7NMWgFq48RuBoZzFxUhrKvakt8kqxWX",
+          "mainFile": "M_DenimDungareesBlue.glb",
           "contents": [
             {
               "hash": "ipfs://QmdjuD4iUYjww6Jopuf515mb798paaCqG6fbLpSMm24Uk5",
@@ -14046,7 +14046,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmcBz91yFskSGceed3mdneA9dYPUTKFwKaoLzkbCWKbPNg",
+          "mainFile": "F_DenimDungareesRed.glb",
           "contents": [
             {
               "hash": "ipfs://QmcBz91yFskSGceed3mdneA9dYPUTKFwKaoLzkbCWKbPNg",
@@ -14062,7 +14062,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmXngsbi5VLS714zDrrU8CvRWQcpKqiZ1HvHHedEMMMjm2",
+          "mainFile": "M_DenimDungareesRed.glb",
           "contents": [
             {
               "hash": "ipfs://QmcBz91yFskSGceed3mdneA9dYPUTKFwKaoLzkbCWKbPNg",
@@ -14110,7 +14110,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmQFofj4dwWQxNDpfANMxaX35XsgnHoMjTNbuNz77AWEnG",
+          "mainFile": "F_uBody_PoloBlackTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmQFofj4dwWQxNDpfANMxaX35XsgnHoMjTNbuNz77AWEnG",
@@ -14126,7 +14126,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmTwfRFmzviz75W7p4afPDbQjK8JDHpj8uK4D5D7kTAxa5",
+          "mainFile": "M_uBody_PoloBlackTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmQFofj4dwWQxNDpfANMxaX35XsgnHoMjTNbuNz77AWEnG",
@@ -14170,7 +14170,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmcNgP2VN5LXEBFR17ycnqTifokkzj579JJ3a6uEYjGmpf",
+          "mainFile": "F_uBody_PoloBlueTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmcNgP2VN5LXEBFR17ycnqTifokkzj579JJ3a6uEYjGmpf",
@@ -14186,7 +14186,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmYfRrK9DmKzffvpeNHWawGcxxNvKeVMHaZexLHE3GS2AZ",
+          "mainFile": "M_uBody_PoloBlueTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmcNgP2VN5LXEBFR17ycnqTifokkzj579JJ3a6uEYjGmpf",
@@ -14230,7 +14230,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "ipfs://QmPF368Kv2hcjjwG9EfGffLLxfdWr6u2VKw4vqHqqD7zi3",
+          "mainFile": "F_uBody_PoloColoredTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmPF368Kv2hcjjwG9EfGffLLxfdWr6u2VKw4vqHqqD7zi3",
@@ -14246,7 +14246,7 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseMale"
           ],
-          "mainFile": "ipfs://QmUsZVChWJdEjvzbh5ZSVKSYC6G4BSt5ZXWQ6ds8YH4nxo",
+          "mainFile": "M_uBody_PoloColoredTShirt.glb",
           "contents": [
             {
               "hash": "ipfs://QmPF368Kv2hcjjwG9EfGffLLxfdWr6u2VKw4vqHqqD7zi3",
