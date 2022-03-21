@@ -12,7 +12,7 @@ entitiesRouter.route([
     handler: listScenes,
   },
   {
-    path: '/scenes',
+    path: '/wearables',
     method: 'get',
     handler: listWearables,
   },

@@ -5,9 +5,11 @@ import _ from 'lodash';
 import { Op } from 'sequelize';
 const { user: User, nft: NFT } = database.models;
 
-
 async function withWearable(user) {
   if (!user.avatar || !user.avatar.wearables) return user;
+  const baseURN = 'urn:beland:off-chain:base-avatars:';
+  const basicWearables = user.avatar.wearables.filter(wearable => wearable.includes(baseURN));
+  const wearables = user.avatar.wearables.filter(wearable => !wearable.includes(baseURN));
   return NFT.findAll({
     where: {
       [Op.or]: {
@@ -20,15 +22,14 @@ async function withWearable(user) {
         },
       },
       collectionItemId: {
-        [Op.in]: user.avatar.wearables,
+        [Op.in]: wearables,
       },
     },
   }).then(nfts => {
-    user.avatar.wearables = nfts.map(nft => nft.collectionItemId);
+    user.avatar.wearables = nfts.map(nft => nft.collectionItemId).concat(basicWearables);
     return user;
   });
 }
-
 
 export async function handleList(ctx) {
   const query = buildQuery(ctx);

@@ -6,17 +6,17 @@ export async function listWearables(ctx) {
   const where: any = {};
   if (ctx.query.collectionId) {
     where.tokenAddress = ctx.query.collectionId;
-  }
-
-  if (ctx.query.wearableId) {
-    where.id = ctx.query.wearableId;
+  } else {
+    where.id = ctx.query.wearableId || '';
   }
 
   where.traits = {
-    [Op.contains]: [{
-      name: 'type',
-      value: 'wearable',
-    }]
+    [Op.contains]: [
+      {
+        name: 'type',
+        value: 'wearable',
+      },
+    ],
   };
 
   const items = await Item.findAll({
@@ -33,7 +33,7 @@ export async function listWearables(ctx) {
         description: item.description,
         collectionAddress: item.tokenAddress,
         rarity: rarity ? rarity.value : '',
-        category: category ? category.value: "", 
+        category: category ? category.value : '',
         image: item.image.replace('ipfs://', `${process.env.IPFS_GATEWAY}/ipfs/`),
         data: {
           replaces: item.traits.filter(trait => trait.name == 'replaces').map(trait => trait.value),

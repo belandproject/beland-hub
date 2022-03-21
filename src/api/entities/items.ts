@@ -6,10 +6,8 @@ export async function listItems(ctx) {
   const where: any = {};
   if (ctx.query.collectionId) {
     where.tokenAddress = ctx.query.collectionId;
-  }
-
-  if (ctx.query.id) {
-    where.id = ctx.query.id;
+  } else {
+    where.id = ctx.query.id || '';
   }
 
   where.traits = {
