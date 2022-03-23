@@ -12,11 +12,19 @@ export const checkAuthMiddleware = async function (ctx, next) {
   try {
     const hash = hashMessage(JSON.stringify(data));
     const authChain = JSON.parse(Buffer.from(token, 'base64').toString());
+    if (authChain.length === 0) {
+      throw Error('Invalid auth chain');
+    }
+    const user = authChain[0].payload;
+    if (!user) {
+      throw Error('Missing ETH address in auth chain');
+    }
     const res = await Authenticator.validateSignature(hash, authChain, null as any, Date.now());
     if (!res.ok) {
       ctx.body = { error: res.message };
       return;
     }
+    ctx.state.user = { user };
   } catch (e) {
     ctx.body = { error: 'Invalid token' };
     return;
