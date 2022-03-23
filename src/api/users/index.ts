@@ -1,5 +1,6 @@
 import Router from 'koa-joi-router';
 import { checkAuthMiddleware } from '../../middlewares/auth';
+import { gossipMiddleware } from '../../middlewares/gossip';
 import { getUserAuthMiddleware } from './middlewares';
 import { handleBlockUsers, handleList, handleMuteUsers, handleUpsert } from './user.handler';
 import { userCreateOrUpdateValidate, userToggleValidate } from './user.validate';
@@ -11,21 +12,21 @@ userRouter.route([
     path: '/me/blocked',
     validate: userToggleValidate,
     pre: checkAuthMiddleware,
-    handler: [getUserAuthMiddleware, handleBlockUsers],
+    handler: [gossipMiddleware, getUserAuthMiddleware, handleBlockUsers],
   },
   {
     method: 'post',
     path: '/me/muted',
     validate: userToggleValidate,
     pre: checkAuthMiddleware,
-    handler: [getUserAuthMiddleware, handleMuteUsers],
+    handler: [gossipMiddleware, getUserAuthMiddleware, handleMuteUsers],
   },
   {
     method: 'post',
     path: '/me',
     validate: userCreateOrUpdateValidate,
     pre: checkAuthMiddleware,
-    handler: handleUpsert,
+    handler: [gossipMiddleware, handleUpsert],
   },
 ]);
 

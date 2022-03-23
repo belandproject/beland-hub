@@ -1,6 +1,5 @@
 import { hashMessage } from 'ethers/lib/utils';
 import { Authenticator } from 'dcl-crypto';
-import { gossip } from '../utils/gossip';
 
 export const checkAuthMiddleware = async function (ctx, next) {
   const token = resolveAuthorizationHeader(ctx);
@@ -22,8 +21,7 @@ export const checkAuthMiddleware = async function (ctx, next) {
     ctx.body = { error: 'Invalid token' };
     return;
   }
-  await next();
-  gossip(ctx);
+  next();
 };
 
 function resolveAuthorizationHeader(ctx) {
