@@ -1,6 +1,5 @@
 import database from '../../database';
 import { buildQuery } from '../../utils/query';
-import jwt from 'jsonwebtoken';
 import _ from 'lodash';
 import { Op } from 'sequelize';
 const { user: User, nft: NFT } = database.models;
@@ -38,23 +37,6 @@ export async function handleList(ctx) {
   ctx.status = 200;
   data.rows = rows;
   ctx.body = data;
-}
-
-export async function handleLogin(ctx) {
-  let body = ctx.request.body;
-  ctx.body = {
-    exp: Math.floor(Date.now() / 1000) + 60 * 60 * 6,
-    user: body.id,
-    access_token: jwt.sign(
-      {
-        user: body.id,
-      },
-      process.env.JWT_SECRET,
-      {
-        expiresIn: '6h',
-      }
-    ),
-  };
 }
 
 export async function handleUpsert(ctx) {

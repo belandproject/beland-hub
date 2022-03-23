@@ -1,15 +1,5 @@
 import { Joi } from 'koa-joi-router';
 
-export const userLoginValidate = {
-  type: 'json',
-  body: {
-    id: Joi.string().required(),
-    timestamp: Joi.number().required(),
-    sign: Joi.string().required(),
-    name: Joi.string().required(),
-  },
-};
-
 const color = Joi.object({
   color: Joi.object({
     r: Joi.number(),

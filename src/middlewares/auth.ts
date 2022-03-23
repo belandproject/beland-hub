@@ -1,23 +1,45 @@
-import jwt from 'koa-jwt';
-import { verify } from '../utils/verify';
-const EXPIRE_DUATION = 120;
+import { hashMessage } from 'ethers/lib/utils';
+import { Authenticator } from 'dcl-crypto';
+import { gossip } from '../utils/gossip';
 
-export const checkAuthMiddleware = jwt({ secret: process.env.JWT_SECRET });
-
-export async function loginValidateMiddleware(ctx, next) {
-  const body = ctx.request.body;
-  const timestamp = Math.floor(Date.now() / 1000);
-  if (body.timestamp + EXPIRE_DUATION < timestamp) {
-    ctx.status = 400;
-    ctx.message = 'signature expired';
+export const checkAuthMiddleware = async function (ctx, next) {
+  const token = resolveAuthorizationHeader(ctx);
+  if (!token) return;
+  const data = {
+    method: ctx.request.method,
+    path: ctx.request.path.replace('/v1', ''),
+    body: ctx.request.body,
+  };
+  try {
+    const hash = hashMessage(JSON.stringify(data));
+    const authChain = JSON.parse(Buffer.from(token, 'base64').toString());
+    const res = await Authenticator.validateSignature(hash, authChain, null as any, Date.now());
+    if (!res.ok) {
+      ctx.body = { error: res.message };
+      return;
+    }
+  } catch (e) {
+    ctx.body = { error: 'Invalid token' };
     return;
   }
-  const msg = ['Beland:login', body.name, String(body.timestamp)];
-  const ok = await verify(body.id, msg.join(':'), body.sign);
-  if (!ok) {
-    ctx.status = 400;
-    ctx.message = 'invalid signature';
+  await next();
+  gossip(ctx);
+};
+
+function resolveAuthorizationHeader(ctx) {
+  if (!ctx.header || !ctx.header.authorization) {
     return;
   }
-  next();
+
+  const parts = ctx.header.authorization.trim().split(' ');
+
+  if (parts.length === 2) {
+    const scheme = parts[0];
+    const credentials = parts[1];
+
+    if (/^Bearer$/i.test(scheme)) {
+      return credentials;
+    }
+  }
+  ctx.throw(401, 'Bad Authorization header format. Format is "Authorization: Bearer <token>"');
 }
