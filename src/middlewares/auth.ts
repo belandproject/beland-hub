@@ -4,11 +4,11 @@ import { Authenticator } from 'dcl-crypto';
 const TYPE_BASIC = 'basic';
 
 export const checkAuthMiddleware = async function (ctx, next) {
-  return _checkAuthMiddleware(ctx, next, '');
+  return _checkAuthMiddleware(ctx, next, getEntityId);
 };
 
 export const basicCheckAuthMiddleware = async function (ctx, next) {
-  return _checkAuthMiddleware(ctx, next, TYPE_BASIC);
+  return _checkAuthMiddleware(ctx, next, getBasicEntityId);
 };
 
 export const commonCheckAuthMiddleware = async function (ctx, next, entityId, token) {
@@ -63,12 +63,11 @@ function resolveAuthorizationHeader(ctx) {
   ctx.throw(401, 'Bad Authorization header format. Format is "Authorization: Bearer <token>"');
 }
 
-export const _checkAuthMiddleware = async function (ctx, next, type) {
+export const _checkAuthMiddleware = async function (ctx, next, getEntityIdFn) {
   const token = resolveAuthorizationHeader(ctx);
   if (!token) return;
   try {
-    const entityId = type == TYPE_BASIC ? getBasicEntityId(ctx) : getEntityId(ctx);
-    return commonCheckAuthMiddleware(ctx, next, entityId, token);
+    return commonCheckAuthMiddleware(ctx, next, getEntityIdFn(ctx), token);
   } catch (e) {
     ctx.body = { error: 'Invalid token' };
     return;
