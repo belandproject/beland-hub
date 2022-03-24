@@ -6,6 +6,7 @@ const { collection_item: Item, nft: NFT } = database.models;
 function buildQueryType(where, ctx) {
   const itemType = ctx.request.query.string_type;
   if (!itemType) return;
+  delete ctx.request.query.string_type;
   where.traits = {
     [Op.contains]: [
       {
@@ -14,14 +15,14 @@ function buildQueryType(where, ctx) {
       },
     ],
   };
-  delete ctx.request.query.string_type;
+  
 }
 
 function buildQueryOwnedByUser(include, ctx) {
   const { ownedByUser } = ctx.request.query;
   if (!ownedByUser) return;
-  delete ctx.request.query;
-  return include.push({
+  delete ctx.request.query.ownedByUser;
+  include.push({
     model: NFT,
     where: {
       [Op.or]: {
