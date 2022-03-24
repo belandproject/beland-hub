@@ -48,11 +48,11 @@ export const buildQuery = ctx => {
     offset,
   };
 
-  if (input.ids) {
+  if (input.id) {
     query.where.id = {
-      [Op.in]: input.ids.split(','),
+      [Op.in]: input.id.split(','),
     };
-    delete input.ids;
+    delete input.id;
   }
   delete input.orderName;
   if (input.orderBy) {
