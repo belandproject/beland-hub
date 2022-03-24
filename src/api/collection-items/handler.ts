@@ -44,7 +44,7 @@ export async function handleList(ctx) {
   buildQueryType(where, ctx);
   buildQueryOwnedByUser(include, ctx);
   const query = buildQuery(ctx);
-  query.where = { ...query.where, where };
+  query.where = { ...query.where, ...where };
   query.include = include;
   const items = await Item.findAndCountAll(query);
   ctx.status = 200;
