@@ -1,4 +1,5 @@
-# NFT MARKET
+# NFT Market HUB
+This is a hub for NFT Market network that stores the database and forwards new messages to peers. The hub hold a private keys to sign valid messages.
 
 ### Installation Prerequisites
 * Install [elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started.html).
