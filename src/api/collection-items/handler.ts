@@ -40,7 +40,7 @@ function buildQueryOwnedByUser(include, ctx) {
 
 export async function handleList(ctx) {
   let where: any = {};
-  let include: any[];
+  let include: any[] = [];
   buildQueryType(where, ctx);
   buildQueryOwnedByUser(include, ctx);
   const query = buildQuery(ctx);
