@@ -42,6 +42,6 @@ export default sequelize => {
   })
 
   collection_item.hasMany(nft, {
-    foreignKey: 'sceneId',
+    foreignKey: 'collectionItemId',
   });
 };
