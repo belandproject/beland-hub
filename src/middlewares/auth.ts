@@ -1,5 +1,5 @@
 import { hashMessage } from 'ethers/lib/utils';
-import { Authenticator } from 'dcl-crypto';
+import { Authenticator } from 'beland-crypto';
 
 const TYPE_BASIC = 'basic';
 
