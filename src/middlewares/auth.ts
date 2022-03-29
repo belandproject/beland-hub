@@ -67,7 +67,7 @@ export const _checkAuthMiddleware = async function (ctx, next, getEntityIdFn) {
   const token = resolveAuthorizationHeader(ctx);
   if (!token) return;
   try {
-    return commonCheckAuthMiddleware(ctx, next, getEntityIdFn(ctx), token);
+    return await commonCheckAuthMiddleware(ctx, next, getEntityIdFn(ctx), token);
   } catch (e) {
     ctx.body = { error: 'Invalid token' };
     return;
