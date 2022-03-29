@@ -23,6 +23,12 @@ export const userCreateOrUpdateValidate = {
       hair: color,
       skin: color,
       wearables: Joi.array().items(Joi.string()).max(10).min(1),
+      snapshots: Joi.object({
+        face: Joi.string(),
+        body: Joi.string(),
+        face256: Joi.string(),
+        face128: Joi.string(),
+      })
     }),
   },
 };
