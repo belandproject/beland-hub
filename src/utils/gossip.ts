@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { QueryTypes } from 'sequelize';
 import db from '../database';
 
 let hubs = [];
@@ -19,7 +20,9 @@ export async function gossip(ctx) {
 
 setTimeout(async () => {
   try {
-    hubs = await db.query(`SELECT * FROM hubs WHERE is_active = '1' AND is_self = '0'`);
+    hubs = await db.query(`SELECT * FROM hubs WHERE is_active = '1' AND is_self = '0'`, {
+      type: QueryTypes.SELECT,
+    });
   } catch (e) {
     console.log('Load hubs failed', e);
   }
