@@ -10,20 +10,26 @@ export const basicCheckAuthMiddleware = function (ctx, next) {
 };
 
 export const commonCheckAuthMiddleware = async function (ctx, next, entityId, token) {
-  const authChain = JSON.parse(Buffer.from(token, 'base64').toString());
-  if (authChain.length === 0) {
-    throw Error('Invalid auth chain');
-  }
-  const user = authChain[0].payload;
-  if (!user) {
-    throw Error('Missing ETH address in auth chain');
-  }
-  const res = await Authenticator.validateSignature(entityId, authChain, null as any, Date.now());
-  if (!res.ok) {
-    ctx.body = { error: res.message };
+  try {
+    const authChain = JSON.parse(Buffer.from(token, 'base64').toString());
+    if (authChain.length === 0) {
+      throw Error('Invalid auth chain');
+    }
+    const user = authChain[0].payload;
+    if (!user) {
+      throw Error('Missing ETH address in auth chain');
+    }
+    const res = await Authenticator.validateSignature(entityId, authChain, null as any, Date.now());
+    if (!res.ok) {
+      ctx.body = { error: res.message };
+      return;
+    }
+    ctx.state.user = { user };
+  } catch (e) {
+    ctx.body = { error: e.message };
+    ctx.status = 400;
     return;
   }
-  ctx.state.user = { user };
   return next();
 };
 
@@ -64,10 +70,5 @@ function resolveAuthorizationHeader(ctx) {
 export const _checkAuthMiddleware = async function (ctx, next, getEntityIdFn) {
   const token = resolveAuthorizationHeader(ctx);
   if (!token) return;
-  try {
-    return await commonCheckAuthMiddleware(ctx, next, getEntityIdFn(ctx), token);
-  } catch (e) {
-    ctx.body = { error: 'Invalid token' };
-    return;
-  }
+  return commonCheckAuthMiddleware(ctx, next, getEntityIdFn(ctx), token)
 };
