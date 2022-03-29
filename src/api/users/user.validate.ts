@@ -12,11 +12,11 @@ export const userCreateOrUpdateValidate = {
   type: 'json',
   body: {
     name: Joi.string(),
-    introduction: Joi.string().allow(null),
-    avatar_image: Joi.string().allow(null),
-    banner_image: Joi.string().allow(null),
-    website: Joi.string().allow(null),
-    email: Joi.string().email().allow(null),
+    introduction: Joi.string().allow(''),
+    avatar_image: Joi.string().allow(''),
+    banner_image: Joi.string().allow(''),
+    website: Joi.string().allow(''),
+    email: Joi.string().email().allow(''),
     avatar: Joi.object({
       bodyShape: Joi.string(),
       eyes: color,
