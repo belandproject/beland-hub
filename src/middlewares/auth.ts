@@ -1,13 +1,11 @@
 import { hashMessage } from 'ethers/lib/utils';
 import { Authenticator } from 'beland-crypto';
 
-const TYPE_BASIC = 'basic';
-
-export const checkAuthMiddleware = async function (ctx, next) {
+export const checkAuthMiddleware = function (ctx, next) {
   return _checkAuthMiddleware(ctx, next, getEntityId);
 };
 
-export const basicCheckAuthMiddleware = async function (ctx, next) {
+export const basicCheckAuthMiddleware = function (ctx, next) {
   return _checkAuthMiddleware(ctx, next, getBasicEntityId);
 };
 
@@ -26,7 +24,7 @@ export const commonCheckAuthMiddleware = async function (ctx, next, entityId, to
     return;
   }
   ctx.state.user = { user };
-  next();
+  return next();
 };
 
 // utils
