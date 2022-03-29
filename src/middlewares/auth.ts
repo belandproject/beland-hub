@@ -24,7 +24,7 @@ export const commonCheckAuthMiddleware = async function (ctx, next, entityId, to
       ctx.body = { error: res.message };
       return;
     }
-    ctx.state.user = { user };
+    ctx.state.user = { user: user.toLowerCase() };
   } catch (e) {
     ctx.body = { error: e.message };
     ctx.status = 400;
