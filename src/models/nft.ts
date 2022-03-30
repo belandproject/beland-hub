@@ -180,6 +180,12 @@ module.exports = sequelize => {
         {
           fields: ['owner'],
         },
+        {
+          fields: ['renter'],
+        },
+        {
+          fields: ['renter', 'expiredAt'],
+        },
       ],
     }
   );

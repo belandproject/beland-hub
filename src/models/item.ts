@@ -18,7 +18,7 @@ module.exports = sequelize => {
       },
       itemId: {
         allowNull: false,
-        type: DataTypes.NUMBER,
+        type: DataTypes.INTEGER,
       },
       name: {
         allowNull: false,

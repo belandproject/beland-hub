@@ -28,7 +28,7 @@ module.exports = sequelize => {
     },
     version: {
       allowNull: true,
-      type: DataTypes.NUMBER,
+      type: DataTypes.INTEGER,
     },
     hasClaimedName: {
       allowNull: false,
