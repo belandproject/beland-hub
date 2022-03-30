@@ -28,6 +28,10 @@ module.exports = sequelize => {
         allowNull: false,
         type: DataTypes.STRING,
       },
+      creator: {
+        allowNull: false,
+        type: DataTypes.STRING,
+      },
       image: {
         allowNull: false,
         type: DataTypes.STRING,
