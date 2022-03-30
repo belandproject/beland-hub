@@ -20,12 +20,12 @@ async function withWearable(user) {
           },
         },
       },
-      collectionItemId: {
+      itemId: {
         [Op.in]: wearables,
       },
     },
   }).then(nfts => {
-    user.avatar.wearables = nfts.map(nft => nft.collectionItemId).concat(basicWearables);
+    user.avatar.wearables = nfts.map(nft => nft.itemId).concat(basicWearables);
     return user;
   });
 }

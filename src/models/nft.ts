@@ -113,7 +113,7 @@ module.exports = sequelize => {
         allowNull: true,
         type: DataTypes.JSONB,
       },
-      collectionItemId: {
+      itemId: {
         allowNull: true,
         type: DataTypes.STRING,
       },

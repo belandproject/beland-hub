@@ -26,6 +26,15 @@ module.exports = sequelize => {
       allowNull: true,
       type: DataTypes.TEXT,
     },
+    version: {
+      allowNull: true,
+      type: DataTypes.NUMBER,
+    },
+    hasClaimedName: {
+      allowNull: false,
+      defaultValue: false,
+      type: DataTypes.BOOLEAN,
+    },
     website: {
       allowNull: true,
       type: DataTypes.STRING,
@@ -40,12 +49,12 @@ module.exports = sequelize => {
     },
     muted: {
       allowNull: false,
-      default: [],
+      defaultValue: [],
       type: DataTypes.ARRAY(DataTypes.STRING),
     },
     blocked: {
       allowNull: false,
-      default: [],
+      defaultValue: [],
       type: DataTypes.ARRAY(DataTypes.STRING),
     },
   });

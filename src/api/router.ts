@@ -9,10 +9,9 @@ import { listParcel } from './parcels';
 import { listScenes } from './scenes';
 import userRouter from './users';
 import collectionRouter from './collections';
-import collectionItemRouter from './collection-items';
+import itemsRouter from './items';
 import uploadRouter from './upload';
 import nftRouter from './nfts';
-import entitiesRouter from './entities';
 import referralsRouter from './referrals';
 
 const router = new Router();
@@ -26,10 +25,9 @@ router.get('/parcels', listParcel);
 router.get('/scenes', listScenes);
 router.use('/users', userRouter.middleware());
 router.use('/collections', collectionRouter.middleware());
-router.use('/collection-items', collectionItemRouter.middleware());
+router.use('/items', itemsRouter.middleware());
 router.use('/upload', uploadRouter.middleware());
 router.use("/nfts", nftRouter.middleware());
-router.use("/entities", entitiesRouter.middleware());
 router.use("/referrals", referralsRouter.middleware());
 
 apiV1.use('/v1', router.middleware());

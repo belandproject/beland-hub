@@ -1,7 +1,7 @@
 import { Op } from 'sequelize';
 import database from '../../database';
 import { buildQuery } from '../../utils/query';
-const { collection_item: Item, nft: NFT } = database.models;
+const { item: Item, nft: NFT } = database.models;
 
 function buildQueryType(where, ctx) {
   const itemType = ctx.request.query.string_type;

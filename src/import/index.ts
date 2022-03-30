@@ -7,7 +7,7 @@ import waerables from './wearables.json';
 import { assertDatabaseConnectionOk } from '../setup';
 import database from '../database';
 
-const { collection_item: Item } = database.models;
+const { item: Item } = database.models;
 
 async function importWearables() {
   for (var waerable of waerables) {

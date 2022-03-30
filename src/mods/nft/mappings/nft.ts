@@ -4,7 +4,7 @@ import { fetchAndValidateMetadata } from '../../../utils/metadata';
 import { getNFTId, newNFT } from '../../../utils/nft';
 import { isMarket } from './utils';
 
-const { nft: NFT, collection_item: Item, collection: Collection } = database.models;
+const { nft: NFT, item: Item, collection: Collection } = database.models;
 
 function getAndFormatMetadata(tokenURIs) {
   return Promise.all(tokenURIs.map(fetchAndValidateMetadata)).then(items =>
@@ -71,7 +71,7 @@ export const handleCreate = async (e: Event) => {
   nft.description = item.description;
   nft.image = item.image;
   nft.traits = item.traits;
-  nft.collectionItemId = itemId;
+  nft.itemId = itemId;
   item.totalSupply = Number(item.totalSupply) + 1;
   await item.save();
   await nft.save();

@@ -4,7 +4,7 @@ import { DataTypes } from 'sequelize';
 // This function will automatically receive as parameter the Sequelize connection object.
 module.exports = sequelize => {
   sequelize.define(
-    'collection_item',
+    'item',
     {
       id: {
         allowNull: false,
@@ -15,6 +15,10 @@ module.exports = sequelize => {
       tokenAddress: {
         allowNull: false,
         type: DataTypes.STRING,
+      },
+      itemId: {
+        allowNull: false,
+        type: DataTypes.NUMBER,
       },
       name: {
         allowNull: false,

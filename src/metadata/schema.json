@@ -49,6 +49,14 @@
                         "type": "string"
                     }
                 },
+                "metrics": {
+                    "triangles": "number",
+                    "materials": "number",
+                    "meshes": "number",
+                    "bodies": "number",
+                    "entities": "number",
+                    "textures": "number"
+                },
                 "contents": {
                     "type": "array",
                     "properties": {
@@ -66,21 +74,14 @@
                         "type": "string"
                     }
                 },
-                "hides": {
+                "overrideHides": {
                     "type": "array",
                     "items": {
                         "type": "string"
                     },
                     "uniqueItems": true
                 },
-                "replaces": {
-                    "type": "array",
-                    "items": {
-                        "type": "string"
-                    },
-                    "uniqueItems": true
-                },
-                "overrides": {
+                "overrideReplaces": {
                     "type": "array",
                     "items": {
                         "type": "string"

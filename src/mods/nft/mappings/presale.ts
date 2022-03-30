@@ -1,7 +1,7 @@
 import { Event } from 'ethers';
 import database from '../../../database';
 
-const { collection_item: Item } = database.models;
+const { item: Item } = database.models;
 
 export const handleAddPresale = async (e: Event) => {
   const itemId = e.args.nft.toString() + '-' + e.args.itemId.toNumber();
