@@ -54,12 +54,12 @@ module.exports = sequelize => {
       },
       traits: {
         allowNull: false,
-        default: [],
+        defaultValue: [],
         type: DataTypes.JSONB,
       },
       data: {
         allowNull: false,
-        default: {},
+        defaultValue: {},
         type: DataTypes.JSONB,
       },
       tokenURI: {

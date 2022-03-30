@@ -38,12 +38,12 @@ module.exports = sequelize => {
       },
       price: {
         allowNull: false,
-        default: '0',
+        defaultValue: '0',
         type: DataTypes.STRING,
       },
       quantity: {
         allowNull: false,
-        default: '0',
+        defaultValue: '0',
         type: DataTypes.STRING,
       },
       bidder: {
@@ -88,18 +88,18 @@ module.exports = sequelize => {
       },
       bundles: {
         allowNull: true,
-        default: [],
+        defaultValue: [],
         type: DataTypes.JSONB,
       },
       isBundle: {
         allowNull: false,
-        default: false,
+        defaultValue: false,
         type: DataTypes.BOOLEAN,
       },
       votes: {
         allowNull: false,
         type: DataTypes.INTEGER,
-        default: 0,
+        defaultValue: 0,
       },
       exchangeAddress: {
         allowNull: true,
@@ -135,17 +135,17 @@ module.exports = sequelize => {
       },
       onSale: {
         allowNull: false,
-        default: false,
+        defaultValue: false,
         type: DataTypes.BOOLEAN,
       },
       onAuction: {
         allowNull: false,
-        default: false,
+        defaultValue: false,
         type: DataTypes.BOOLEAN,
       },
       onLending: {
         allowNull: false,
-        default: false,
+        defaultValue: false,
         type: DataTypes.BOOLEAN,
       },
       renter: {
@@ -158,17 +158,17 @@ module.exports = sequelize => {
       },
       hasOffer: {
         allowNull: false,
-        default: false,
+        defaultValue: false,
         type: DataTypes.BOOLEAN,
       },
       offerCount: {
         allowNull: false,
-        default: 0,
+        defaultValue: 0,
         type: DataTypes.INTEGER,
       },
       status: {
         allowNull: false,
-        default: 0,
+        defaultValue: 0,
         type: DataTypes.INTEGER,
       },
     },
