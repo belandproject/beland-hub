@@ -34,7 +34,8 @@ module.exports = sequelize => {
       },
       isDeployed: {
         allowNull: false,
-        type: DataTypes.JSONB,
+        defaultValue: false,
+        type: DataTypes.BOOLEAN,
       },
       metadata: {
         allowNull: false,
