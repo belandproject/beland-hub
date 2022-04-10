@@ -12,14 +12,7 @@ export async function listScenes(ctx) {
   query.include = includes;
   const res = await Scene.findAndCountAll(query);
   ctx.status = 200;
-  res.rows = res.rows.map(row => {
-    row.pointers = row.parcels.map(parcel => {
-      return getPointerFromID(parcel.id)
-    })
-    delete row.parcels;
-    return row;
-  })
-  ctx.body = res;
+  ctx.body = formatListScenes(res);
 }
 
 function getPointers(pointers) {
@@ -40,4 +33,24 @@ function buildQueryPointer(includes, ctx) {
     attributes: ['id'],
     where: { id: { [Op.in]: parcelIds } },
   });
+}
+
+
+const formatListScenes = (data) => {
+  const rows = [];
+  for (let i = 0 ;i < data.rows.length; i ++) {
+    let row: any= data.rows[i].toJSON();
+    if (row.parcels) {
+      row.pointers = row.parcels.map(parcel => {
+        const xy = getPointerFromID(parcel.id)
+        return `${xy.x},${xy.y}`
+      })
+      delete row.parcels;
+    }
+    rows.push(row)
+  }
+  return {
+    count: data.count,
+    rows,
+  }
 }
