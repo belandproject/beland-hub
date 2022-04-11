@@ -101,7 +101,7 @@ export async function handleSetMinter(e: Event) {
     col.minters.push(_minter);
     col.minters = _.uniq(col.minters);
   } else {
-    col.minters = _.remove(col.minters, m => m == _minter);
+    col.minters = _.filter(col.minters, minter => minter != _minter);
   }
   await col.save();
 }
