@@ -30,20 +30,21 @@ export const handleAddItems = async (e: Event) => {
       tokenAddress,
     },
   });
+  const col = await Collection.findByPk(tokenAddress);
   const metadatas = await getAndFormatMetadata(e.args._items.map(item => item.tokenURI.toString()));
   await Promise.all(
     e.args._items.map((item, index) => {
       const itemId = itemCount + index;
-      return Item.upsert({
+      return Item.create({
         id: tokenAddress + '-' + itemId,
         tokenAddress: e.address.toString(),
         maxSupply: item.maxSupply.toString(),
+        creator: col.creator,
         totalSupply: 0,
         tokenURI: item.tokenURI.toString(),
         quoteToken: '',
         pricePerUnit: '0',
         onSale: false,
-        isPublished: true,
         ...metadatas[index],
       });
     })
@@ -107,12 +108,15 @@ export async function handleTransfer(e: Event) {
 
 export async function handleTransferCreator(e: Event) {
   const dataToUpdate = { creator: e.args.newCreator };
-  await NFT.update(dataToUpdate, {
+  const where = {
     where: {
       tokenAddress: e.address.toString(),
       creator: e.address.toString(),
     },
-  });
+  };
+
+  await NFT.update(dataToUpdate, { where });
+  await Item.update(dataToUpdate, { where });
 
   await Collection.update(dataToUpdate, {
     where: { id: e.address.toString() },

@@ -41,10 +41,6 @@ module.exports = sequelize => {
         allowNull: false,
         type: DataTypes.BOOLEAN,
       },
-      isPublished: {
-        allowNull: false,
-        type: DataTypes.BOOLEAN,
-      },
     },
     {
       indexes: [],

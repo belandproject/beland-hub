@@ -69,11 +69,7 @@ module.exports = sequelize => {
       tokenURI: {
         allowNull: false,
         type: DataTypes.STRING,
-      },
-      isPublished: {
-        allowNull: false,
-        type: DataTypes.BOOLEAN,
-      },
+      }
     },
     {
       indexes: [],
