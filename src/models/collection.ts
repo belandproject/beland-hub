@@ -41,6 +41,11 @@ module.exports = sequelize => {
         allowNull: false,
         type: DataTypes.BOOLEAN,
       },
+      minters: {
+        type: DataTypes.ARRAY(DataTypes.STRING),
+        defaultValue: [],
+        allowNull: false,
+      }
     },
     {
       indexes: [],

@@ -78,3 +78,5 @@ templates:
           handler: handleCreate
         - event: CreatorshipTransferred
           handler: handleTransferCreator
+        - event: MinterUpdate
+        - handler: handleSetMinter

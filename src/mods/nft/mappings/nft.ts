@@ -3,6 +3,7 @@ import database from '../../../database';
 import { fetchAndValidateMetadata } from '../../../utils/metadata';
 import { getNFTId, newNFT } from '../../../utils/nft';
 import { isMarket } from './utils';
+import _ from 'lodash';
 
 const { nft: NFT, item: Item, collection: Collection } = database.models;
 
@@ -89,6 +90,19 @@ export async function handleEnableEditable(e: Event) {
   const collectionId = e.address.toString();
   const col = await Collection.findByPk(collectionId);
   col.isEditable = e.args._newValue;
+  await col.save();
+}
+
+export async function handleSetMinter(e: Event) {
+  const collectionId = e.address.toString();
+  const col = await Collection.findByPk(collectionId);
+  const _minter = e.args._minter.toString();
+  if (e.args._isMinter) {
+    col.minters.push(_minter);
+    col.minters = _.uniq(col.minters);
+  } else {
+    col.minters = _.remove(col.minters, m => m == _minter);
+  }
   await col.save();
 }
 
