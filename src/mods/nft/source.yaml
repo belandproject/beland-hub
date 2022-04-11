@@ -79,4 +79,4 @@ templates:
         - event: CreatorshipTransferred
           handler: handleTransferCreator
         - event: MinterUpdate
-        - handler: handleSetMinter
+          handler: handleSetMinter
