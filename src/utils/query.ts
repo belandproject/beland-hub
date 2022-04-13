@@ -49,9 +49,9 @@ export const buildQuery = ctx => {
     order: [[orderBy, orderDirection]],
     limit,
     offset,
+    distinct: 'id',
     include: include ? include.split(',') : [],
   };
-  console.log(query)
   return query;
 };
 
