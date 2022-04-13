@@ -28,6 +28,7 @@ export const buildWhere = input => {
 };
 
 export const buildQuery = ctx => {
+
   const {
     orderBy = 'id',
     orderDirection = 'desc',
@@ -38,17 +39,19 @@ export const buildQuery = ctx => {
     ...params
   } = ctx.query;
 
+
   if (limit > MAX_LIMIT) {
     throw Error('limit must be less than ' + MAX_LIMIT);
   }
 
   let query: any = {
     where: buildWhere(params),
-    order: [orderBy, orderDirection],
+    order: [[orderBy, orderDirection]],
     limit,
     offset,
     include: include ? include.split(',') : [],
   };
+  console.log(query)
   return query;
 };
 
