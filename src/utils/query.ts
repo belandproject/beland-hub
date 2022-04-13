@@ -28,47 +28,26 @@ export const buildWhere = input => {
 };
 
 export const buildQuery = ctx => {
-  const input = Object.assign({}, ctx.query);
+  const {
+    orderBy = 'id',
+    orderDirection = 'desc',
+    limit = DEFAULT_LIMIT,
+    offset = 0,
+    include,
+    ids,
+    ...params
+  } = ctx.query;
 
-  let limit = input.limit || DEFAULT_LIMIT;
-  delete input.limit;
   if (limit > MAX_LIMIT) {
     throw Error('limit must be less than ' + MAX_LIMIT);
   }
 
-  let offset = input.offset || 0;
-  delete input.offset;
-  if (input.page > 1) {
-    offset = limit * (input.page - 1);
-  }
-
   let query: any = {
-    where: {},
+    where: buildWhere(params),
+    order: [orderBy, orderDirection],
     limit,
     offset,
-  };
-
-  if (input.id) {
-    query.where.id = {
-      [Op.in]: input.id.split(','),
-    };
-    delete input.id;
-  }
-  delete input.orderName;
-  if (input.orderBy) {
-    let orderDirection = 'DESC';
-    if (input.orderDirection == 'asc') {
-      orderDirection = 'ASC';
-    }
-
-    query.order = [[input.orderBy, orderDirection]];
-    delete input.orderBy;
-    delete input.orderDirection;
-  }
-
-  query.where = {
-    ...query.where,
-    ...buildWhere(input),
+    include: include ? include.split(',') : [],
   };
   return query;
 };
