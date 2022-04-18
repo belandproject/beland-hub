@@ -3,7 +3,7 @@ import database from '../../../database';
 import { getNFTId, newNFT } from '../../../utils/nft';
 import { getBlock } from '../../../utils/web3';
 import { getLandName, isMarket } from './utils';
-import _ from 'lodash'
+import _ from 'lodash';
 
 const { parcel: Parcel, nft: NFT, scene: Scene } = database.models;
 
@@ -14,16 +14,16 @@ export const handleTransfer = async (e: Event) => {
   const parcel = await Parcel.findByPk(e.args.tokenId.toString());
   if (!parcel) {
     const tokenId = e.args.tokenId.toNumber();
-    const x = Math.floor(tokenId % 300);
-    const y = Math.floor(tokenId / 300);
+    const x = Math.floor(tokenId % 300) - 150;
+    const y = Math.floor(tokenId / 300) - 150;
     await Parcel.create({
       id: tokenId,
       owner: e.args.to,
       name: '',
       description: '',
       image: '',
-      x: x,
-      y: y,
+      x,
+      y,
       updatedAt: datetime,
       createdAt: datetime,
     });
@@ -34,11 +34,11 @@ export const handleTransfer = async (e: Event) => {
     nft.traits = [
       {
         name: 'x',
-        intValue: x - 150,
+        intValue: x,
       },
       {
         name: 'y',
-        intValue: y - 150,
+        intValue: y,
       },
     ];
     return await nft.save();
@@ -65,6 +65,6 @@ export async function handleUpdateMetadata(e: Event) {
   const data = e.args.data.toString().split(',');
   parcel.name = _.nth(data, 1) || '';
   parcel.description = _.nth(data, 2) || '';
-  parcel.image = _.nth(data, 2) || '';
+  parcel.image = _.nth(data, 3) || '';
   await parcel.save();
 }
