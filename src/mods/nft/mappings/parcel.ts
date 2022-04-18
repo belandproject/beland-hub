@@ -4,6 +4,7 @@ import { getNFTId, newNFT } from '../../../utils/nft';
 import { getBlock } from '../../../utils/web3';
 import { getLandName, isMarket } from './utils';
 import _ from 'lodash';
+import { parseCSV } from '../../../utils/csv';
 
 const { parcel: Parcel, nft: NFT, scene: Scene } = database.models;
 
@@ -62,7 +63,7 @@ export const handleTransfer = async (e: Event) => {
 
 export async function handleUpdateMetadata(e: Event) {
   const parcel = await Parcel.findByPk(e.args.landId.toString());
-  const data = e.args.data.toString().split(',');
+  const data = parseCSV(e.args.data.toString());
   parcel.name = _.nth(data, 1) || '';
   parcel.description = _.nth(data, 2) || '';
   parcel.image = _.nth(data, 3) || '';

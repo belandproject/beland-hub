@@ -5,6 +5,7 @@ import { getNFTId, newNFT } from '../../../utils/nft';
 import { getBlock } from '../../../utils/web3';
 import { isMarket } from './utils';
 import _ from 'lodash'
+import { parseCSV } from '../../../utils/csv';
 
 const { estate: Estate, parcel: Parcel, nft: NFT } = database.models;
 
@@ -101,7 +102,7 @@ export async function handleBundleRemoveItems(e: Event) {
 
 export async function handleUpdateMetadata(e: Event) {
   const estate = await Estate.findByPk(e.args.tokenId.toString());
-  const data = e.args.data.toString().split(',');
+  const data = parseCSV(e.args.data.toString());
   estate.name = _.nth(data, 1) || '';
   estate.description =  _.nth(data, 2) || '';
   estate.image =  _.nth(data, 3) || '';
