@@ -37,17 +37,29 @@ export async function sync(options) {
         'block',
         `[${startBlock}, ${endBlock}]`
       );
+
       options.setEndBlock(endBlock);
-      await database.transaction(async () => {
-        await options.handleLogs(logs);
-        startBlock = endBlock + 1;
-        syncStatus.set('lastBlock', startBlock);
-        await syncStatus.save();
-      });
+      await handleLogs(logs, options, endBlock, syncStatus);
+      startBlock = endBlock + 1;
     } catch (e) {
       const d = new Date();
       console.error(d.toString(), ': sync err: ', e.message);
       await sleep(10000);
     }
+  }
+}
+
+async function handleLogs(logs, options, endBlock, syncStatus) {
+  try {
+    await database.transaction(async () => {
+      await options.handleLogs(logs);
+      syncStatus.set('lastBlock', endBlock + 1);
+      await syncStatus.save();
+    });
+  } catch (e) {
+    const d = new Date();
+    console.error(d.toString(), ': sync err: ', e.message);
+    await sleep(10000);
+    await handleLogs(logs, options, endBlock, syncStatus);
   }
 }
