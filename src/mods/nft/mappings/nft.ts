@@ -42,6 +42,7 @@ export const handleAddItems = async (e: Event) => {
         maxSupply: item.maxSupply.toString(),
         creator: col.creator,
         totalSupply: 0,
+        itemId,
         tokenURI: item.tokenURI.toString(),
         quoteToken: '',
         pricePerUnit: '0',
