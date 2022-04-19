@@ -1,7 +1,7 @@
 import { ethers } from 'ethers';
 import fs, { readdirSync } from 'fs';
 import YAML from 'yaml';
-import { kaiWeb3 } from '../utils/web3';
+import { kaiWeb3, web3 } from '../utils/web3';
 import database from '../database';
 const { template: Template } = database.models;
 
@@ -10,6 +10,7 @@ var topics = [];
 var handlers = {};
 var sourceOfAddr = {};
 var firstBlock = 0;
+var endBlock;
 export function getFirtBlockNumber() {
   return firstBlock;
 }
@@ -98,6 +99,10 @@ function initModule(moduleName) {
 }
 
 export function getLogFilters(fromBlock, toBlock) {
+  return _getLogFilters(fromBlock, toBlock, topics);
+}
+
+function _getLogFilters(fromBlock, toBlock, topics) {
   return {
     topics: [topics],
     fromBlock,
@@ -116,6 +121,9 @@ async function loadAllTemplateContract() {
 export async function createTemplate(name: string, address: string, creationBlock) {
   await Template.create({ address, name, creationBlock });
   addSourceOfAddress(address, name);
+  const filter = _getLogFilters(creationBlock, endBlock, Object.keys(handlers[name]));
+  const logs = await web3.eth.getPastLogs(filter);
+  await handleLogs(logs);
 }
 
 export async function handleLogs(logs) {
@@ -127,4 +135,8 @@ export async function handleLogs(logs) {
       }
     }
   }
+}
+
+export function setEndBlock(number: number) {
+  endBlock = number;
 }

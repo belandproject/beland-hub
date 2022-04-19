@@ -37,6 +37,7 @@ export async function sync(options) {
         'block',
         `[${startBlock}, ${endBlock}]`
       );
+      options.setEndBlock(endBlock);
       await database.transaction(async () => {
         await options.handleLogs(logs);
         startBlock = endBlock + 1;
