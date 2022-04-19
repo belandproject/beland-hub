@@ -99,15 +99,15 @@ function initModule(moduleName) {
 }
 
 export function getLogFilters(fromBlock, toBlock) {
-  return _getLogFilters(fromBlock, toBlock, topics);
+  return _getLogFilters(fromBlock, toBlock, topics, addresses);
 }
 
-function _getLogFilters(fromBlock, toBlock, topics) {
+function _getLogFilters(fromBlock, toBlock, topics, address) {
   return {
     topics: [topics],
     fromBlock,
     toBlock,
-    address: addresses,
+    address,
   };
 }
 
@@ -121,7 +121,7 @@ async function loadAllTemplateContract() {
 export async function createTemplate(name: string, address: string, creationBlock) {
   await Template.create({ address, name, creationBlock });
   addSourceOfAddress(address, name);
-  const filter = _getLogFilters(creationBlock, endBlock, Object.keys(handlers[name]));
+  const filter = _getLogFilters(creationBlock, endBlock, Object.keys(handlers[name]), [address]);
   const logs = await web3.eth.getPastLogs(filter);
   await handleLogs(logs);
 }
