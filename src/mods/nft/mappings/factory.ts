@@ -8,6 +8,7 @@ export const handleCreate = async (e: Event) => {
     creator: e.args.creator.toString(),
     name: e.args.name.toString(),
     symbol: e.args.symbol.toString(),
+    description: "",
     isApproved: false,
     isEditable: true,
   });
