@@ -4,6 +4,7 @@ import { syncMetadata } from '../../utils/metadata';
 import { DEFAULT_LIMIT, MAX_LIMIT } from '../../constants';
 import sequelize from '../../database';
 import { QueryTypes } from 'sequelize';
+import { getAnimationURL, getIpfsFullURL } from '../../utils/nft';
 const NFT = database.models.nft;
 
 export async function searchNFT(ctx) {
@@ -17,15 +18,17 @@ export async function searchNFT(ctx) {
     ctx.status = 200;
     ctx.body = {
       count: data.hits.total.value,
-      rows: data.hits.hits.map(r => {
-        r = r._source;
-        r.properties = r.properties || [];
-        return r;
-      }),
+      rows: data.hits.hits.map(r => formatNftResponse(r._source)),
     };
   } catch (e) {
     ctx.status = 500;
   }
+}
+
+function formatNftResponse(nft) {
+  nft.imageUrl = getIpfsFullURL(nft.imageUrl);
+  nft.animationUrl = getAnimationURL(nft);
+  return nft;
 }
 
 export async function list(ctx) {
@@ -44,7 +47,7 @@ export async function list(ctx) {
     count: Number(count[0].count),
     rows: rows.map(r => {
       delete r.value;
-      return r;
+      return formatNftResponse(r);
     }),
   };
 }

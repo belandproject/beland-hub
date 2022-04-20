@@ -72,7 +72,7 @@ export const handleCreate = async (e: Event) => {
   let nft = await NFT.findByPk(nftId);
   nft.name = item.name;
   nft.description = item.description;
-  nft.image = item.image;
+  nft.imageUrl = item.image;
   nft.traits = item.traits;
   nft.itemId = itemId;
   item.totalSupply = Number(item.totalSupply) + 1;

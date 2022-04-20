@@ -131,7 +131,9 @@ export async function handleLogs(logs) {
     let moduleNames = sourceOfAddr[log.address];
     if (moduleNames) {
       for (let moduleName of moduleNames) {
-        await handlers[moduleName][log.topics[0]](log);
+        if (handlers[moduleName][log.topics[0]]) {
+          await handlers[moduleName][log.topics[0]](log);
+        }
       }
     }
   }

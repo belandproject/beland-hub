@@ -68,8 +68,9 @@ module.exports = sequelize => {
       },
       imageUrl: {
         allowNull: true,
-        type: DataTypes.STRING,
+        type: DataTypes.STRING
       },
+      
       animationUrl: {
         allowNull: true,
         type: DataTypes.STRING,

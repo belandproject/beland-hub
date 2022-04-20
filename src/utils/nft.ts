@@ -28,3 +28,20 @@ export function newNFT(e: Event) {
 export const getNFTId = (address, tokenId) => {
   return address.toString() + '-' + tokenId.toString();
 };
+
+
+export function getIpfsFullURL(hash) {
+  if (hash && hash.includes("ipfs://")) {
+    return hash.replace("ipfs://", process.env.IPFS_GATEWAY + "/ipfs/")
+  }
+  return hash;
+}
+
+export function getAnimationURL(nft) {
+  const type = nft.traits.find(t => t.name=='type')?.value;
+  if (type == "wearable" && nft.itemId) {
+    const itemId = nft.itemId.split("-")
+    return `https://wearable-preview.beland.io/?contract=${itemId[0]}&item=${itemId[1]}`
+  }
+  return nft.animationUrl
+}
