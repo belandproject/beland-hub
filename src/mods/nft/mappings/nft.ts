@@ -101,33 +101,37 @@ export async function handleSetMinter(e: Event) {
   const col = await Collection.findByPk(collectionId);
   const _minter = e.args._minter.toString();
   const isPresaleContract = _minter === PRESALE_CONTRACT;
+  let minters = col.minters || [];
+  const hasMinter = minters.includes(_minter);
   if (e.args._isMinter) {
-    col.minters.push(_minter);
-    col.minters = _.uniq(col.minters);
-    if (isPresaleContract) {
-      await Item.update(
-        { onSale: true },
-        {
-          where: {
-            tokenAddress: collectionId,
-            quoteToken: { [Op.ne]: '' },
-          },
-        }
-      );
+    if (!hasMinter) {
+      minters.push(_minter);
+      if (isPresaleContract) {
+        await Item.update(
+          { onSale: true },
+          {
+            where: {
+              tokenAddress: collectionId,
+              quoteToken: { [Op.ne]: '' },
+            },
+          }
+        );
+      }
     }
-  } else {
-    col.minters = _.filter(col.minters, minter => minter != _minter);
+  } else if (hasMinter) {
+    minters = minters.filter(minter => minter !== _minter);
     if (isPresaleContract) {
       await Item.update(
         { onSale: false },
         {
           where: {
-            tokenAddress: collectionId
+            tokenAddress: collectionId,
           },
         }
       );
     }
   }
+  col.minters = minters;
   await col.save();
 }
 
