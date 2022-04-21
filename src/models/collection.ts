@@ -42,7 +42,7 @@ module.exports = sequelize => {
         type: DataTypes.BOOLEAN,
       },
       minters: {
-        type: DataTypes.ARRAY(DataTypes.STRING),
+        type: DataTypes.JSONB,
         defaultValue: [],
         allowNull: false,
       }
