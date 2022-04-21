@@ -159,7 +159,7 @@
                 ],
                 "indexed": false,
                 "internalType": "struct BelandNFTPresale.Presale",
-                "name": "",
+                "name": "presale",
                 "type": "tuple"
             }
         ],
