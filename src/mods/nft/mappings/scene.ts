@@ -5,7 +5,6 @@ import { Op } from 'sequelize';
 import sceneABI from '../abis/Scene.json';
 import { getParcelIdsFromPointers } from '../../../utils/parcel';
 import { fetchMetadata, isMarket } from './utils';
-import { fetchAndValidateMetadata } from '../../../utils/metadata';
 const { scene: Scene, parcel: Parcel } = database.models;
 
 export const handleTransfer = async (e: Event) => {
@@ -30,8 +29,10 @@ export const handleTransfer = async (e: Event) => {
       isDeployed: false,
     });
     try {
-      return await syncData(tokenId, tokenURI.toString());
-    } catch {}
+      await syncData(tokenId, tokenURI.toString());
+    } catch (e){
+      console.error(e);
+    }
     return;
   }
   scene.updatedAt = datetime;
@@ -51,6 +52,7 @@ async function syncData(tokenId: number, tokenURI: string) {
   const scene = await Scene.findByPk(tokenId);
   const rootData: any = await fetchMetadata(tokenURI);
   let sceneHash = rootData.contents.find(content => content.path == 'scene.json');
+
   if (!sceneHash) return;
   const sceneData: any = await fetchMetadata(sceneHash.hash);
   const parcelIds = getParcelIdsFromPointers(sceneData.scene.parcels);
@@ -59,7 +61,6 @@ async function syncData(tokenId: number, tokenURI: string) {
     owner: scene.owner,
     id: { [Op.in]: parcelIds },
   };
-
   const dbCount = await Parcel.count({ where });
 
   if (dbCount != parcelIds.length) return;
@@ -72,7 +73,7 @@ async function syncData(tokenId: number, tokenURI: string) {
     }
   );
   scene.name = sceneData.display.title;
-  scene.description = sceneData.display.description;
+  scene.description = sceneData.display.description || "";
   scene.metadata = sceneData;
   scene.contents = rootData.contents;
   scene.isDeployed = true;
