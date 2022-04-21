@@ -131,7 +131,7 @@ export async function handleSetMinter(e: Event) {
       );
     }
   }
-  col.minters = minters;
+  col.setAttributes({minters});
   await col.save();
 }
 
