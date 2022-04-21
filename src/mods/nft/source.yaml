@@ -59,7 +59,7 @@ dataSources:
   - name: presale
     network: 0
     source:
-      address: '0x81ac337baF16BF68955D188A9cf9BCb20bb22E8c'
+      address: '0xc4A558177Fa9d2A250D804dbCB8Ee909aC9220Fb'
       startBlock: 7258600
       abi: "./abis/Presale.json"
     mapping:
