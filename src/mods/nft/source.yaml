@@ -56,6 +56,20 @@ dataSources:
       eventHandlers: 
         - event: CollectionCreated
           handler: handleCreate
+  - name: presale
+    network: 0
+    source:
+      address: '0x13F9Ff26B79F05a517F8451258f54DBC23B0CEda'
+      startBlock: 7258600
+      abi: "./abis/Presale.json"
+    mapping:
+      file: "./mappings/Presale.ts"
+      eventHandlers: 
+        - event: PresaleCreated
+          handler: handleAddPresale
+        - event: PresaleCancel
+          handler: handleCancelPresale
+
 templates:
   - name: nft
     network: 0

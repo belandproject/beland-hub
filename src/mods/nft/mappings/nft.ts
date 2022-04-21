@@ -4,8 +4,10 @@ import { fetchAndValidateMetadata } from '../../../utils/metadata';
 import { getNFTId, newNFT } from '../../../utils/nft';
 import { isMarket } from './utils';
 import _ from 'lodash';
+import { Op } from 'sequelize';
 
 const { nft: NFT, item: Item, collection: Collection } = database.models;
+const PRESALE_CONTRACT = '0x13F9Ff26B79F05a517F8451258f54DBC23B0CEda';
 
 function getAndFormatMetadata(tokenURIs) {
   return Promise.all(tokenURIs.map(fetchAndValidateMetadata)).then(items =>
@@ -98,11 +100,33 @@ export async function handleSetMinter(e: Event) {
   const collectionId = e.address.toString();
   const col = await Collection.findByPk(collectionId);
   const _minter = e.args._minter.toString();
+  const isPresaleContract = _minter === PRESALE_CONTRACT;
   if (e.args._isMinter) {
     col.minters.push(_minter);
     col.minters = _.uniq(col.minters);
+    if (isPresaleContract) {
+      await Item.update(
+        { onSale: true },
+        {
+          where: {
+            tokenAddress: collectionId,
+            quoteToken: { [Op.ne]: '' },
+          },
+        }
+      );
+    }
   } else {
     col.minters = _.filter(col.minters, minter => minter != _minter);
+    if (isPresaleContract) {
+      await Item.update(
+        { onSale: false },
+        {
+          where: {
+            tokenAddress: collectionId
+          },
+        }
+      );
+    }
   }
   await col.save();
 }

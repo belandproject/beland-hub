@@ -1,14 +1,15 @@
 import { Event } from 'ethers';
 import database from '../../../database';
 
-const { item: Item } = database.models;
+const { item: Item, collection: Collection } = database.models;
 
 export const handleAddPresale = async (e: Event) => {
   const itemId = e.args.nft.toString() + '-' + e.args.itemId.toNumber();
   let item = await Item.findByPk(itemId);
   item.pricePerUnit = e.args.presale.pricePerUnit.toString();
   item.quoteToken = e.args.presale.quoteToken.toString();
-  item.onSale = true;
+  const col = await Collection.findByPk(item.tokenAddress);
+  item.onSale = col.minters.includes(e.address);
   await item.save();
 };
 
