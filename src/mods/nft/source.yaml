@@ -63,7 +63,7 @@ dataSources:
       startBlock: 7258600
       abi: "./abis/Presale.json"
     mapping:
-      file: "./mappings/Presale.ts"
+      file: "./mappings/presale.ts"
       eventHandlers: 
         - event: PresaleCreated
           handler: handleAddPresale
