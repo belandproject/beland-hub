@@ -7,7 +7,7 @@ import _ from 'lodash';
 import { Op } from 'sequelize';
 
 const { nft: NFT, item: Item, collection: Collection } = database.models;
-const PRESALE_CONTRACT = '0x13F9Ff26B79F05a517F8451258f54DBC23B0CEda';
+const PRESALE_CONTRACT = '0x8cb3C64E938065b1Ab4b137dB2b0e9953f66c3Eb';
 
 function getAndFormatMetadata(tokenURIs) {
   return Promise.all(tokenURIs.map(fetchAndValidateMetadata)).then(items =>
