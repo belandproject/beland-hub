@@ -101,7 +101,7 @@ export async function handleSetMinter(e: Event) {
   const col = await Collection.findByPk(collectionId);
   const _minter = e.args._minter.toString();
   const isPresaleContract = _minter === PRESALE_CONTRACT;
-  let minters = col.minters || [];
+  let minters = [...col.minters] || [];
   const hasMinter = minters.includes(_minter);
   if (e.args._isMinter) {
     if (!hasMinter) {
@@ -131,7 +131,7 @@ export async function handleSetMinter(e: Event) {
       );
     }
   }
-  col.setAttributes({minters});
+  col.minters = minters;
   await col.save();
 }
 
