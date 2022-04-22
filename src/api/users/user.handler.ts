@@ -2,6 +2,7 @@ import database from '../../database';
 import { buildQuery } from '../../utils/query';
 import _ from 'lodash';
 import { Op } from 'sequelize';
+import { ethers } from 'ethers';
 const { user: User, nft: NFT } = database.models;
 
 async function withWearable(user) {
@@ -9,12 +10,13 @@ async function withWearable(user) {
   const baseURN = 'urn:beland:off-chain:base-avatars:';
   const basicWearables = user.avatar.wearables.filter(wearable => wearable.includes(baseURN));
   const wearables = user.avatar.wearables.filter(wearable => !wearable.includes(baseURN));
+  const userId = ethers.utils.getAddress(user.id)
   return NFT.findAll({
     where: {
       [Op.or]: {
-        owner: user.id,
+        owner: userId,
         [Op.and]: {
-          renter: user.id,
+          renter: userId,
           expiredAt: {
             [Op.gte]: new Date(),
           },
