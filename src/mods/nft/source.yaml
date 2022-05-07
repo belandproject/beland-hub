@@ -112,7 +112,7 @@ dataSources:
     source:
       address: "0xAd3bE9adb697daDBAf78E461213aF4668713C5f3"
       startBlock: 8001940
-      abi: "./abis/nft-auction.json"
+      abi: "./abis/Rent.json"
     mapping:
       file: "./mappings/rent.ts"
       eventHandlers: 
