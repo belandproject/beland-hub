@@ -69,7 +69,59 @@ dataSources:
           handler: handleAddPresale
         - event: PresaleCancel
           handler: handleCancelPresale
-
+  - name: market
+    network: 0
+    source:
+      address: "0x7b966AE5E32fE61F0F3ea9c9468FfBEbb3Bd1611"
+      startBlock: 8001849
+      abi: "./abis/nft-market.json"
+    mapping:
+      file: "./mappings/market.ts"
+      eventHandlers: 
+        - event: AskNew
+          handler: handleCreateAsk
+        - event: AskCancel
+          handler: handleCancelAsk
+        - event: Trade
+          handler: handleBuy
+        - event: AcceptBid
+          handler: handleAcceptBid
+        - event: Bid
+          handler: handleCreateBid
+        - event: CancelBid
+          handler: handleCancelBid
+  - name: auction
+    network: 0
+    source:
+      address: "0x54d8eB06793B11C2AAD7a4e65F3D3b01101FCCEb"
+      startBlock: 8001904
+      abi: "./abis/nft-auction.json"
+    mapping:
+      file: "./mappings/auction.ts"
+      eventHandlers: 
+        - event: AuctionCreated
+          handler: handleCreateAuction
+        - event: CancelAuction
+          handler: handleCancelAuction
+        - event: Bid
+          handler: handleBid
+        - event: AuctionCompleted
+          handler: handleCollect
+  - name: rent
+    network: 0
+    source:
+      address: "0xAd3bE9adb697daDBAf78E461213aF4668713C5f3"
+      startBlock: 8001940
+      abi: "./abis/nft-auction.json"
+    mapping:
+      file: "./mappings/rent.ts"
+      eventHandlers: 
+        - event: Lend
+          handler: handleLend
+        - event: Rent
+          handler: handleRent
+        - event: CancelLend
+          handler: handleCancelLend
 templates:
   - name: nft
     network: 0
