@@ -62,6 +62,8 @@ export async function handleCreateBundle(e: Event) {
   );
 
   await updateEstateNFTPointer(e.address, e.args.tokenId);
+  setMetadata(estate, e.args.data)
+  await estate.save();
 }
 
 async function updateEstateNFTPointer(nftAddress, tokenId) {
@@ -102,9 +104,17 @@ export async function handleBundleRemoveItems(e: Event) {
 
 export async function handleUpdateMetadata(e: Event) {
   const estate = await Estate.findByPk(e.args.tokenId.toString());
-  const data = parseCSV(e.args.data.toString());
-  estate.name = _.nth(data, 1) || '';
-  estate.description =  _.nth(data, 2) || '';
-  estate.image =  _.nth(data, 3) || '';
+  setMetadata(estate, e.args.data)
   await estate.save();
+}
+
+
+function setMetadata(estate, _rawData) {
+  const rawData = _rawData.toString();
+  if (rawData !== '') {
+    const data = parseCSV(rawData);
+    estate.name = _.nth(data, 1) || '';
+    estate.description =  _.nth(data, 2) || '';
+    estate.image =  _.nth(data, 3) || '';
+  }
 }
