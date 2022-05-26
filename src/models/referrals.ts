@@ -8,9 +8,9 @@ module.exports = sequelize => {
     {
       code: {
         allowNull: false,
-        autoIncrement: true,
+        autoIncrement: false,
         primaryKey: true,
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
       },
       address: {
         allowNull: true,
