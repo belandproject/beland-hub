@@ -1,4 +1,3 @@
-
 [
   {
     "inputs": [
@@ -197,6 +196,25 @@
       }
     ],
     "name": "CancelBid",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "_nft",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "_fingerprintProxy",
+        "type": "address"
+      }
+    ],
+    "name": "FingerprintProxyRegisted",
     "type": "event"
   },
   {
@@ -402,6 +420,11 @@
         "internalType": "uint256",
         "name": "price",
         "type": "uint256"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "fingerprint",
+        "type": "bytes32"
       }
     ],
     "stateMutability": "view",
@@ -428,6 +451,11 @@
         "internalType": "uint256",
         "name": "_price",
         "type": "uint256"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "_fingeprint",
+        "type": "bytes32"
       }
     ],
     "name": "buy",
@@ -446,6 +474,11 @@
         "internalType": "uint256",
         "name": "_tokenId",
         "type": "uint256"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "_fingerprint",
+        "type": "bytes32"
       }
     ],
     "name": "buyUsingEth",
@@ -538,6 +571,11 @@
         "internalType": "uint256",
         "name": "_price",
         "type": "uint256"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "_fingerprint",
+        "type": "bytes32"
       }
     ],
     "name": "createBid",
@@ -556,6 +594,11 @@
         "internalType": "uint256",
         "name": "_tokenId",
         "type": "uint256"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "_fingperprint",
+        "type": "bytes32"
       }
     ],
     "name": "createBidUsingEth",
@@ -566,6 +609,25 @@
   {
     "inputs": [],
     "name": "feeProvider",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "fingerprintProxies",
     "outputs": [
       {
         "internalType": "address",
@@ -647,6 +709,24 @@
       }
     ],
     "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_nft",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_fingerprintProxy",
+        "type": "address"
+      }
+    ],
+    "name": "registerFingerPrintProxy",
+    "outputs": [],
+    "stateMutability": "nonpayable",
     "type": "function"
   },
   {

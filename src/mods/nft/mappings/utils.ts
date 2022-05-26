@@ -8,7 +8,12 @@ export function getNftId(contract, tokenId) {
   return contract.toString() + '-' + tokenId.toString();
 }
 
-const MARKETS = ['0x9299C332Db2AFD9B52dC234DdA2BA5614A2dC744'];
+const MARKETS = [
+  '0x9299C332Db2AFD9B52dC234DdA2BA5614A2dC744',
+  '0xAd3bE9adb697daDBAf78E461213aF4668713C5f3',
+  '0x54d8eB06793B11C2AAD7a4e65F3D3b01101FCCEb',
+  '0x7b966AE5E32fE61F0F3ea9c9468FfBEbb3Bd1611',
+];
 
 export async function getTx(event: Event): Promise<TransactionResponse> {
   let cached: TransactionResponse = txs.get(event.transactionHash);
