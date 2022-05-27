@@ -21,20 +21,3 @@ export async function handleList(ctx) {
   ctx.status = 200;
   ctx.body = cols;
 }
-
-export async function handleCreate(ctx) {
-  const col = Collection.build(ctx.request.body);
-  await col.save();
-  ctx.body = col;
-}
-
-export async function handleUpdate(ctx) {
-  ctx.state.col.setAttributes(ctx.request.body);
-  await ctx.state.col.save();
-  ctx.body = ctx.state.col;
-}
-
-export async function handleDelete(ctx) {
-  await ctx.state.col.destroy();
-  ctx.body = ctx.state.col;
-}
