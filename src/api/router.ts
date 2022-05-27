@@ -12,8 +12,6 @@ import collectionRouter from './collections';
 import itemsRouter from './items';
 import uploadRouter from './upload';
 import nftRouter from './nfts';
-import referralsRouter from './referrals';
-import referUserRouter from './referuser';
 
 const router = new Router();
 const apiV1 = new Router();
@@ -28,9 +26,7 @@ router.use('/users', userRouter.middleware());
 router.use('/collections', collectionRouter.middleware());
 router.use('/items', itemsRouter.middleware());
 router.use('/upload', uploadRouter.middleware());
-router.use("/nfts", nftRouter.middleware());
-router.use("/referrals", referralsRouter.middleware());
-router.use("/ref-users", referUserRouter.middleware());
+router.use('/nfts', nftRouter.middleware());
 
 apiV1.use('/v1', router.middleware());
 export default apiV1;
