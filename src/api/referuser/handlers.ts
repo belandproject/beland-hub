@@ -5,6 +5,7 @@ export const referUser = async ctx => {
   const body = ctx.request.body;
   const referral = await Referral.findByPk(body.code);
   if (!referral) throw Error("referral not found");
+  if (referral.address === ctx.state.user.user) throw Error("cannot refer to yourself")
   
   const referUser = await ReferUser.create({
     code: referral.code,
