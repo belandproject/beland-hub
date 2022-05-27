@@ -3,7 +3,7 @@ const { refer_user: ReferUser, referral: Referral } = database.models;
 
 export const referUser = async ctx => {
   const body = ctx.request.body;
-  const referral = await Referral.findByPk(body);
+  const referral = await Referral.findByPk(body.code);
   if (!referral) throw Error("referral not found");
   
   const referUser = await ReferUser.create({
