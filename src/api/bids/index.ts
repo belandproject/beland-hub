@@ -12,25 +12,21 @@ async function list(ctx) {
     nftWhere.owner = ctx.query.seller;
     delete ctx.query.seller;
   }
-  
+
   if (ctx.query.include && ctx.query.include.includes('nft')) {
-    include.push(
-      [
+    include.push({
+      model: Nft,
+      as: 'nft',
+      where: nftWhere,
+      attributes: ['id', 'name', 'imageUrl'],
+      include: [
         {
-          model: Nft,
-          as: 'nft',
-          where: nftWhere,
-          attributes: ['id', 'name', 'imageUrl'],
-          include: [
-            {
-              model: User,
-              attributes: ['name', 'avatar', 'website'],
-              as: 'creatorInfo',
-            },
-          ],
+          model: User,
+          attributes: ['name', 'avatar', 'website'],
+          as: 'creatorInfo',
         },
-      ]
-    )
+      ],
+    });
     delete ctx.query.include;
   }
 
