@@ -12,6 +12,10 @@ module.exports = sequelize => {
         primaryKey: true,
         type: DataTypes.INTEGER,
       },
+      txhash: {
+        allowNull: false,
+        type: DataTypes.STRING,
+      },
       nftId: {
         allowNull: false,
         type: DataTypes.STRING,

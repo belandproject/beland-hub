@@ -58,6 +58,7 @@ export const handleCreateBid = async (e: Event) => {
     bidder: e.args.bidder.toString(),
     quoteToken: e.args._quoteToken.toString(),
     price: e.args._price.toString(),
+    txhash: e.transactionHash
   });
   await createOfferEvent(e, nft);
 };
