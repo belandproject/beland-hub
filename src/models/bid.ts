@@ -28,6 +28,10 @@ module.exports = sequelize => {
         allowNull: false,
         type: DataTypes.STRING,
       },
+      quoteToken: {
+        allowNull: false,
+        type: DataTypes.STRING,
+      },
     },
     {
       indexes: [
