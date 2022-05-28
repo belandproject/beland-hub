@@ -31,6 +31,7 @@ async function list(ctx) {
         },
       ]
     )
+    delete ctx.query.include;
   }
 
   const query = buildQuery(ctx);
