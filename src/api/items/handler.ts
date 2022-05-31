@@ -40,6 +40,7 @@ function buildQueryOwnedByUser(include, ctx) {
 function buildQueryToggle(where, ctx) {
   if (ctx.query.toggles && ctx.query.toggles.includes('ON_SALE')) {
     where.onSale = true;
+    delete ctx.query.toggles;
   }
 }
 
