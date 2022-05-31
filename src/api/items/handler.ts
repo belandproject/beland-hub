@@ -15,7 +15,6 @@ function buildQueryType(where, ctx) {
       },
     ],
   };
-  
 }
 
 function buildQueryOwnedByUser(include, ctx) {
@@ -38,11 +37,18 @@ function buildQueryOwnedByUser(include, ctx) {
   });
 }
 
+function buildQueryToggle(where, ctx) {
+  if (ctx.query.toggles && ctx.query.toggles.includes('ON_SALE')) {
+    where.onSale = true;
+  }
+}
+
 export async function handleList(ctx) {
   let where: any = {};
   let include: any[] = [];
   buildQueryType(where, ctx);
   buildQueryOwnedByUser(include, ctx);
+  buildQueryToggle(where, ctx);
   const query = buildQuery(ctx);
   query.where = { ...query.where, ...where };
   query.include = include;

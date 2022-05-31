@@ -29,12 +29,6 @@ async function list(ctx) {
     });
     delete ctx.query.include;
   }
-
-  if (ctx.query.toggles && ctx.query.toggles == "ON_SALE") {
-    ctx.query.onSale = 1;
-    delete ctx.query.toggles;
-  }
-
   const query = buildQuery(ctx);
 
   const nfts = await Bid.findAndCountAll({
