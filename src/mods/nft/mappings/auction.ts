@@ -71,7 +71,7 @@ export const handleCollect = async (e: Event) => {
 
   const block = await getBlock(e.blockNumber);
   await createCollectEvent(e, nft);
-  nft.price = null;
+  nft.price = 0;
   nft.bidder = null;
   nft.auctionStartTime = null;
   nft.auctionEndTime = null;
