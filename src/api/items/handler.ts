@@ -1,6 +1,8 @@
 import { Op } from 'sequelize';
 import database from '../../database';
 import { buildQuery } from '../../utils/query';
+import { search as dbSearch } from '../../utils/search';
+
 const { item: Item, nft: NFT } = database.models;
 
 function buildQueryType(where, ctx) {
@@ -56,4 +58,10 @@ export async function handleList(ctx) {
   const items = await Item.findAndCountAll(query);
   ctx.status = 200;
   ctx.body = items;
+}
+
+export async function handleSearch(ctx) {
+  ctx.body = await dbSearch(ctx.query, {
+    table: 'items',
+  });
 }

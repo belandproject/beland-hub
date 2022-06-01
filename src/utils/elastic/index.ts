@@ -1,5 +1,5 @@
 import { Client } from '@elastic/elasticsearch';
-import { getEsIndex } from '../utils/es';
+import { getEsIndex } from '../es';
 let client;
 if (process.env.ES_URL) {
   client = new Client({
