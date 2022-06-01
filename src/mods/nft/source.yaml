@@ -56,19 +56,6 @@ dataSources:
       eventHandlers: 
         - event: CollectionCreated
           handler: handleCreate
-  - name: presale
-    network: 0
-    source:
-      address: '0xa8b931f1862d0EBcA64cFD22efEfF1583bCE2C12'
-      startBlock: 7258600
-      abi: "./abis/Presale.json"
-    mapping:
-      file: "./mappings/presale.ts"
-      eventHandlers: 
-        - event: PresaleCreated
-          handler: handleAddPresale
-        - event: PresaleCancel
-          handler: handleCancelPresale
   - name: market
     network: 0
     source:

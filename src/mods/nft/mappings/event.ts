@@ -46,7 +46,7 @@ export const createSaleEvent = async (e: Event, nft, item) => {
     tokenAddress: nft.tokenAddress,
     itemId: nft.itemId,
     metadata: {
-      price: item.pricePerUnit,
+      price: item.price,
       quoteToken: item.quoteToken,
       buyer: nft.owner,
     },

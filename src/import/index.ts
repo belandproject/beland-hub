@@ -13,7 +13,7 @@ async function importWearables() {
   for (var waerable of waerables) {
     await Item.upsert({
       ...waerable,
-      pricePerUnit: '0',
+      price: '0',
       onSale: false,
       quoteToken: '',
       creator: '0x',

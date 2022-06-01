@@ -10,8 +10,8 @@ import { createSaleEvent } from './event';
 const { nft: NFT, item: Item, collection: Collection } = database.models;
 const PRESALE_CONTRACT = '0xa8b931f1862d0EBcA64cFD22efEfF1583bCE2C12';
 
-function getAnimationURL(item: {tokenAddress: string, itemId: string}) {
-  return `https://wearable-preview.beland.io/?contract=${item.tokenAddress}&item=${item.itemId}`
+function getAnimationURL(item: { tokenAddress: string; itemId: string }) {
+  return `https://wearable-preview.beland.io/?contract=${item.tokenAddress}&item=${item.itemId}`;
 }
 
 function getAndFormatMetadata(tokenURIs) {
@@ -53,7 +53,7 @@ export const handleAddItems = async (e: Event) => {
         itemId,
         tokenURI: item.tokenURI.toString(),
         quoteToken: '',
-        pricePerUnit: '0',
+        price: '0',
         onSale: false,
         ...metadatas[index],
       });
@@ -123,7 +123,6 @@ export async function handleSetMinter(e: Event) {
           {
             where: {
               tokenAddress: collectionId,
-              quoteToken: { [Op.ne]: '' },
             },
           }
         );

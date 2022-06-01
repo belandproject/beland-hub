@@ -52,7 +52,7 @@ module.exports = sequelize => {
         allowNull: false,
         type: DataTypes.STRING,
       },
-      pricePerUnit: {
+      price: {
         allowNull: false,
         type: DataTypes.STRING,
       },
