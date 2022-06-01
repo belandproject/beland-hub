@@ -32,8 +32,12 @@ module.exports = sequelize => {
         allowNull: false,
         type: DataTypes.STRING,
       },
-      image: {
+      imageUrl: {
         allowNull: false,
+        type: DataTypes.STRING,
+      },
+      animationUrl: {
+        allowNull: true,
         type: DataTypes.STRING,
       },
       maxSupply: {

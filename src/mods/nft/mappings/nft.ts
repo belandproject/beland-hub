@@ -10,6 +10,10 @@ import { createSaleEvent } from './event';
 const { nft: NFT, item: Item, collection: Collection } = database.models;
 const PRESALE_CONTRACT = '0xa8b931f1862d0EBcA64cFD22efEfF1583bCE2C12';
 
+function getAnimationURL(item: {tokenAddress: string, itemId: string}) {
+  return `https://wearable-preview.beland.io/?contract=${item.tokenAddress}&item=${item.itemId}`
+}
+
 function getAndFormatMetadata(tokenURIs) {
   return Promise.all(tokenURIs.map(fetchAndValidateMetadata)).then(items =>
     items.map(item => {
@@ -18,6 +22,7 @@ function getAndFormatMetadata(tokenURIs) {
         description: item.description,
         image: item.image,
         traits: item.traits,
+        animationUrl: getAnimationURL(item),
         data: {
           representations: item.representations,
           contents: item.contents,
@@ -76,11 +81,12 @@ export const handleCreate = async (e: Event) => {
   nft.name = item.name;
   nft.description = item.description;
   nft.imageUrl = item.image;
+  nft.animationUrl = item.animationUrl;
   nft.traits = item.traits;
   nft.itemId = itemId;
   item.totalSupply = Number(item.totalSupply) + 1;
-  const totalSupply = BigNumber.from(item.totalSupply)
-  const maxSupply = BigNumber.from(item.maxSupply)
+  const totalSupply = BigNumber.from(item.totalSupply);
+  const maxSupply = BigNumber.from(item.maxSupply);
   if (maxSupply.lte(totalSupply)) {
     item.onSale = false;
   }
