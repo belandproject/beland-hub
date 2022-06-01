@@ -1,10 +1,11 @@
-import { Event } from 'ethers';
+import { BigNumber, Event } from 'ethers';
 import database from '../../../database';
 import { fetchAndValidateMetadata } from '../../../utils/metadata';
 import { getNFTId, newNFT } from '../../../utils/nft';
 import { isMarket } from './utils';
 import _ from 'lodash';
 import { Op } from 'sequelize';
+import { createSaleEvent } from './event';
 
 const { nft: NFT, item: Item, collection: Collection } = database.models;
 const PRESALE_CONTRACT = '0xa8b931f1862d0EBcA64cFD22efEfF1583bCE2C12';
@@ -78,8 +79,12 @@ export const handleCreate = async (e: Event) => {
   nft.traits = item.traits;
   nft.itemId = itemId;
   item.totalSupply = Number(item.totalSupply) + 1;
-  await item.save();
-  await nft.save();
+  const totalSupply = BigNumber.from(item.totalSupply)
+  const maxSupply = BigNumber.from(item.maxSupply)
+  if (maxSupply.lte(totalSupply)) {
+    item.onSale = false;
+  }
+  await Promise.all([item.save(), nft.save(), createSaleEvent(e, nft, item)]);
 };
 
 export async function handleApprove(e: Event) {

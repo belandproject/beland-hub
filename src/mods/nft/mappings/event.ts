@@ -8,6 +8,8 @@ const { event: EventModel } = database.models;
 export const createAskEvent = async (e: Event, nft) => {
   await createEvent(e, {
     nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
     metadata: {
       price: e.args._price.toString(),
       quoteToken: e.args._quoteToken.toString(),
@@ -19,6 +21,8 @@ export const createAskEvent = async (e: Event, nft) => {
 export const createCancelAskEvent = async (e: Event, nft) => {
   await createEvent(e, {
     nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
     metadata: {},
   });
 };
@@ -26,6 +30,8 @@ export const createCancelAskEvent = async (e: Event, nft) => {
 export const createBidEvent = async (e: Event, nft) => {
   await createEvent(e, {
     nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
     metadata: {
       price: e.args._price.toString(),
       quoteToken: e.args._quoteToken.toString(),
@@ -34,9 +40,24 @@ export const createBidEvent = async (e: Event, nft) => {
   });
 };
 
+export const createSaleEvent = async (e: Event, nft, item) => {
+  await createEvent(e, {
+    nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
+    metadata: {
+      price: item.pricePerUnit,
+      quoteToken: item.quoteToken,
+      buyer: nft.owner,
+    },
+  });
+};
+
 export const createOfferEvent = async (e: Event, nft) => {
   await createEvent(e, {
     nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
     metadata: {
       price: e.args._price.toString(),
       quoteToken: e.args._quoteToken.toString(),
@@ -48,6 +69,8 @@ export const createOfferEvent = async (e: Event, nft) => {
 export const createCancelBidEvent = async (e: Event, nft, bid) => {
   await createEvent(e, {
     nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
     metadata: {
       buyer: bid.bidder,
       price: bid.price,
@@ -59,6 +82,8 @@ export const createCancelBidEvent = async (e: Event, nft, bid) => {
 export const createAcceptBidEvent = async (e: Event, nft) => {
   await createEvent(e, {
     nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
     metadata: {
       seller: e.args._seller.toString(),
       buyer: e.args.bidder.toString(),
@@ -72,6 +97,8 @@ export const createAcceptBidEvent = async (e: Event, nft) => {
 export const createBuyEvent = async (e: Event, nft) => {
   await createEvent(e, {
     nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
     metadata: {
       seller: e.args._seller.toString(),
       buyer: e.args.buyer.toString(),
@@ -85,6 +112,8 @@ export const createBuyEvent = async (e: Event, nft) => {
 export const createAuctionEvent = async (e: Event, nft) => {
   await createEvent(e, {
     nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
     metadata: {
       price: e.args.price.toString(),
       quoteToken: e.args.quoteToken.toString(),
@@ -95,12 +124,16 @@ export const createAuctionEvent = async (e: Event, nft) => {
 export const createCancelAuctionEvent = async (e: Event, nft) => {
   await createEvent(e, {
     nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
   });
 };
 
 export const createAuctionBidEvent = async (e: Event, nft) => {
   await createEvent(e, {
     nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
     metadata: {
       bidder: e.args.bidder.toString(),
       price: e.args.price.toString(),
@@ -112,6 +145,8 @@ export const createAuctionBidEvent = async (e: Event, nft) => {
 export const createCollectEvent = async (e: Event, nft) => {
   await createEvent(e, {
     nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
     metadata: {
       seller: e.args.seller.toString(),
       buyer: e.args.buyer.toString(),
@@ -150,4 +185,5 @@ const EVENTS = {
   AskNew: 'LIST',
   AuctionCreated: 'LIST',
   AuctionCompleted: 'TRADE',
+  Created: 'Mint',
 };

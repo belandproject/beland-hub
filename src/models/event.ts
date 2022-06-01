@@ -28,6 +28,14 @@ module.exports = sequelize => {
         allowNull: false,
         type: DataTypes.STRING,
       },
+      tokenAddress: {
+        allowNull: true,
+        type: DataTypes.STRING,
+      },
+      itemId: {
+        allowNull: true,
+        type: DataTypes.INTEGER,
+      },
       from: {
         allowNull: false,
         type: DataTypes.STRING,
