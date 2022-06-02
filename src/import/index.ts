@@ -20,7 +20,7 @@ async function importWearables() {
       maxSupply: '0',
       totalSupply: '0',
       isPublished: true,
-      tokenURI: '',
+      tokenUri: '',
       tokenAddress: 'urn:beland:off-chain:base-avatars',
     });
   }

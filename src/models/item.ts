@@ -70,7 +70,7 @@ module.exports = sequelize => {
         defaultValue: {},
         type: DataTypes.JSONB,
       },
-      tokenURI: {
+      tokenUri: {
         allowNull: false,
         type: DataTypes.STRING,
       }

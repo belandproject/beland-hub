@@ -24,7 +24,7 @@ module.exports = sequelize => {
         allowNull: false,
         type: DataTypes.STRING,
       },
-      tokenURI: {
+      tokenUri: {
         allowNull: false,
         type: DataTypes.STRING,
       },

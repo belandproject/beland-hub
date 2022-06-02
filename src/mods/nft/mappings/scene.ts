@@ -15,7 +15,7 @@ export const handleTransfer = async (e: Event) => {
   if (!scene) {
     const tokenId = e.args.tokenId.toNumber();
     const contract = new ethers.Contract(e.address, sceneABI, kaiWeb3);
-    const tokenURI = await contract.tokenURI(e.args.tokenId);
+    const tokenUri = await contract.tokenURI(e.args.tokenId);
     await Scene.create({
       id: tokenId,
       owner: e.args.to,
@@ -23,13 +23,13 @@ export const handleTransfer = async (e: Event) => {
       description: '',
       metadata: {},
       contents: [],
-      tokenURI: tokenURI.toString(),
+      tokenUri: tokenUri.toString(),
       createdAt: datetime,
       updatedAt: datetime,
       isDeployed: false,
     });
     try {
-      await syncData(tokenId, tokenURI.toString());
+      await syncData(tokenId, tokenUri.toString());
     } catch (e){
       console.error(e);
     }

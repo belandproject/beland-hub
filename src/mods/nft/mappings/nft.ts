@@ -53,7 +53,7 @@ export const handleAddItems = async (e: Event) => {
         creator: col.creator,
         totalSupply: 0,
         itemId,
-        tokenURI: item.tokenURI.toString(),
+        tokenUri: item.tokenUri.toString(),
         price: '0',
         onSale: false,
         ...metadatas[index],
@@ -63,12 +63,12 @@ export const handleAddItems = async (e: Event) => {
 };
 
 export const handleEditItems = async (e: Event) => {
-  const metadatas = await getAndFormatMetadata(e.args._items.map(item => item.tokenURI.toString()));
+  const metadatas = await getAndFormatMetadata(e.args._items.map(item => item.tokenUri.toString()));
   for (let i = 0; i < e.args.indexes.length; i++) {
     const itemId = getNFTId(e.address, e.args.indexes[i]);
     const item = await Item.findByPk(itemId);
     item.maxSupply = e.args._items[i].maxSupply.toString();
-    item.tokenURI = e.args._items[i].tokenURI.toString();
+    item.tokenUri = e.args._items[i].tokenURI.toString();
     item.setAttributes(metadatas[i]);
     await item.save();
   }

@@ -23,7 +23,7 @@ export const handleTransfer = async (e: Event) => {
       name: '',
       description: '',
       image: '',
-      tokenURI: '',
+      tokenUri: '',
       updatedAt: time,
       createdAt: time,
     });
