@@ -16,7 +16,7 @@ const MARKETS = [
 ];
 
 export async function getTx(event: Event): Promise<TransactionResponse> {
-  let cached: TransactionResponse = txs.get(event.transactionHash);
+  let cached: any = txs.get(event.transactionHash);
   if (cached) return cached;
   cached = await event.getTransaction();
   txs.set(event.transactionHash, cached);
@@ -63,7 +63,7 @@ export function getPointerFromIDLabel(id: number) {
 }
 
 export function getLandName(x, y) {
-  return `LAND(${x - 150}, ${y - 150})`;
+  return `LAND(${x}, ${y})`;
 }
 
 export function fetchMetadata(hash: string): any {
