@@ -11,7 +11,7 @@ async function list(ctx) {
     include.push({
       model: NFT,
       as: 'nft',
-      attributes: ['name'],
+      attributes: ['name', 'tokenId', "tokenAddress", 'creator', 'owner'],
     });
     delete ctx.query.include;
   }
