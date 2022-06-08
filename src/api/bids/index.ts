@@ -18,7 +18,7 @@ async function list(ctx) {
       model: Nft,
       as: 'nft',
       where: nftWhere,
-      attributes: ['id', 'name', 'imageUrl'],
+      attributes: ['name', 'tokenId', "tokenAddress", 'creator', 'owner', 'imageUrl'],
       include: [
         {
           model: User,
