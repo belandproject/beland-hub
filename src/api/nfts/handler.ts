@@ -42,7 +42,7 @@ async function withData(rows) {
 
 function getType(row) {
   const typeObj = row.traits!.find(t => t.name == 'type');
-  return typeObj!.value;
+  return typeObj ? typeObj.value: null;
 }
 
 function formatNftResponse(nft) {
