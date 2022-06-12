@@ -8,7 +8,7 @@ import { createSaleEvent } from './event';
 
 const { nft: NFT, item: Item, collection: Collection } = database.models;
 const PRESALE_CONTRACT = '0x7DAef7b8967E7573866AC3db99bdAAA37F5E0E97';
-const PRESALE_QUOTE = '0x5cCA45303CE50Bf71B507fB80Afb951B165Bb829'
+const PRESALE_QUOTE = '0x5cCA45303CE50Bf71B507fB80Afb951B165Bb829';
 
 function getAnimationURL(item: { tokenAddress: string; itemId: string }) {
   return `https://wearable-preview.beland.io/?contract=${item.tokenAddress}&item=${item.itemId}`;
@@ -43,7 +43,7 @@ export const handleAddItems = async (e: Event) => {
   await Promise.all(
     e.args._items.map((item, index) => {
       const itemId = itemCount + index;
-      const tokenAddress = e.address.toString()
+      const tokenAddress = e.address.toString();
       return Item.create({
         id: tokenAddress + '-' + itemId,
         tokenAddress: tokenAddress,
@@ -52,7 +52,7 @@ export const handleAddItems = async (e: Event) => {
         creator: col.creator,
         totalSupply: 0,
         itemId,
-        animationUrl: getAnimationURL({  tokenAddress, itemId}),
+        animationUrl: getAnimationURL({ tokenAddress, itemId }),
         tokenUri: item.tokenURI.toString(),
         price: '0',
         onSale: false,
@@ -98,6 +98,18 @@ export async function handleApprove(e: Event) {
   const collectionId = e.address.toString();
   const col = await Collection.findByPk(collectionId);
   col.isApproved = e.args._newValue;
+
+  await Item.update(
+    {
+      onSale: col.minters.includes(PRESALE_CONTRACT),
+    },
+    {
+      where: {
+        tokenAddress: collectionId,
+      },
+    }
+  );
+
   await col.save();
 }
 
@@ -118,7 +130,7 @@ export async function handleSetMinter(e: Event) {
   if (e.args._isMinter) {
     if (!hasMinter) {
       minters.push(_minter);
-      if (isPresaleContract) {
+      if (isPresaleContract && col.isApproved) {
         await Item.update(
           { onSale: true },
           {
@@ -131,7 +143,7 @@ export async function handleSetMinter(e: Event) {
     }
   } else if (hasMinter) {
     minters = minters.filter(minter => minter !== _minter);
-    if (isPresaleContract) {
+    if (isPresaleContract && col.isApproved) {
       await Item.update(
         { onSale: false },
         {
