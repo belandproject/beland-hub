@@ -44,6 +44,7 @@ export const handleAddItems = async (e: Event) => {
     e.args._items.map((item, index) => {
       const itemId = itemCount + index;
       const tokenAddress = e.address.toString();
+
       return Item.create({
         id: tokenAddress + '-' + itemId,
         tokenAddress: tokenAddress,
@@ -54,12 +55,13 @@ export const handleAddItems = async (e: Event) => {
         itemId,
         animationUrl: getAnimationURL({ tokenAddress, itemId }),
         tokenUri: item.tokenURI.toString(),
-        price: e.args.price.toString(),
+        price: item.price.toString(),
         onSale: false,
         ...metadatas[index],
       });
     })
   );
+
 };
 
 export const handleEditItems = async (e: Event) => {
@@ -69,7 +71,7 @@ export const handleEditItems = async (e: Event) => {
     const item = await Item.findByPk(itemId);
     item.maxSupply = e.args._items[i].maxSupply.toString();
     item.tokenUri = e.args._items[i].tokenURI.toString();
-    item.price = e.args.price.toString();
+    item.price = e.args._items[i].price.toString();
     item.setAttributes(metadatas[i]);
     await item.save();
   }
