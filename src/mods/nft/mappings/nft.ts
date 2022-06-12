@@ -4,12 +4,11 @@ import { fetchAndValidateMetadata } from '../../../utils/metadata';
 import { getNFTId, newNFT } from '../../../utils/nft';
 import { isMarket } from './utils';
 import _ from 'lodash';
-import { Op } from 'sequelize';
 import { createSaleEvent } from './event';
 
 const { nft: NFT, item: Item, collection: Collection } = database.models;
-const PRESALE_CONTRACT = '0xa8b931f1862d0EBcA64cFD22efEfF1583bCE2C12';
-const PRESALE_QUOTE = '0xAF984E23EAA3E7967F3C5E007fbe397D8566D23d'
+const PRESALE_CONTRACT = '0x7DAef7b8967E7573866AC3db99bdAAA37F5E0E97';
+const PRESALE_QUOTE = '0x5cCA45303CE50Bf71B507fB80Afb951B165Bb829'
 
 function getAnimationURL(item: { tokenAddress: string; itemId: string }) {
   return `https://wearable-preview.beland.io/?contract=${item.tokenAddress}&item=${item.itemId}`;

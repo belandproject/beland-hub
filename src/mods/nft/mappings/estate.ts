@@ -66,7 +66,15 @@ export async function handleCreateBundle(e: Event) {
       },
     }
   );
-
+  
+  if (e.args.data) {
+    const data = parseCSV(e.args.data.toString());
+    estate.name = _.nth(data, 1) || '';
+    estate.description = _.nth(data, 2) || '';
+    estate.image = _.nth(data, 3) || '';
+    await estate.save();
+  }
+  
   await updateEstateNFTPointer(e.address, e.args.tokenId);
 }
 

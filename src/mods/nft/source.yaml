@@ -15,7 +15,7 @@ dataSources:
   - name: estate
     network: 0
     source:
-      address: "0x9299C332Db2AFD9B52dC234DdA2BA5614A2dC744"
+      address: "0x871F3a16fF9d267854628966a2bA36665e0bD437"
       startBlock: 7026562
       abi: "./abis/Bundle.json"
     mapping:
@@ -48,7 +48,7 @@ dataSources:
   - name: nft-factory
     network: 0
     source:
-      address: "0x49E662ca18F7a2C7b38407f73928d5E83b688C69"
+      address: "0x8D57137de2200Ff53853A2ae4752218603Dbf999"
       startBlock: 7258600
       abi: "./abis/factory.json"
     mapping:
