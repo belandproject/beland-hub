@@ -20,9 +20,8 @@ function getAndFormatMetadata(tokenURIs) {
       return {
         name: item.name,
         description: item.description,
-        image: item.image,
+        imageUrl: item.image,
         traits: item.traits,
-        animationUrl: getAnimationURL(item),
         data: {
           representations: item.representations,
           contents: item.contents,
@@ -44,15 +43,17 @@ export const handleAddItems = async (e: Event) => {
   await Promise.all(
     e.args._items.map((item, index) => {
       const itemId = itemCount + index;
+      const tokenAddress = e.address.toString()
       return Item.create({
         id: tokenAddress + '-' + itemId,
-        tokenAddress: e.address.toString(),
+        tokenAddress: tokenAddress,
         maxSupply: item.maxSupply.toString(),
         quoteToken: PRESALE_QUOTE,
         creator: col.creator,
         totalSupply: 0,
         itemId,
-        tokenUri: item.tokenUri.toString(),
+        animationUrl: getAnimationURL({  tokenAddress, itemId}),
+        tokenUri: item.tokenURI.toString(),
         price: '0',
         onSale: false,
         ...metadatas[index],

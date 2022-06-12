@@ -1,6 +1,8 @@
 import { search as esSearch } from '../../utils/elastic';
 import { getAnimationURL, getIpfsFullURL } from '../../utils/nft';
 import { search as dbSearch } from '../../utils/search';
+import database from '../../database';
+const { parcel: Parcel } = database.models;
 
 export async function search(ctx) {
   if (ctx.query.onSale) {
@@ -11,12 +13,36 @@ export async function search(ctx) {
     ctx.status = 200;
     ctx.body = {
       count: data.hits.total.value,
-      rows: data.hits.hits.map(r => formatNftResponse(r._source)),
+      rows: await withData(data.hits.hits.map(r => formatNftResponse(r._source))),
     };
   } catch (e) {
     ctx.status = 500;
     ctx.body = { error: e.message };
   }
+}
+
+async function withData(rows) {
+  return Promise.all(
+    rows.map(async row => {
+      const type = getType(row);
+      switch (type) {
+        case 'estate':
+          row.data = {
+            estate: {
+              parcels: await Parcel.findAll({ attributes: ['x', 'y'], where: {estateId: row.tokenId} }),
+            },
+          };
+          break;
+        default:
+      }
+      return row;
+    })
+  );
+}
+
+function getType(row) {
+  const typeObj = row.traits!.find(t => t.name == 'type');
+  return typeObj!.value;
 }
 
 function formatNftResponse(nft) {
@@ -32,9 +58,11 @@ export async function list(ctx) {
   ctx.status = 200;
   ctx.body = {
     count: res.count,
-    rows: res.rows.map(r => {
-      delete r.value;
-      return formatNftResponse(r);
-    }),
+    rows: await withData(
+      res.rows.map(r => {
+        delete r.value;
+        return formatNftResponse(r);
+      })
+    ),
   };
 }
