@@ -71,8 +71,8 @@ export async function handleSearch(ctx) {
 
 
 function formatItems(rows) {
-  return rows.map(row => {
-    row.imageUrl = getIpfsFullURL(row.imageUrl)
-    return row;
-  })
+  for (let i = 0 ;i < rows.length; i ++) {
+    rows[i].imageUrl = getIpfsFullURL(rows[i].imageUrl)
+  }
+  return rows;
 }
