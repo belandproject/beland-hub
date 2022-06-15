@@ -7,7 +7,6 @@ if (process.env.ES_URL) {
   });
 }
 
-
 export const getFilterOptions = async params => {
   let must = [];
   for (let key in params) {
@@ -96,7 +95,7 @@ export const search = async params => {
   delete params.orderDirection;
   delete params.limit;
   delete params.offset;
-
+  const datetime = new Date().toISOString();
   for (let paramKey in params) {
     if (paramKey.startsWith('int_')) {
       let _paramKey = paramKey.replace('int_', '').split('__');
@@ -176,32 +175,54 @@ export const search = async params => {
           fields: ['id', 'name', 'description', 'traits.value'],
         },
       });
-    } else if (paramKey=="toggles") {
-      if (params[paramKey].includes("ON_SALE")) {
-        should.push({"term": {"onSale": true}})
+    } else if (paramKey == 'toggles') {
+      if (params[paramKey].includes('ON_SALE')) {
+        should.push({ term: { onSale: true } });
       }
-      if (params[paramKey].includes("HAS_OFFER")) {
-        should.push({"term": {"hasOffer": true}})
+      if (params[paramKey].includes('HAS_OFFER')) {
+        should.push({ term: { hasOffer: true } });
       }
-      if (params[paramKey].includes("ON_AUCTION")) {
-        const date = (new Date()).toISOString();
+      if (params[paramKey].includes('ON_AUCTION')) {
         should.push({
           bool: {
-           must: [
-            {"term": {"onAuction": true}},
-             {"range": {"auctionStartTime": {"lte": date}}},
-             {"range": {"auctionEndTime": {"gte": date}}}
-           ]
-          }
-        })
+            must: [
+              { term: { onAuction: true } },
+              { range: { auctionStartTime: { lte: datetime } } },
+              { range: { auctionEndTime: { gte: datetime } } },
+            ],
+          },
+        });
       }
-      must.push(
-        {
+      if (params[paramKey].includes('ON_LEND')) {
+        should.push({
           bool: {
-            should
-          }
-        }
-      )
+            must: [
+              { term: { onLending: true } },
+              {
+                bool: {
+                  should: [
+                    {
+                      bool: {
+                        must: [{ range: { expiredAt: { lte: datetime } } }],
+                      },
+                    },
+                    {
+                      bool: {
+                        must: [{ term: { renter: null } }],
+                      },
+                    },
+                  ],
+                },
+              },
+            ],
+          },
+        });
+      }
+      must.push({
+        bool: {
+          should,
+        },
+      });
     } else {
       let _paramKey = paramKey.split('__');
       let _must: any = {
