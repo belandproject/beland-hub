@@ -1,4 +1,5 @@
 import { DataTypes } from 'sequelize';
+import { getIpfsFullURL } from '../utils/nft';
 
 // We export a function that defines the model.
 // This function will automatically receive as parameter the Sequelize connection object.
@@ -35,6 +36,10 @@ module.exports = sequelize => {
       imageUrl: {
         allowNull: false,
         type: DataTypes.STRING,
+        get() {
+          const rawValue = this.getDataValue('imageUrl');
+          return getIpfsFullURL(rawValue)
+        }
       },
       animationUrl: {
         allowNull: true,

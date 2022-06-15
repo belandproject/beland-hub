@@ -58,7 +58,7 @@ export async function handleList(ctx) {
   query.include = include;
   const items = await Item.findAndCountAll(query);
   ctx.status = 200;
-  ctx.body = formatItems(items);
+  ctx.body = items
 }
 
 export async function handleSearch(ctx) {
@@ -67,12 +67,3 @@ export async function handleSearch(ctx) {
   });
 }
 
-
-
-
-function formatItems(rows) {
-  for (let i = 0 ;i < rows.length; i ++) {
-    rows[i].imageUrl = getIpfsFullURL(rows[i].imageUrl)
-  }
-  return rows;
-}
