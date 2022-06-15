@@ -72,7 +72,6 @@ export async function handleSearch(ctx) {
 
 function formatItems(rows) {
   return rows.map(row => {
-    row = row.toJSON();
     row.imageUrl = getIpfsFullURL(row.imageUrl)
     return row;
   })
