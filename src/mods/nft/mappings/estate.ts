@@ -3,7 +3,7 @@ import { Op } from 'sequelize';
 import database from '../../../database';
 import { getNFTId, newNFT } from '../../../utils/nft';
 import { getBlock } from '../../../utils/web3';
-import { isMarket } from './utils';
+import { getNftId, isMarket } from './utils';
 import _ from 'lodash';
 import { parseCSV } from '../../../utils/csv';
 
@@ -30,7 +30,8 @@ export const handleTransfer = async (e: Event) => {
 
     // create nft
     const nft = newNFT(e);
-    nft.imageUrl = `https://api.beland.io/v1/estates/${tokenId}/map.png`
+    nft.name = `Estate ${tokenId}`;
+    nft.imageUrl = `https://api.beland.io/v1/estates/${tokenId}/map.png`;
     nft.traits = [
       {
         name: 'type',
@@ -67,7 +68,7 @@ export async function handleCreateBundle(e: Event) {
       },
     }
   );
-  
+
   if (e.args.data) {
     const data = parseCSV(e.args.data.toString());
     estate.name = _.nth(data, 1) || '';
@@ -75,7 +76,7 @@ export async function handleCreateBundle(e: Event) {
     estate.image = _.nth(data, 3) || '';
     await estate.save();
   }
-  
+
   await updateEstateNFTPointer(e.address, e.args.tokenId);
 }
 
@@ -121,5 +122,12 @@ export async function handleUpdateMetadata(e: Event) {
   estate.name = _.nth(data, 1) || '';
   estate.description = _.nth(data, 2) || '';
   estate.image = _.nth(data, 3) || '';
+
+  if (estate.name) {
+    const nft = await NFT.findByPk(getNftId(e.address, e.args.tokenId));
+    nft.name = estate.name;
+    await nft.save();
+  }
+
   await estate.save();
 }
