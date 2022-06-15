@@ -1,5 +1,6 @@
 import { Op } from 'sequelize';
 import database from '../../database';
+import { getIpfsFullURL } from '../../utils/nft';
 import { buildQuery } from '../../utils/query';
 import { search as dbSearch } from '../../utils/search';
 
@@ -57,11 +58,22 @@ export async function handleList(ctx) {
   query.include = include;
   const items = await Item.findAndCountAll(query);
   ctx.status = 200;
-  ctx.body = items;
+  ctx.body = formatItems(items);
 }
 
 export async function handleSearch(ctx) {
   ctx.body = await dbSearch(ctx.query, {
     table: 'items',
   });
+}
+
+
+
+
+function formatItems(rows) {
+  return rows.map(row => {
+    row = row.toJSON();
+    row.imageUrl = getIpfsFullURL(row.imageUrl)
+    return row;
+  })
 }
