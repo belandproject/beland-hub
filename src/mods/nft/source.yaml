@@ -109,6 +109,12 @@ dataSources:
           handler: handleRent
         - event: CancelLend
           handler: handleCancelLend
+        - event: OfferNew
+          handler: handleCreateOffer
+        - event: OfferCancel
+          handler: handleCancelOffer
+        - event: OfferAccept
+          handler: handleAcceptOffer
 templates:
   - name: nft
     network: 0

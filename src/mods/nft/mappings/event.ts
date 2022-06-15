@@ -157,6 +157,89 @@ export const createCollectEvent = async (e: Event, nft) => {
   });
 };
 
+// Rent -------------------------
+// -----------------
+export const createLendEvent = async (e: Event, nft) => {
+  await createEvent(e, {
+    nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
+    event: 'LEND',
+    metadata: {
+      seller: e.args.lender.toString(),
+      price: e.args.pricePerDay.toString(),
+      quoteToken: nft.quoteToken.toString(),
+    },
+  });
+};
+
+export const createCancelLendEvent = async (e: Event, nft) => {
+  await createEvent(e, {
+    nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
+    event: 'CANCEL_LEND',
+    metadata: {
+      seller: e.args.lender.toString(),
+    },
+  });
+};
+
+export const createRentEvent = async (e: Event, nft) => {
+  await createEvent(e, {
+    nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
+    event: 'RENT',
+    metadata: {
+      buyer: e.args.renter.toString(),
+      expiredAt: e.args.expiredAt.toString(),
+      price: e.args.price.toString(),
+      quoteToken: nft.quoteToken,
+      netPrice: e.args.netPrice.toString(),
+    },
+  });
+};
+
+export const createCancelEvent = async (e: Event, nft) => {
+  await createEvent(e, {
+    nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
+    event: 'CANCEL_RENT',
+    metadata: {
+      buyer: e.args.renter.toString(),
+    },
+  });
+};
+
+export const createOfferRentEvent = async (e: Event, nft) => {
+  await createEvent(e, {
+    nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
+    event: 'OFFER_RENT',
+    metadata: {
+      buyer: e.args.renter.toString(),
+      duration: e.args.duration.toNumber(),
+      price: e.args.pricePerDay.toString(),
+      quoteToken: e.args.quoteToken.toString(),
+    },
+  });
+};
+
+export const createCancelOfferRentEvent = async (e: Event, nft) => {
+  await createEvent(e, {
+    nftId: nft.id,
+    tokenAddress: nft.tokenAddress,
+    itemId: nft.itemId,
+    event: 'CANCEL_OFFER_RENT',
+    metadata: {
+      buyer: e.args.renter.toString(),
+    },
+  });
+};
+
 async function createEvent(e: Event, data: any) {
   const tx = await getTx(e);
   const block: any = await getBlock(e.blockNumber);
@@ -185,5 +268,5 @@ const EVENTS = {
   AskNew: 'LIST',
   AuctionCreated: 'LIST',
   AuctionCompleted: 'TRADE',
-  Created: 'Mint',
+  Created: 'MINT',
 };

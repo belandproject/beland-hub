@@ -167,6 +167,11 @@ module.exports = sequelize => {
         defaultValue: 0,
         type: DataTypes.INTEGER,
       },
+      lendOfferCount: {
+        allowNull: false,
+        defaultValue: 0,
+        type: DataTypes.INTEGER,
+      },
       status: {
         allowNull: false,
         defaultValue: 0,

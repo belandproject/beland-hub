@@ -12,12 +12,15 @@ import collectionRouter from './collections';
 import itemsRouter from './items';
 import uploadRouter from './upload';
 import nftRouter from './nfts';
+import lendOffers from './lend_offers';
 
 const router = new Router();
 const apiV1 = new Router();
 
 router.get('/events', events.list);
 router.get('/bids', bids.list);
+router.get('/lend-offers', lendOffers.list);
+
 router.get('/filter-options', filterOptions.filterOptions);
 router.get('/estates', listEstate);
 router.get('/parcels', listParcel);
