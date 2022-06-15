@@ -1,7 +1,8 @@
 import { search as esSearch } from '../../utils/elastic';
-import { getAnimationURL, getIpfsFullURL } from '../../utils/nft';
+import { getAnimationURL } from '../../utils/nft';
 import { search as dbSearch } from '../../utils/search';
 import database from '../../database';
+import { getIpfsFullURL } from '../../utils/ipfs';
 const { parcel: Parcel } = database.models;
 
 export async function search(ctx) {

@@ -1,6 +1,5 @@
 import { Op } from 'sequelize';
 import database from '../../database';
-import { getIpfsFullURL } from '../../utils/nft';
 import { buildQuery } from '../../utils/query';
 import { search as dbSearch } from '../../utils/search';
 

@@ -1,5 +1,5 @@
 import { DataTypes } from 'sequelize';
-import { getIpfsFullURL } from '../utils/nft';
+import { getIpfsFullURL } from '../utils/ipfs';
 
 // We export a function that defines the model.
 // This function will automatically receive as parameter the Sequelize connection object.
