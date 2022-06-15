@@ -30,6 +30,7 @@ export const handleTransfer = async (e: Event) => {
 
     // create nft
     const nft = newNFT(e);
+    nft.imageUrl = `https://api.beland.io/v1/estates/${tokenId}/map.png`
     nft.traits = [
       {
         name: 'type',
