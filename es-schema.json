@@ -1,0 +1,243 @@
+[
+    {
+        "database": "beland-nft-api",
+        "index": "beland-nft-api-nfts",
+        "mapping": {
+            "id": {
+                "type": "keyword"
+            },
+            "name": {
+                "type": "text",
+                "fields": {
+                    "keyword": { 
+                        "type": "keyword"
+                    }
+                }
+            },
+            "description": {
+                "type": "text",
+                "fields": {
+                    "keyword": { 
+                        "type": "keyword"
+                    }
+                }
+            },
+            "votes": {
+                "type": "integer"
+            },
+            "collectionId": {
+                "type": "keyword"
+            },
+            "categoryIds": {
+                "type": "keyword"
+            },
+            "tokenId": {
+                "type": "double"
+            },
+            "tokenAddress": {
+                "type": "keyword"
+            },
+            "tokenUri": {
+                "type": "keyword"
+            },
+            "animationUrl": {
+                "type": "keyword"
+            },
+            "thumbnail": {
+                "type": "keyword"
+            },
+            "mimetype": {
+                "type": "keyword"
+            },
+            "imageUrl": {
+                "type": "keyword"
+            },
+            "owner": {
+                "type": "keyword"
+            },
+            "creator": {
+                "type": "keyword"
+            },
+            "onSale": {
+                "type": "boolean"
+            },
+            "onAuction": {
+                "type": "boolean"
+            },
+            "hasOffer": {
+                "type": "boolean"
+            },
+            "offerCount": {
+                "type": "integer"
+            },
+            "soldAt": {
+                "type": "date"
+            },
+            "listedAt": {
+                "type": "date"
+            },
+            "createdAt": {
+                "type": "date"
+            },
+            "updatedAt": {
+                "type": "date"
+            },
+            "price": {
+                "type": "float"
+            },
+            "bidder": {
+                "type": "keyword"
+            },
+            "bidDate": {
+                "type": "date"
+            },
+            "auctionStartTime": {
+                "type": "date"
+            },
+            "auctionEndTime": {
+                "type": "date"
+            },
+            "status": {
+                "type": "integer"
+            },
+            "exchangeAddress": {
+                "type": "keyword"
+            },
+            "quoteToken": {
+                "type": "keyword"
+            },
+            "traits": {
+                "type": "nested",
+                "properties": {
+                    "name": {
+                        "type": "keyword"
+                    },
+                    "displayType": {
+                        "type": "keyword"
+                    },
+                    "displayName": {
+                        "type": "keyword"
+                    },
+                    "value": {
+                        "type": "text",
+                        "fielddata": true,
+                        "fields": {
+                            "keyword": { 
+                                "type": "keyword"
+                            }
+                        }
+                    },
+                    "intValue": {
+                        "type": "integer"
+                    },
+                    "maxValue": {
+                        "type": "integer"
+                    }
+                }
+            }
+        },
+        "nodes": {
+            "table": "nfts",
+            "schema": "public",
+            "columns": []
+        }
+    },
+    {
+        "database": "beland-nft-api",
+        "index": "beland-nft-api-items",
+        "mapping": {
+            "id": {
+                "type": "keyword"
+            },
+            "name": {
+                "type": "text",
+                "fields": {
+                    "keyword": { 
+                        "type": "keyword"
+                    }
+                }
+            },
+            "description": {
+                "type": "text",
+                "fields": {
+                    "keyword": { 
+                        "type": "keyword"
+                    }
+                }
+            },
+            "tokenId": {
+                "type": "double"
+            },
+            "tokenAddress": {
+                "type": "keyword"
+            },
+            "tokenUri": {
+                "type": "keyword"
+            },
+            "animationUrl": {
+                "type": "keyword"
+            },
+            "thumbnail": {
+                "type": "keyword"
+            },
+            "imageUrl": {
+                "type": "keyword"
+            },
+            "creator": {
+                "type": "keyword"
+            },
+            "onSale": {
+                "type": "boolean"
+            },
+            "createdAt": {
+                "type": "date"
+            },
+            "updatedAt": {
+                "type": "date"
+            },
+            "price": {
+                "type": "float"
+            },
+            "status": {
+                "type": "integer"
+            },
+            "quoteToken": {
+                "type": "keyword"
+            },
+            "traits": {
+                "type": "nested",
+                "properties": {
+                    "name": {
+                        "type": "keyword"
+                    },
+                    "displayType": {
+                        "type": "keyword"
+                    },
+                    "displayName": {
+                        "type": "keyword"
+                    },
+                    "value": {
+                        "type": "text",
+                        "fielddata": true,
+                        "fields": {
+                            "keyword": { 
+                                "type": "keyword"
+                            }
+                        }
+                    },
+                    "intValue": {
+                        "type": "integer"
+                    },
+                    "maxValue": {
+                        "type": "integer"
+                    }
+                }
+            }
+        },
+        "nodes": {
+            "table": "items",
+            "schema": "public",
+            "columns": []
+        }
+    }
+]

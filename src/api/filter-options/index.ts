@@ -1,6 +1,6 @@
-import { getFilterOptions } from '../../utils/elastic';
+import { getNftFilterOptions } from '../../utils/elastic';
 async function filterOptions(ctx) {
-  const fileOptions: any = await getFilterOptions(ctx.query);
+  const fileOptions: any = await getNftFilterOptions(ctx.query);
   ctx.body = fileOptions;
 }
 export { filterOptions };

@@ -1,5 +1,8 @@
 import { Op } from 'sequelize';
 import database from '../../database';
+import { getItemFilterOptions, searchItem } from '../../utils/elastic';
+import { getIpfsFullURL } from '../../utils/ipfs';
+import { getAnimationURL } from '../../utils/nft';
 import { buildQuery } from '../../utils/query';
 import { search as dbSearch } from '../../utils/search';
 
@@ -55,14 +58,24 @@ export async function handleList(ctx) {
   const query = buildQuery(ctx);
   query.where = { ...query.where, ...where };
   query.include = include;
-  const items = await Item.findAndCountAll(query);
   ctx.status = 200;
-  ctx.body = items
+  ctx.body = await Item.findAndCountAll(query);
 }
 
 export async function handleSearch(ctx) {
-  ctx.body = await dbSearch(ctx.query, {
-    table: 'items',
-  });
+  const res = await searchItem(ctx.query);
+  ctx.body = {
+    count: res.hits.total.value,
+    rows: res.hits.hits.map(r => formatItemResponse(r._source)),
+  };
 }
 
+function formatItemResponse(item) {
+  item.imageUrl = getIpfsFullURL(item.imageUrl);
+  item.animationUrl = `https://wearable-preview.beland.io/?contract=${item.tokenAddress}&item=${item.itemId}`;
+  return item;
+}
+
+export async function handleGetFilterOptions(ctx) {
+  ctx.body = await getItemFilterOptions(ctx.query);
+}

@@ -1,4 +1,4 @@
-import { search as esSearch } from '../../utils/elastic';
+import { searchNFT } from '../../utils/elastic';
 import { getAnimationURL } from '../../utils/nft';
 import { search as dbSearch } from '../../utils/search';
 import database from '../../database';
@@ -10,7 +10,7 @@ export async function search(ctx) {
     ctx.query.onSale = ctx.query.onSale === '1' ? true : false;
   }
   try {
-    const data = await esSearch(ctx.query);
+    const data = await searchNFT(ctx.query);
     ctx.status = 200;
     ctx.body = {
       count: data.hits.total.value,
@@ -30,7 +30,10 @@ async function withData(rows) {
         case 'estate':
           row.data = {
             estate: {
-              parcels: await Parcel.findAll({ attributes: ['x', 'y'], where: {estateId: row.tokenId} }),
+              parcels: await Parcel.findAll({
+                attributes: ['x', 'y'],
+                where: { estateId: row.tokenId },
+              }),
             },
           };
           break;
@@ -43,7 +46,7 @@ async function withData(rows) {
 
 function getType(row) {
   const typeObj = row.traits!.find(t => t.name == 'type');
-  return typeObj ? typeObj.value: null;
+  return typeObj ? typeObj.value : null;
 }
 
 function formatNftResponse(nft) {
