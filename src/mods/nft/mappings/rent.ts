@@ -47,7 +47,7 @@ export async function handleRent(e: Event) {
   if (!nft) return;
 
   nft.renter = e.args.renter;
-  nft.expiredAt = e.args.expiredAt;
+  nft.expiredAt = new Date(e.args.expiredAt.toNumber() * 1000);
   await Promise.all([nft.save(), createRentEvent(e, nft)]);
 }
 
@@ -89,7 +89,7 @@ export async function handleAcceptOffer(e: Event) {
   if (!nft) return;
   nft.lendOfferCount--;
   nft.renter = e.args.renter;
-  nft.expiredAt = e.args.expiredAt;
+  nft.expiredAt = new Date(e.args.expiredAt.toNumber() * 1000);
   await Promise.all([
     nft.save(),
     Offer.destroy({ where: { nftId, renter: e.args.renter.toString() } }),
