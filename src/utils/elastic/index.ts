@@ -157,8 +157,8 @@ export const search = async (
   let should = [];
 
   const {
-    from,
-    size,
+    limit: size,
+    offset: from,
     orderBy = 'id',
     orderDirection = 'desc',
     ids,
@@ -265,6 +265,7 @@ export const search = async (
       must.push(_must);
     }
   }
+  console.log(JSON.stringify(must))
   const { body } = await client.search({
     index: getEsIndex(options.table),
     body: {
