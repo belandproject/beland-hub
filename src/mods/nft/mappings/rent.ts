@@ -23,6 +23,7 @@ export async function handleLend(e: Event) {
   nft.price = e.args.pricePerDay.toString();
   nft.listedAt = new Date(block.timestamp * 1000);
   nft.onLending = true;
+  nft.expiredAt = new Date(block.timestamp * 1000);
   await Promise.all([nft.save(), createLendEvent(e, nft)]);
 }
 
