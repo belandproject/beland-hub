@@ -64,8 +64,8 @@ export async function handleCreateOffer(e: Event) {
       nftId,
       address: e.address,
       renter: e.args.renter.toString(),
-      quoteToken: e.args._quoteToken.toString(),
-      price: e.args._price.toString(),
+      quoteToken: e.args.quoteToken.toString(),
+      price: e.args.pricePerDay.toString(),
       duration: e.args.duration.toNumber(),
     }),
   ]);

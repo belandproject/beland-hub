@@ -47,7 +47,8 @@ module.exports = sequelize => {
         type: DataTypes.STRING,
       },
       bidder: {
-        allowNull: true,
+        allowNull: false,
+        defaultValue: '',
         type: DataTypes.STRING,
       },
       bidDate: {
@@ -68,9 +69,9 @@ module.exports = sequelize => {
       },
       imageUrl: {
         allowNull: true,
-        type: DataTypes.STRING
+        type: DataTypes.STRING,
       },
-      
+
       animationUrl: {
         allowNull: true,
         type: DataTypes.STRING,
