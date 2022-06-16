@@ -196,25 +196,7 @@ export const search = async params => {
       if (params[paramKey].includes('ON_LEND')) {
         should.push({
           bool: {
-            must: [
-              { term: { onLending: true } },
-              {
-                bool: {
-                  should: [
-                    {
-                      bool: {
-                        must: [{ range: { expiredAt: { lte: datetime } } }],
-                      },
-                    },
-                    {
-                      bool: {
-                        must: [{ term: { renter: null } }],
-                      },
-                    },
-                  ],
-                },
-              },
-            ],
+            must: [{ term: { onLending: true } }, { range: { expiredAt: { lte: datetime } } }],
           },
         });
       }
