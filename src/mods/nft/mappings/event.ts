@@ -180,7 +180,7 @@ export const createCancelLendEvent = async (e: Event, nft) => {
     itemId: nft.itemId,
     event: 'CANCEL_LEND',
     metadata: {
-      seller: e.args.lender.toString(),
+      seller: nft.owner,
     },
   });
 };
