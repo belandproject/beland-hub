@@ -61,7 +61,6 @@ export const handleAddItems = async (e: Event) => {
       });
     })
   );
-
 };
 
 export const handleEditItems = async (e: Event) => {
@@ -102,18 +101,19 @@ export async function handleApprove(e: Event) {
   const col = await Collection.findByPk(collectionId);
   col.isApproved = e.args._newValue;
 
-  await Item.update(
-    {
-      onSale: col.minters.includes(PRESALE_CONTRACT),
-    },
-    {
-      where: {
-        tokenAddress: collectionId,
+  await Promise.all([
+    col.save(),
+    Item.update(
+      {
+        onSale: col.minters.includes(PRESALE_CONTRACT),
       },
-    }
-  );
-
-  await col.save();
+      {
+        where: {
+          tokenAddress: collectionId,
+        },
+      }
+    ),
+  ]);
 }
 
 export async function handleEnableEditable(e: Event) {
@@ -130,35 +130,41 @@ export async function handleSetMinter(e: Event) {
   const isPresaleContract = _minter === PRESALE_CONTRACT;
   let minters = [...col.minters] || [];
   const hasMinter = minters.includes(_minter);
+  const promises = [];
   if (e.args._isMinter) {
     if (!hasMinter) {
       minters.push(_minter);
       if (isPresaleContract && col.isApproved) {
-        await Item.update(
-          { onSale: true },
-          {
-            where: {
-              tokenAddress: collectionId,
-            },
-          }
+        promises.push(
+          Item.update(
+            { onSale: true },
+            {
+              where: {
+                tokenAddress: collectionId,
+              },
+            }
+          )
         );
       }
     }
   } else if (hasMinter) {
     minters = minters.filter(minter => minter !== _minter);
     if (isPresaleContract && col.isApproved) {
-      await Item.update(
-        { onSale: false },
-        {
-          where: {
-            tokenAddress: collectionId,
-          },
-        }
+      promises.push(
+        Item.update(
+          { onSale: false },
+          {
+            where: {
+              tokenAddress: collectionId,
+            },
+          }
+        )
       );
     }
   }
   col.minters = minters;
-  await col.save();
+  promises.push(col.save());
+  await Promise.all(promises);
 }
 
 export async function handleTransfer(e: Event) {
@@ -183,11 +189,11 @@ export async function handleTransferCreator(e: Event) {
       creator: e.address.toString(),
     },
   };
-
-  await NFT.update(dataToUpdate, { where });
-  await Item.update(dataToUpdate, { where });
-
-  await Collection.update(dataToUpdate, {
-    where: { id: e.address.toString() },
-  });
+  await Promise.all([
+    NFT.update(dataToUpdate, { where }),
+    Item.update(dataToUpdate, { where }),
+    Collection.update(dataToUpdate, {
+      where: { id: e.address.toString() },
+    }),
+  ]);
 }

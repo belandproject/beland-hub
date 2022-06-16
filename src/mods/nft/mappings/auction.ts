@@ -28,9 +28,7 @@ export const handleCreateAuction = async (e: Event) => {
   nft.quoteToken = e.args.quoteToken.toString();
   nft.exchangeAddress = e.address;
   nft.listedAt = new Date(block.timestamp * 1000);
-  await nft.save();
-
-  await createAuctionEvent(e, nft);
+  await Promise.all([nft.save(), createAuctionEvent(e, nft)]);
 };
 
 export const handleCancelAuction = async (e: Event) => {
@@ -45,8 +43,7 @@ export const handleCancelAuction = async (e: Event) => {
   nft.quoteToken = null;
   nft.exchangeAddress = null;
   nft.listedAt = null;
-  await nft.save();
-  await createCancelAuctionEvent(e, nft);
+  await Promise.all([nft.save(), createCancelAuctionEvent(e, nft)]);
 };
 
 export const handleBid = async (e: Event) => {
@@ -60,8 +57,8 @@ export const handleBid = async (e: Event) => {
   nft.price = e.args.price.toString();
   nft.bidder = e.args.bidder.toString();
   nft.bidDate = bidDate;
-  await nft.save();
-  await createAuctionBidEvent(e, nft);
+
+  await Promise.all([nft.save(), createAuctionBidEvent(e, nft)]);
 };
 
 export const handleCollect = async (e: Event) => {
@@ -70,7 +67,7 @@ export const handleCollect = async (e: Event) => {
   if (!nft) return;
 
   const block = await getBlock(e.blockNumber);
-  await createCollectEvent(e, nft);
+  const promises = [createCollectEvent(e, nft)];
   nft.price = 0;
   nft.bidder = null;
   nft.auctionStartTime = null;
@@ -80,5 +77,6 @@ export const handleCollect = async (e: Event) => {
   nft.exchangeAddress = null;
   nft.soldAt = new Date(block.timestamp * 1000);
   nft.bidDate = null;
-  await nft.save();
+  promises.push(nft.save());
+  await Promise.all(promises);
 };

@@ -51,16 +51,18 @@ export const handleCreateBid = async (e: Event) => {
 
   nft.offerCount++;
   nft.hasOffer = true;
-  await nft.save();
-  await Bid.create({
-    nftId,
-    address: e.address,
-    bidder: e.args.bidder.toString(),
-    quoteToken: e.args._quoteToken.toString(),
-    price: e.args._price.toString(),
-    txhash: e.transactionHash
-  });
-  await createOfferEvent(e, nft);
+  await Promise.all([
+    createOfferEvent(e, nft),
+    nft.save(),
+    Bid.create({
+      nftId,
+      address: e.address,
+      bidder: e.args.bidder.toString(),
+      quoteToken: e.args._quoteToken.toString(),
+      price: e.args._price.toString(),
+      txhash: e.transactionHash,
+    }),
+  ]);
 };
 
 export const handleCancelBid = async (e: Event) => {
@@ -70,7 +72,6 @@ export const handleCancelBid = async (e: Event) => {
 
   nft.offerCount--;
   nft.hasOffer = nft.offerCount > 0;
-  await nft.save();
 
   const bid = await Bid.findOne({
     where: {
@@ -78,8 +79,8 @@ export const handleCancelBid = async (e: Event) => {
       bidder: e.args.bidder.toString(),
     },
   });
-  await bid.destroy();
-  await createCancelBidEvent(e, nft, bid);
+
+  await Promise.all([createCancelBidEvent(e, nft, bid), bid.destroy(), nft.save()]);
 };
 
 export const handleAcceptBid = async (e: Event) => {
@@ -93,16 +94,17 @@ export const handleAcceptBid = async (e: Event) => {
   nft.price = 0;
   nft.onSale = false;
   nft.soldAt = new Date(block.timestamp * 1000);
-  await nft.save();
 
-  await Bid.destroy({
-    where: {
-      nftId,
-      bidder: e.args.bidder.toString(),
-    },
-  });
-
-  await createAcceptBidEvent(e, nft);
+  await Promise.all([
+    nft.save(),
+    createAcceptBidEvent(e, nft),
+    Bid.destroy({
+      where: {
+        nftId,
+        bidder: e.args.bidder.toString(),
+      },
+    }),
+  ]);
 };
 
 export const handleBuy = async (e: Event) => {
@@ -114,7 +116,6 @@ export const handleBuy = async (e: Event) => {
   nft.price = 0;
   nft.onSale = false;
   nft.soldAt = new Date(block.timestamp * 1000);
-  await nft.save();
 
-  await createBuyEvent(e, nft);
+  await Promise.all([nft.save(), createBuyEvent(e, nft)]);
 };

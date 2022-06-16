@@ -44,11 +44,11 @@ export const handleTransfer = async (e: Event) => {
 
   estate.owner = e.args.to;
   estate.updatedAt = time;
-  await estate.save();
 
   const nft = await NFT.findByPk(nftID);
   nft.owner = e.args.to;
-  await nft.save();
+
+  await Promise.all([estate.save(), nft.save()]);
 };
 
 export async function handleCreateBundle(e: Event) {
@@ -56,28 +56,31 @@ export async function handleCreateBundle(e: Event) {
   const time = new Date(block.timestamp * 1000);
   const estate = await Estate.findByPk(e.args.tokenId.toNumber());
   const tokenIds = e.args.tokenIds.map(tokenId => tokenId.toString());
-  await Parcel.update(
-    {
-      estateId: estate.id,
-      owner: estate.owner,
-      updatedAt: time,
-    },
-    {
-      where: {
-        id: { [Op.in]: tokenIds },
+  const promises = [
+    Parcel.update(
+      {
+        estateId: estate.id,
+        owner: estate.owner,
+        updatedAt: time,
       },
-    }
-  );
+      {
+        where: {
+          id: { [Op.in]: tokenIds },
+        },
+      }
+    ),
+  ];
 
   if (e.args.data) {
     const data = parseCSV(e.args.data.toString());
     estate.name = _.nth(data, 1) || '';
     estate.description = _.nth(data, 2) || '';
     estate.image = _.nth(data, 3) || '';
-    await estate.save();
+    promises.push(estate.save());
   }
 
-  await updateEstateNFTPointer(e.address, e.args.tokenId);
+  promises.push(updateEstateNFTPointer(e.address, e.args.tokenId));
+  await Promise.all(promises);
 }
 
 async function updateEstateNFTPointer(nftAddress, tokenId) {
@@ -102,18 +105,21 @@ export async function handleBundleRemoveItems(e: Event) {
   const block = await getBlock(e.blockNumber);
   const datetime = new Date(block.timestamp * 1000);
   const tokenIds = e.args.tokenIds.map(tokenId => tokenId.toString());
-  await Parcel.update(
-    {
-      estateId: null,
-      updatedAt: datetime,
-    },
-    {
-      where: {
-        id: { [Op.in]: tokenIds },
+  const promises = [
+    Parcel.update(
+      {
+        estateId: null,
+        updatedAt: datetime,
       },
-    }
-  );
-  await updateEstateNFTPointer(e.address, e.args.tokenId);
+      {
+        where: {
+          id: { [Op.in]: tokenIds },
+        },
+      }
+    ),
+  ];
+  promises.push(updateEstateNFTPointer(e.address, e.args.tokenId));
+  await Promise.all(promises);
 }
 
 export async function handleUpdateMetadata(e: Event) {
@@ -122,12 +128,14 @@ export async function handleUpdateMetadata(e: Event) {
   estate.name = _.nth(data, 1) || '';
   estate.description = _.nth(data, 2) || '';
   estate.image = _.nth(data, 3) || '';
-
+  const promises = [];
   if (estate.name) {
     const nft = await NFT.findByPk(getNftId(e.address, e.args.tokenId));
     nft.name = estate.name;
-    await nft.save();
+    promises.push(nft.save());
   }
 
-  await estate.save();
+  promises.push(estate.save());
+
+  await Promise.all(promises);
 }
