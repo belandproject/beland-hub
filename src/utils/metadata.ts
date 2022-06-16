@@ -1,4 +1,7 @@
 import axios from 'axios';
+import axiosRetry from 'axios-retry';
+axiosRetry(axios, { retries: 3 });
+
 import { validateMetadata } from './validate-metadata';
 function getIpfsURL(hash: string): string {
   return hash.replace('ipfs://', `${process.env.IPFS_GATEWAY}/ipfs/`);
