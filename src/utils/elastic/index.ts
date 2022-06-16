@@ -164,7 +164,7 @@ export const search = async (
     ids,
     q,
     toggles,
-    otherParams,
+    ...otherParams
   } = params;
 
   const sort = [
