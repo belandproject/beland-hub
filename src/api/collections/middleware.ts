@@ -1,4 +1,5 @@
 import { pack, keccak256 } from '@ethersproject/solidity';
+import { ethers } from 'ethers';
 import { getCreate2Address } from 'ethers/lib/utils';
 import database from '../../database';
 
@@ -19,20 +20,16 @@ export async function getCollectionMiddleware(ctx, next) {
 
 export async function canUpdateColMiddleware(ctx, next) {
   const col = ctx.state.col;
-  if (col.creator != ctx.state.user.user) {
+  if (!isCreator(ctx, col)) {
     ctx.status = 401;
     ctx.body = { error: 'Unauthentication' };
     return;
   }
-
-  if (col.isPublished) {
-    ctx.status = 400;
-    ctx.body = { error: 'Cannot update/delete collection published' };
-    return;
-  }
-
-  ctx.state.col = col;
   next();
+}
+
+function isCreator(ctx, col) {
+  return col.creator === ethers.utils.getAddress(ctx.state.user.user);
 }
 
 export async function canCreateColMiddleware(ctx, next) {

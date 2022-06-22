@@ -86,7 +86,6 @@ export async function search(params, options: Option) {
     type: QueryTypes.SELECT,
     replacements,
   });
-  // console.log(queryStr, replacements)
   const rows = await sequelize.query(
     `SELECT * FROM ${from} ${where} ORDER BY "${orderBy}" ${orderDirection} LIMIT ? OFFSET ?`,
     {

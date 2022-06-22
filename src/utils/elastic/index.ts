@@ -265,7 +265,6 @@ export const search = async (
       must.push(_must);
     }
   }
-  console.log(JSON.stringify(must))
   const { body } = await client.search({
     index: getEsIndex(options.table),
     body: {

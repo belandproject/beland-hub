@@ -1,3 +1,4 @@
+import { ethers } from 'ethers';
 import database from '../../database';
 import { buildQuery } from '../../utils/query';
 
@@ -20,4 +21,11 @@ export async function handleList(ctx) {
   });
   ctx.status = 200;
   ctx.body = cols;
+}
+
+export async function handleUpdate(ctx) {
+  const { col } = ctx.state.col;
+  col.setAttributes(ctx.request.body);
+  await col.save();
+  ctx.body = col;
 }
