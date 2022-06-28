@@ -18,6 +18,7 @@ export const userCreateOrUpdateValidate = {
     website: Joi.string().allow(''),
     email: Joi.string().email().allow(''),
     version: Joi.number(),
+    tutorialStep: Joi.number(),
     avatar: Joi.object({
       bodyShape: Joi.string(),
       eyes: color,
