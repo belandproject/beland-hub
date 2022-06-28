@@ -32,7 +32,7 @@ module.exports = sequelize => {
     },
     tutorialStep: {
       allowNull: false,
-      default: 0,
+      defaultValue: 0,
       type: DataTypes.INTEGER,
     },
     hasClaimedName: {
