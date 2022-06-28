@@ -30,6 +30,11 @@ module.exports = sequelize => {
       allowNull: true,
       type: DataTypes.INTEGER,
     },
+    tutorialStep: {
+      allowNull: false,
+      default: 0,
+      type: DataTypes.INTEGER,
+    },
     hasClaimedName: {
       allowNull: false,
       defaultValue: false,
