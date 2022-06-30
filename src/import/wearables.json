@@ -5603,7 +5603,7 @@
       },
       {
         "name": "category",
-        "value": "upper_body"
+        "value": "feet"
       },
       {
         "name": "tags",
@@ -10754,7 +10754,7 @@
   {
     "id": "urn:beland:off-chain:base-avatars:blue_skirt",
     "name": "blue_skirt",
-    "imageUrl": "ipfs://QmTCqKrQuAnJov4Tiqpm6qSASBhJVVqvn1XEXuuHofdDnM",
+    "imageUrl": "ipfs://QmWNqstBhMezT6PbsDhGVL8qTVN4fVPSMmErLYb59YJ4ze",
     "description": "",
     "data": {
       "representations": [
@@ -10765,7 +10765,7 @@
           "mainFile": "F_uBody_BlueSkirt.glb",
           "contents": [
             {
-              "hash": "ipfs://QmXkjRcN1zziUtoHMVVykWn8UTPNrDFGA8JViQdpiDgoGA",
+              "hash": "ipfs://QmYSyqF1fcWKvtiwV1J7JPYpKb1RLUNxkXWY9GVHia2WjG",
               "path": "F_uBody_BlueSkirt.glb"
             }
           ]
@@ -10800,9 +10800,9 @@
     ]
   },
   {
-    "id": "urn:beland:off-chain:base-avatars:pink_skirt",
-    "name": "pink_skirt",
-    "imageUrl": "ipfs://QmcRBCdL8VxyC4QQgBgr2D4EfX76kqzMti2ReBjwH3x8ta",
+    "id": "urn:beland:off-chain:base-avatars:green_skirt",
+    "name": "green_skirt",
+    "imageUrl": "ipfs://QmRBLBAsBR9YAzFera6siUMyDyJMxUgPQo5aTrSEZgNthd",
     "description": "",
     "data": {
       "representations": [
@@ -10810,11 +10810,11 @@
           "bodyShapes": [
             "urn:beland:off-chain:base-avatars:BaseFemale"
           ],
-          "mainFile": "F_uBody_PinkSkirt.glb",
+          "mainFile": "F_uBody_GreenSkirt.glb",
           "contents": [
             {
-              "hash": "ipfs://QmWeKhfTyx3ozWxbc4VvFxQh9qvJhKySWG3ggvpShu3dA5",
-              "path": "F_uBody_PinkSkirt.glb"
+              "hash": "ipfs://QmbZ5p7CCG8WopUstSwezhHJ19smMqHBQcbAq9C53LuBHm",
+              "path": "F_uBody_GreenSkirt.glb"
             }
           ]
         }
