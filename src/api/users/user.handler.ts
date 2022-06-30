@@ -3,15 +3,19 @@ import { buildQuery } from '../../utils/query';
 import _ from 'lodash';
 import { Op } from 'sequelize';
 import { ethers } from 'ethers';
-const { user: User, nft: NFT } = database.models;
+const { user: User, nft: NFT, item: Item } = database.models;
 
 async function withWearable(user) {
   if (!user.avatar || !user.avatar.wearables) return user;
   const baseURN = 'urn:beland:off-chain:base-avatars:';
-  const basicWearables = user.avatar.wearables.filter(wearable => wearable.includes(baseURN));
+  const basicWearables = await Item.findAll({
+    where: {
+      id: { [Op.in]: user.avatar.wearables.filter(wearable => wearable.includes(baseURN)) },
+    },
+  });
   const wearables = user.avatar.wearables.filter(wearable => !wearable.includes(baseURN));
-  const userId = ethers.utils.getAddress(user.id)
-  return NFT.findAll({
+  const userId = ethers.utils.getAddress(user.id);
+  const nfts = await NFT.findAll({
     where: {
       [Op.or]: {
         owner: userId,
@@ -26,10 +30,10 @@ async function withWearable(user) {
         [Op.in]: wearables,
       },
     },
-  }).then(nfts => {
-    user.avatar.wearables = nfts.map(nft => nft.itemId).concat(basicWearables);
-    return user;
   });
+
+  user.avatar.wearables = nfts.map(nft => nft.itemId).concat(basicWearables.map(w => w.id));
+  return user;
 }
 
 export async function handleList(ctx) {
