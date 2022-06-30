@@ -10744,6 +10744,10 @@
       {
         "name": "tags",
         "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
       }
     ]
   },
@@ -10788,6 +10792,10 @@
       {
         "name": "tags",
         "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
       }
     ]
   },
@@ -10832,6 +10840,10 @@
       {
         "name": "tags",
         "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
       }
     ]
   },
@@ -10876,6 +10888,10 @@
       {
         "name": "tags",
         "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
       }
     ]
   },
@@ -10920,6 +10936,10 @@
       {
         "name": "tags",
         "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
       }
     ]
   },
@@ -11228,6 +11248,10 @@
       {
         "name": "tags",
         "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
       }
     ]
   },
@@ -11272,6 +11296,10 @@
       {
         "name": "tags",
         "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
       }
     ]
   },
