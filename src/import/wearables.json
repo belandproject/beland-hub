@@ -9220,6 +9220,50 @@
     ]
   },
   {
+    "id": "urn:beland:off-chain:base-avatars:orange_style_suit_pants",
+    "name": "orange_style_suit_pants",
+    "imageUrl": "ipfs://QmPTPTTKCZDkpJeHwYceU262kD2rSVa2ksvjHeoJ2wW8QB",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseMale"
+          ],
+          "mainFile": "M_lBody_OrangeStyleSuitPants.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmU8WtKRMQNjyywC47F23KuJp9PRQkhAUaK2R9qfLwCTMB",
+              "path": "M_lBody_OrangeStyleSuitPants.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "lower_body"
+      },
+      {
+        "name": "tags",
+        "value": "bottom"
+      },
+      {
+        "name": "tags",
+        "value": "male"
+      },
+      {
+        "name": "tags",
+        "value": "man"
+      }
+    ]
+  },
+  {
     "id": "urn:beland:off-chain:base-avatars:purple_joker",
     "name": "purple_joker",
     "imageUrl": "ipfs://QmUaWUc7C1D8V6gmhc34VDWe6DKxaeyUe5gEekE8jSpzwC",
@@ -10704,6 +10748,238 @@
     ]
   },
   {
+    "id": "urn:beland:off-chain:base-avatars:black_addidas_cropTop",
+    "name": "black_addidas_cropTop",
+    "imageUrl": "ipfs://QmbHGt2c6TGt9vdz8WeDbMTamNYv92gWmHnP7Wv3exBmvD",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_BlackAddidasCropTop.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmRatA9CUKExwvS2ZFzWqL5Ragt7B9BQ8op5ekrdsVvHQG",
+              "path": "F_uBody_BlackAddidasCropTop.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:black_chanel_overall",
+    "name": "black_chanel_overall",
+    "imageUrl": "ipfs://QmVKM2oKA4WxZm9MNB8wtSonhcsyg4N4EsQhSYa55TocRM",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_BlackChanelOverall.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmNicEVJEuZnvhJx3TDFY74tE47rMVwGmtAzcuTvUYJoTd",
+              "path": "F_uBody_BlackChanelOverall.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:black_cropTop",
+    "name": "black_cropTop",
+    "imageUrl": "ipfs://QmaYc2Ke9ia6fiPUfFpqDKKKXD3jJUZrNckN4QqDaEvpFG",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_BlackCropTop.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmfG5qtD4Z3oQnWxTrqastYSoZ5iUhYQqQdmfWePe9kSJh",
+              "path": "F_uBody_BlackCropTop.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:black_set_baggy_vest",
+    "name": "black_set_baggy_vest",
+    "imageUrl": "ipfs://QmPfwtyDMRX9GCNzWeTMthZWURom7Dz51hAcmoXwg2RYGa",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_BlackSetBaggyVest.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmcsEAwdqz2zr84bofSycDU8vMGRWiJLskMQ2q1F1TKVfP",
+              "path": "F_uBody_BlackSetBaggyVest.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:black_skin_tight_dress",
+    "name": "black_skin_tight_dress",
+    "imageUrl": "ipfs://QmSPSbhkZYPwJDXJwuDxDQNSCKQy5q3We9o3Js5Q2Udy9R",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_BlackSkinTightDress.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmcwMH2LiwgXEBfS31dQdwEY3Mv7YJNssJXw2CMhkE3Z5Z",
+              "path": "F_uBody_BlackSkinTightDress.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
+      }
+    ]
+  },
+  {
     "id": "urn:beland:off-chain:base-avatars:blue_brown_skirt",
     "name": "blue_brown_skirt",
     "imageUrl": "ipfs://QmWxv9ARYDZYBWiZeMDKiTfGWfCjgnux4jS8kYVXUFuVxA",
@@ -10815,6 +11091,526 @@
             {
               "hash": "ipfs://QmbZ5p7CCG8WopUstSwezhHJ19smMqHBQcbAq9C53LuBHm",
               "path": "F_uBody_GreenSkirt.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:light_brown_skin_tight_dress",
+    "name": "light_brown_skin_tight_dress",
+    "imageUrl": "ipfs://QmU85mnoFQEns4jKzeRKtesixpdMXeNfLghJT4pXps784g",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_LightBrownSkinTightDress.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmVzThF5VRwFdU8ZYKu2V21eivhGtvymvsZSaxcZpoys2e",
+              "path": "F_uBody_LightBrownSkinTightDress.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:light_green_jennie_short_dress",
+    "name": "light_green_jennie_short_dress",
+    "imageUrl": "ipfs://QmPYYaYGXK3hY2MqEsNA6sNpayxtBEiHJZjSQdZ5b9Xzn1",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_LightGreenJennieShortDress.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmSnpPdBxuxFNBshZBEmTgGGLHN1Xjmord4huoJU6AVzqd",
+              "path": "F_uBody_LightGreenJennieShortDress.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:light_green_long_sleeve_croptop",
+    "name": "light_green_long_sleeve_croptop",
+    "imageUrl": "ipfs://QmVWjeAbBqXfAiLkMoqxwqYnQjtySR474D3CuBcXNnPpAL",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_LightGreenLongSleeveCroptop.glb",
+          "contents": [
+            {
+              "hash": "ipfs://Qmet6jxdRmuAMRWHayreCwogbthuLUpAgQjQH2H4EbG3mn",
+              "path": "F_uBody_LightGreenLongSleeveCroptop.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:light_green_set_baggy_cloud",
+    "name": "light_green_set_baggy_cloud",
+    "imageUrl": "ipfs://Qmb23on5hq2MjCXGF9bZnt4Z1eRYHjvqss3NMqQfL6is6i",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_LightGreenSetBaggyCloud.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmQCujucD2nVY2qx7yhyj7ccLh7FVqMR7rpFBVJ68boW7Q",
+              "path": "F_uBody_LightGreenSetBaggyCloud.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:light_green_set_jacket",
+    "name": "light_green_set_jacket",
+    "imageUrl": "ipfs://QmZKE5PoQC3mW33MUopq3V9mj9MtPTtoGjG4b6R8HC6b1E",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_LightGreenSetJacket.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmTnPRFrQVKE8oLxevgMdKbGfjGzB65Tuz4SqhVYxxBiYR",
+              "path": "F_uBody_LightGreenSetJacket.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:light_green_skin_tight_dress",
+    "name": "light_green_skin_tight_dress",
+    "imageUrl": "ipfs://QmS1KzzyBFRNhHKNL8siqZrmNNbtAua4yaH6sw5octQDe5",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_LightGreenSkinTightDress.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmUKP4QzBeKE5vranTXYJCMTFHMzGwpsBMSYLq1AUGJM79",
+              "path": "F_uBody_LightGreenSkinTightDress.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:light_grey_long_sleeve_croptop",
+    "name": "light_grey_long_sleeve_croptop",
+    "imageUrl": "ipfs://QmXvuDVQYgi9iieugrTVBMnePSrwEYC9SU5qPUukqEVng4",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_LightGreyLongSleeveCroptop.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmXXPHQgFnD4CNe73SgU8wUnjmp2vqGJ8WbMHkFsA4Tgbt",
+              "path": "F_uBody_LightGreyLongSleeveCroptop.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:light_pink_long_sleeve_croptop",
+    "name": "light_pink_long_sleeve_croptop",
+    "imageUrl": "ipfs://QmQbb5Q1d9kg9P52RNKjRC7JpyzRUwr9EzfgQkU9hU45oy",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_LightPinkLongSleeveCroptop.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmRcfVGL5EtEtEefC5CYM3pVkoV3QmmdsNMbkveu6K4F2x",
+              "path": "F_uBody_LightPinkLongSleeveCroptop.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:light_pink_long_sleeve_croptop_01",
+    "name": "light_pink_long_sleeve_croptop_01",
+    "imageUrl": "ipfs://QmV8Po7H2BkDszPZdmKcJLEf64nQvMKbFZALuXoAcvkW67",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_LightPinkLongSleeveCroptop01.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmSLDKQqHg1rQ88zYMzGo2CJ98fuwQM8PqLND2xZX4nvcr",
+              "path": "F_uBody_LightPinkLongSleeveCroptop01.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:light_pink_set_baggy_vest",
+    "name": "light_pink_set_baggy_vest",
+    "imageUrl": "ipfs://QmYMEoNn8Cr7kYBfh4L5GpPJV2FBJ3dGV4p29qbdPaU5gd",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_LightPinkSetBaggyVest.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmVne6wUsifcVTb9TXnqPEx6HjSpebdjAvU3x9WSrFPrdK",
+              "path": "F_uBody_LightPinkSetBaggyVest.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:pink_skirt",
+    "name": "pink_skirt",
+    "imageUrl": "ipfs://QmTCiVKtCAMBqPsYrA4Rrm8xpcHy6B1J8q331K9QmFJhrz",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_PinkSkirt.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmVoRJCEfTqecAwMuDXmB6XYDQaQoCWcuPpbeYvQRMv79m",
+              "path": "F_uBody_PinkSkirt.glb"
             }
           ]
         }
@@ -11256,6 +12052,54 @@
     ]
   },
   {
+    "id": "urn:beland:off-chain:base-avatars:purple_skin_tight_dress",
+    "name": "purple_skin_tight_dress",
+    "imageUrl": "ipfs://Qma4RXHn6UYmgb4Wx7HVeadkG5pei6iwsWsmYgDMSRgXmM",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_PurpleSkinTightDress.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmWJvF93QMbZNq8omkrrSnwFwyTM8s2yUcbYLa7PG3ZNnV",
+              "path": "F_uBody_PurpleSkinTightDress.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
+      }
+    ]
+  },
+  {
     "id": "urn:beland:off-chain:base-avatars:red_skirt",
     "name": "red_skirt",
     "imageUrl": "ipfs://QmTmTSjgDiiMZMbnVuAh75T8k69BSXAaCjTxVsFqXsnQ5Z",
@@ -11344,6 +12188,378 @@
       {
         "name": "tags",
         "value": "woman"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:while_tshirt",
+    "name": "while_tshirt",
+    "imageUrl": "ipfs://QmVc8wyn2VW4TPEqxFmqxW2fEYBcPcVNSeNqDJWJNrrTn4",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_WhileTshirt.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmXsvdr5kB5gH6GVfczURpvsccq66rkdw8Z8z3ShAxavPg",
+              "path": "F_uBody_WhileTshirt.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:white_addidas_croptop",
+    "name": "white_addidas_croptop",
+    "imageUrl": "ipfs://Qmdz7cc1RmDnpiwdNks2bv3vYkoiDgTbgKPnM5AZdbNoV6",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_WhiteAddidasCropTop.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmVqVL7B4Zv9fkz67NjxwgPJDTY1y9V4LLJaerkYjCeZtr",
+              "path": "F_uBody_WhiteAddidasCropTop.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:white_croptop",
+    "name": "white_croptop",
+    "imageUrl": "ipfs://QmXDUjJrGLWFsLm6VYgRWDM4wAeZQa8vxAqE6R24hCbi92",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_WhiteCropTop.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmeT2CShwCTerSpVCxtNjqgmPPQR268UyrszZSWYB1Vy1H",
+              "path": "F_uBody_WhiteCropTop.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:white_flower_cropTop",
+    "name": "white_flower_cropTop",
+    "imageUrl": "ipfs://QmcGcZoCZoXMDLk9WnAeMyHWhWCdXrCFxco5zdTEgNuxh3",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_WhiteFlowerCropTop.glb",
+          "contents": [
+            {
+              "hash": "ipfs://Qmb5MYDphAHSoxKwkR69qzVE34b7YP1kUcKzAeUzSdDVpp",
+              "path": "F_uBody_WhiteFlowerCropTop.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:white_set_baggy_vest",
+    "name": "white_set_baggy_vest",
+    "imageUrl": "ipfs://QmaYs9WfWyA9Uy4LJBKm53mNZN3NHAvxBfvLfUxEChunoL",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseFemale"
+          ],
+          "mainFile": "F_uBody_WhiteSetBaggyVest.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmS6Jj8MdMCQXyPbJRFnTk4jtifgWCzUAHLGH7LuECe38A",
+              "path": "F_uBody_WhiteSetBaggyVest.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "female"
+      },
+      {
+        "name": "tags",
+        "value": "woman"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:black_grey_overallset",
+    "name": "black_grey_overallset",
+    "imageUrl": "ipfs://QmZhMhPV5pXRkm9zph4xXYJNgboV4WBEKTEv5eAzcAXxAf",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseMale"
+          ],
+          "mainFile": "M_uBody_BlackGreyOverallSet.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmXQmqTNKRuNpoXPbxNxyKKNuBr4q5RWr2TDPJqtLQKSJZ",
+              "path": "M_uBody_BlackGreyOverallSet.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "male"
+      },
+      {
+        "name": "tags",
+        "value": "man"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:black_pink_overallset",
+    "name": "black_pink_overallset",
+    "imageUrl": "ipfs://QmPLKJGMnwtUqyj1pD5p1h5B2n3KjDX8Ppxky3HPJQSEZv",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseMale"
+          ],
+          "mainFile": "M_uBody_BlackPinkOverallSet.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmXSG5pZH7uBTSFh8WhgTRnPXtR6aPAsUXZocmYo5sP8Z2",
+              "path": "M_uBody_BlackPinkOverallSet.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "male"
+      },
+      {
+        "name": "tags",
+        "value": "man"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:black_while_overall_set",
+    "name": "black_while_overall_set",
+    "imageUrl": "ipfs://QmTL5Q74DPyWdMZw3UqKLoeh5KovgkE2RinXh2Ag5o7a7L",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseMale"
+          ],
+          "mainFile": "M_uBody_BlackWhileOverallSet.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmScVktgNTrdag8t8JPyTB63McpQVGBKwn3fGts2cqWE4s",
+              "path": "M_uBody_BlackWhileOverallSet.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "male"
+      },
+      {
+        "name": "tags",
+        "value": "man"
+      },
+      {
+        "name": "hides",
+        "value": "lower_body"
       }
     ]
   },
@@ -11539,6 +12755,94 @@
             {
               "hash": "ipfs://QmVnhZiPHvxY6XKDZb8LTg3VKfSCSx2n5MxrKRMiDwAwG7",
               "path": "M_uBody_GreenTshirt.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "male"
+      },
+      {
+        "name": "tags",
+        "value": "man"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:light_brown_no_sleeve_wweater",
+    "name": "light_brown_no_sleeve_wweater",
+    "imageUrl": "ipfs://QmaQoKEyCrWSkYd3x5y4oqo7HND6qGbWRwcmDyT1WUX3qS",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseMale"
+          ],
+          "mainFile": "M_uBody_LightBrownNoSleeveSweater.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmYDL78227uEVbaPw7PWxrf67TKBrA2jF1D3An8SaQaUPz",
+              "path": "M_uBody_LightBrownNoSleeveSweater.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "male"
+      },
+      {
+        "name": "tags",
+        "value": "man"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:pink_short_sleeve_shirt",
+    "name": "pink_short_sleeve_shirt",
+    "imageUrl": "ipfs://QmXMafxAQVqPQLnjSgMrCwbYAiSuiHCnPtt9nAF88UYJUS",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseMale"
+          ],
+          "mainFile": "M_uBody_PinkShortSleeveShirt.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmV3mDPH84JxKD3VMtyytuMb6uDW9KYp6QNamfykEntHbk",
+              "path": "M_uBody_PinkShortSleeveShirt.glb"
             }
           ]
         }
