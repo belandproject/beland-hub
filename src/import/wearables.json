@@ -9046,7 +9046,7 @@
   {
     "id": "urn:beland:off-chain:base-avatars:black_style_suit_pants",
     "name": "black_style_suit_pants",
-    "imageUrl": "ipfs://QmNZuwomRCdDeUovLwLneEREbNqB9JwxqtjSmP9jmDBy4m",
+    "imageUrl": "ipfs://QmX4Miou2rESm48Xgzm7iEMJyvoCm2jNJZPhjYwoDczcs9",
     "description": "",
     "data": {
       "representations": [
@@ -9279,6 +9279,50 @@
             {
               "hash": "ipfs://QmU8WtKRMQNjyywC47F23KuJp9PRQkhAUaK2R9qfLwCTMB",
               "path": "M_lBody_OrangeStyleSuitPants.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "lower_body"
+      },
+      {
+        "name": "tags",
+        "value": "bottom"
+      },
+      {
+        "name": "tags",
+        "value": "male"
+      },
+      {
+        "name": "tags",
+        "value": "man"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:pink_style_suit_pants",
+    "name": "pink_style_suit_pants",
+    "imageUrl": "ipfs://QmZSSerrPxffdv3J5hbmTCM9DB31SmHhXiitNn46x6J9Ef",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseMale"
+          ],
+          "mainFile": "M_lBody_PinkStyleSuitPants.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmSuYZH3Hf3bET8KPNgXJE2bAUGFuGZvUoLEyqi8jmCz9d",
+              "path": "M_lBody_PinkStyleSuitPants.glb"
             }
           ]
         }
@@ -12466,7 +12510,7 @@
   {
     "id": "urn:beland:off-chain:base-avatars:black_baggy_sweater",
     "name": "black_baggy_sweater",
-    "imageUrl": "ipfs://QmNugp2u9WdxiGFUbmaCCHdE83EvNjvrDN3BJQ2zMX75XE",
+    "imageUrl": "ipfs://Qmb5q3X3ETxU2jtg4YPvuajdKnvJoyS2KCPQW1tCTrae1X",
     "description": "",
     "data": {
       "representations": [
@@ -12558,7 +12602,7 @@
   {
     "id": "urn:beland:off-chain:base-avatars:black_leather_jacket",
     "name": "black_leather_jacket",
-    "imageUrl": "ipfs://QmeFKnGqadbmo7bPzyUUXJ4XW9dZrx8DUpTgW74unDYVE1",
+    "imageUrl": "ipfs://QmfZAT6XVbUV3vjhSwDX9GHjaYLQDaXLtegjTwHc7o9MEw",
     "description": "",
     "data": {
       "representations": [
@@ -12644,6 +12688,50 @@
       {
         "name": "hides",
         "value": "lower_body"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:black_style_men_vest",
+    "name": "black_style_men_vest",
+    "imageUrl": "ipfs://Qme78VWiNL46Zfq6w2PHJn5R5b3z2BVjAEzvqzMLx9igPX",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseMale"
+          ],
+          "mainFile": "M_uBody_BlackStyleMenVest.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmaB76WEsyGy21h5ZXxegQi8L7suBUFLQfBG75RDkHg3Z8",
+              "path": "M_uBody_BlackStyleMenVest.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "male"
+      },
+      {
+        "name": "tags",
+        "value": "man"
       }
     ]
   },
@@ -12874,7 +12962,7 @@
   {
     "id": "urn:beland:off-chain:base-avatars:brown_baggy_sweater",
     "name": "brown_baggy_sweater",
-    "imageUrl": "ipfs://Qmb7nZCyggLynT8s18NRQSayzAXbZyjyJeJSiu7ZG4G8DB",
+    "imageUrl": "ipfs://QmSj3kzMbUpsDbhqfn5k8M4ZwxbphF4xvy4Eb16UEYnWwT",
     "description": "",
     "data": {
       "representations": [
@@ -12918,7 +13006,7 @@
   {
     "id": "urn:beland:off-chain:base-avatars:brown_jacket",
     "name": "brown_jacket",
-    "imageUrl": "ipfs://QmZaxo9oWk3uXA5Yr1tFT7fJhXm7ZcFdwoh6QHMJdpyNUV",
+    "imageUrl": "ipfs://QmVqGs12oSTKYjWuKeeUf67h6X2CSfPoM1o1zLnEN9uKPd",
     "description": "",
     "data": {
       "representations": [
@@ -12962,7 +13050,7 @@
   {
     "id": "urn:beland:off-chain:base-avatars:brown_leather_jacket",
     "name": "brown_leather_jacket",
-    "imageUrl": "ipfs://QmfCvdLjYQHwdfEjWaa8SbYpLETDcY2RGcxWkzD8osgS17",
+    "imageUrl": "ipfs://QmfWXgoyNoNzUzUdWU77EsFS6i3S2BDcox1SMbpynfBkUM",
     "description": "",
     "data": {
       "representations": [
@@ -12975,6 +13063,50 @@
             {
               "hash": "ipfs://QmeX9QC2RdC3FZPu8DkX1P7nfzPSyy5S2z8B9dwGe1xNJ8",
               "path": "M_uBody_BrownLeatherJacket.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "male"
+      },
+      {
+        "name": "tags",
+        "value": "man"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:green_short_sleeve_shirt",
+    "name": "green_short_sleeve_shirt",
+    "imageUrl": "ipfs://Qmcjbpnm4Kv5ohoz6F8cfrnUcJp6kApZm3ffCEktVrdDhj",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseMale"
+          ],
+          "mainFile": "M_uBody_GreenShortSleeveShirt.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmQeDZLMLjqSefyWog3x25RySu9WtSxopVWpacMNh5z1mR",
+              "path": "M_uBody_GreenShortSleeveShirt.glb"
             }
           ]
         }
@@ -13050,7 +13182,7 @@
   {
     "id": "urn:beland:off-chain:base-avatars:light_brown_no_sleeve_wweater",
     "name": "light_brown_no_sleeve_wweater",
-    "imageUrl": "ipfs://QmaQoKEyCrWSkYd3x5y4oqo7HND6qGbWRwcmDyT1WUX3qS",
+    "imageUrl": "ipfs://Qma57a9pNPeuUL22hPP3LpTGjWpJwmBNk8LtBDoqNG8vfq",
     "description": "",
     "data": {
       "representations": [
@@ -13094,7 +13226,7 @@
   {
     "id": "urn:beland:off-chain:base-avatars:light_green_short_sleeve_shirt",
     "name": "light_green_short_sleeve_shirt",
-    "imageUrl": "ipfs://QmQetnx2yyf1pXNcxqQX8uq8cbeEGuYSN3DyaDZBHfQ73N",
+    "imageUrl": "ipfs://QmbAagcRkAcngr7ZECDGVH1vyxfBByB5de2H4jFnwgtjwv",
     "description": "",
     "data": {
       "representations": [
@@ -13138,7 +13270,7 @@
   {
     "id": "urn:beland:off-chain:base-avatars:orange_style_men_vest",
     "name": "orange_style_men_vest",
-    "imageUrl": "ipfs://QmVS7LuCW8t1V1FNZ71QCrhBdzLMJUbrovrtucb5EWJ3Cp",
+    "imageUrl": "ipfs://QmPLGiyHky9e1gib3n8qmowRHd23Y1jNyvmDbuQfQyH16g",
     "description": "",
     "data": {
       "representations": [
@@ -13182,7 +13314,7 @@
   {
     "id": "urn:beland:off-chain:base-avatars:pink_short_sleeve_shirt",
     "name": "pink_short_sleeve_shirt",
-    "imageUrl": "ipfs://QmXMafxAQVqPQLnjSgMrCwbYAiSuiHCnPtt9nAF88UYJUS",
+    "imageUrl": "ipfs://QmdGKLN3SJ4gXenJHKUGmu1cVE8vS7vW7QUmrTVDti2og4",
     "description": "",
     "data": {
       "representations": [
@@ -13195,6 +13327,50 @@
             {
               "hash": "ipfs://QmV3mDPH84JxKD3VMtyytuMb6uDW9KYp6QNamfykEntHbk",
               "path": "M_uBody_PinkShortSleeveShirt.glb"
+            }
+          ]
+        }
+      ]
+    },
+    "traits": [
+      {
+        "name": "type",
+        "value": "wearable"
+      },
+      {
+        "name": "category",
+        "value": "upper_body"
+      },
+      {
+        "name": "tags",
+        "value": "top"
+      },
+      {
+        "name": "tags",
+        "value": "male"
+      },
+      {
+        "name": "tags",
+        "value": "man"
+      }
+    ]
+  },
+  {
+    "id": "urn:beland:off-chain:base-avatars:pink_style_men_vest",
+    "name": "pink_style_men_vest",
+    "imageUrl": "ipfs://QmUsofyN88RkEHhXjkoQ649H1mRc4eokju7gzLzMGwDguy",
+    "description": "",
+    "data": {
+      "representations": [
+        {
+          "bodyShapes": [
+            "urn:beland:off-chain:base-avatars:BaseMale"
+          ],
+          "mainFile": "M_uBody_PinkStyleMenVest.glb",
+          "contents": [
+            {
+              "hash": "ipfs://QmecrgZfBuzRSLJgSqiCpeLAjHnZqKo3dPLGowDcuYBDcj",
+              "path": "M_uBody_PinkStyleMenVest.glb"
             }
           ]
         }
