@@ -12006,7 +12006,7 @@
   {
     "id": "urn:beland:off-chain:base-avatars:pink_tshirt_02",
     "name": "pink_tshirt_02",
-    "imageUrl": "ipfs://Qme52SJFaP6FS91fu6iLCVM5krbLNi9sGZHsVDh64KcSTz",
+    "imageUrl": "ipfs://QmXQ86NhkWQAyBFuNzU2HRZyqkqRdm2osg76R4cQMHxN55",
     "description": "",
     "data": {
       "representations": [
@@ -12017,7 +12017,7 @@
           "mainFile": "F_uBody_PinkTshirt02.glb",
           "contents": [
             {
-              "hash": "ipfs://QmPVCBAa39U3sjK8vk48HVMpbhNzwxBeEPJQecDhTdyzXi",
+              "hash": "ipfs://QmXaRbdrJJddJMLuqKWRw3RA7Dj3XbjTZpgz4F4S3Qo8qo",
               "path": "F_uBody_PinkTshirt02.glb"
             }
           ]
@@ -13501,7 +13501,7 @@
           "mainFile": "M_uBody_PinkShortSleeveShirt.glb",
           "contents": [
             {
-              "hash": "ipfs://QmV3mDPH84JxKD3VMtyytuMb6uDW9KYp6QNamfykEntHbk",
+              "hash": "ipfs://QmZHCBjNUH32rKEzCEbPbAxNxTrxeZHWAnCqhRX793vZkR",
               "path": "M_uBody_PinkShortSleeveShirt.glb"
             }
           ]
