@@ -19,18 +19,25 @@ export const userCreateOrUpdateValidate = {
     email: Joi.string().email().allow(''),
     version: Joi.number(),
     tutorialStep: Joi.number(),
+    tutorialFlagsMask: Joi.number(),
     avatar: Joi.object({
       bodyShape: Joi.string(),
       eyes: color,
       hair: color,
       skin: color,
+      emotes: Joi.array().items(
+        Joi.object({
+          slot: Joi.number(),
+          urn: Joi.string(),
+        })
+      ),
       wearables: Joi.array().items(Joi.string()).max(10).min(1),
       snapshots: Joi.object({
         face: Joi.string(),
         body: Joi.string(),
         face256: Joi.string(),
         face128: Joi.string(),
-      })
+      }),
     }),
   },
 };

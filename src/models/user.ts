@@ -35,6 +35,11 @@ module.exports = sequelize => {
       defaultValue: 0,
       type: DataTypes.INTEGER,
     },
+    tutorialFlagsMask: {
+      allowNull: false,
+      defaultValue: 0,
+      type: DataTypes.INTEGER,
+    },
     hasClaimedName: {
       allowNull: false,
       defaultValue: false,
