@@ -2,10 +2,16 @@ import { Joi } from 'koa-joi-router';
 
 const color = Joi.object({
   color: Joi.object({
+    a: Joi.number(),
     r: Joi.number(),
     g: Joi.number(),
     b: Joi.number(),
   }),
+});
+
+const emote = Joi.object({
+  slot: Joi.number(),
+  urn: Joi.string(),
 });
 
 export const userCreateOrUpdateValidate = {
@@ -25,12 +31,7 @@ export const userCreateOrUpdateValidate = {
       eyes: color,
       hair: color,
       skin: color,
-      emotes: Joi.array().items(
-        Joi.object({
-          slot: Joi.number(),
-          urn: Joi.string(),
-        })
-      ),
+      emotes: Joi.array().items(emote),
       wearables: Joi.array().items(Joi.string()).max(10).min(1),
       snapshots: Joi.object({
         face: Joi.string(),
