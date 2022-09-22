@@ -32,7 +32,7 @@ export const handleTransfer = async (e: Event) => {
     // create nft
     const nft = newNFT(e);
     nft.name = getLandName(x, y);
-    nft.imageUrl = `https://api.beland.io/v1/parcels/${x}/${y}/map.png`
+    nft.imageUrl = `https://api.beland.io/v1/parcels/${x}/${y}/map.png`;
     nft.traits = [
       {
         name: 'type',
@@ -51,9 +51,7 @@ export const handleTransfer = async (e: Event) => {
     return await nft.save();
   } else if (e.args.to != parcel.owner) {
     if (parcel.sceneId) {
-      const scene = await Scene.findByPk(parcel.sceneId);
-      scene.isDeployed = false;
-      await scene.save();
+      await Scene.destroy({ where: { id: parcel.sceneId } });
     }
 
     parcel.updatedAt = datetime;

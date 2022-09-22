@@ -5,6 +5,7 @@ import { Op } from 'sequelize';
 import sceneABI from '../abis/Scene.json';
 import { getParcelIdsFromPointers } from '../../../utils/parcel';
 import { fetchMetadata, isMarket } from './utils';
+import _ from 'lodash';
 const { scene: Scene, parcel: Parcel } = database.models;
 
 export const handleTransfer = async (e: Event) => {
@@ -30,7 +31,7 @@ export const handleTransfer = async (e: Event) => {
     });
     try {
       await syncData(tokenId, tokenUri.toString());
-    } catch (e){
+    } catch (e) {
       console.error(e);
     }
     return;
@@ -61,22 +62,38 @@ async function syncData(tokenId: number, tokenURI: string) {
     owner: scene.owner,
     id: { [Op.in]: parcelIds },
   };
-  const dbCount = await Parcel.count({ where });
+  const parcels = await Parcel.findAll({ where });
+  if (parcels.length != parcelIds.length) return;
 
-  if (dbCount != parcelIds.length) return;
-  await Parcel.update(
-    {
-      sceneId: scene.id,
+  let sceneIdsToRemove = _.uniqBy(
+    parcels.map((parcels: { sceneId: any }) => parcels.sceneId),
+    null
+  );
+
+  await Scene.destroy({
+    where: {
+      id: { [Op.in]: sceneIdsToRemove },
     },
-    {
-      where,
-    }
+  });
+
+  const promises = [];
+
+  promises.push(
+    Parcel.update(
+      {
+        sceneId: scene.id,
+      },
+      {
+        where,
+      }
+    )
   );
   scene.name = sceneData.display.title;
-  scene.description = sceneData.display.description || "";
+  scene.description = sceneData.display.description || '';
   scene.metadata = sceneData;
   scene.contents = rootData.contents;
   scene.isDeployed = true;
 
-  await scene.save();
+  promises.push(scene.save());
+  await Promise.all(promises);
 }
