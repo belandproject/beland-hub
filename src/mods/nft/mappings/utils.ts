@@ -3,6 +3,8 @@ import { TransactionResponse } from '@ethersproject/abstract-provider';
 import { Event } from '@ethersproject/contracts';
 import database from '../../../database';
 import axios from 'axios';
+axios.defaults.timeout = 5000;
+
 const { bid: Bid } = database.models;
 export function getNftId(contract, tokenId) {
   return contract.toString() + '-' + tokenId.toString();
