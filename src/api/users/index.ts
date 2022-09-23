@@ -3,10 +3,15 @@ import { checkAuthMiddleware } from '../../middlewares/auth';
 import { gossipMiddleware } from '../../middlewares/gossip';
 import { getUserAuthMiddleware } from './middlewares';
 import { handleBlockUsers, handleList, handleMuteUsers, handleUpsert } from './user.handler';
-import { userCreateOrUpdateValidate, userToggleValidate } from './user.validate';
+import { userCreateOrUpdateValidate, userListValidate, userToggleValidate } from './user.validate';
 const userRouter = new Router();
-userRouter.get('/', handleList);
 userRouter.route([
+  {
+    method: 'get',
+    path: '/',
+    validate: userListValidate,
+    handler: [handleList],
+  },
   {
     method: 'post',
     path: '/me/blocked',

@@ -1,4 +1,5 @@
 import { Joi } from 'koa-joi-router';
+import { paginationValidate } from '../../middlewares/pagination';
 
 const color = Joi.object({
   color: Joi.object({
@@ -48,5 +49,15 @@ export const userToggleValidate = {
   body: {
     userIds: Joi.array().items(Joi.string()).min(1).required(),
     enabled: Joi.bool().required(),
+  },
+};
+
+export const userListValidate = {
+  query: {
+    ...paginationValidate.query,
+    orderBy: Joi.string().valid('id', 'createdAt').optional(),
+    orderDirection: Joi.string().valid('desc', 'asc').optional(),
+    ids: Joi.string().optional(),
+    id: Joi.string().optional(),
   },
 };
