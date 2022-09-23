@@ -7,7 +7,7 @@
   "scripts": {
     "start": "ts-node src/app.ts",
     "start:indexer": "ts-node src/indexer.ts",
-    "start:import": "ts-node src/import/index.ts",
+    "import-wearables": "ts-node src/tools/import-wearables.ts",
     "dev": "nodemon -e js,ts,json src/app.ts",
     "test": "nyc ava",
     "prettier:check": "prettier --check src/**/*",
