@@ -30,7 +30,7 @@ export const handleTransfer = async (e: Event) => {
       isDeployed: false,
     });
     try {
-      await syncData(tokenId, tokenUri.toString());
+      await syncDeploymentData(tokenId, tokenUri.toString());
     } catch (e) {
       console.error(e);
     }
@@ -42,14 +42,41 @@ export const handleTransfer = async (e: Event) => {
 };
 
 export async function handleDeploy(e: Event) {
+  const block = await getBlock(e.blockNumber);
+  const datetime = new Date(block.timestamp * 1000);
+  await Scene.create({
+    id: e.args.deploymentId.toNumber(),
+    owner: e.args.owner,
+    name: '',
+    description: '',
+    metadata: {},
+    contents: [],
+    tokenUri: e.args.tokenURI.toString(),
+    createdAt: datetime,
+    updatedAt: datetime,
+    isDeployed: false,
+  });
   try {
-    await syncData(e.args.sceneId.toNumber(), e.args.tokenURI.toString());
+    await syncDeploymentData(e.args.deploymentId.toNumber(), e.args.tokenURI.toString());
   } catch (e) {
     console.error(e.message);
   }
 }
 
-async function syncData(tokenId: number, tokenURI: string) {
+async function removeUnusedDeployment(parcels) {
+  let sceneIdsToRemove = _.uniqBy(
+    parcels.map((parcels: { sceneId: any }) => parcels.sceneId),
+    null
+  );
+
+  await Scene.destroy({
+    where: {
+      id: { [Op.in]: sceneIdsToRemove },
+    },
+  });
+}
+
+async function syncDeploymentData(tokenId: number, tokenURI: string) {
   const scene = await Scene.findByPk(tokenId);
   const rootData: any = await fetchMetadata(tokenURI);
   let sceneHash = rootData.contents.find(content => content.path == 'scene.json');
@@ -65,16 +92,7 @@ async function syncData(tokenId: number, tokenURI: string) {
   const parcels = await Parcel.findAll({ where });
   if (parcels.length != parcelIds.length) return;
 
-  let sceneIdsToRemove = _.uniqBy(
-    parcels.map((parcels: { sceneId: any }) => parcels.sceneId),
-    null
-  );
-
-  await Scene.destroy({
-    where: {
-      id: { [Op.in]: sceneIdsToRemove },
-    },
-  });
+  await removeUnusedDeployment(parcels);
 
   const promises = [];
 
@@ -96,4 +114,8 @@ async function syncData(tokenId: number, tokenURI: string) {
 
   promises.push(scene.save());
   await Promise.all(promises);
+}
+
+export async function handleRemote(e: Event) {
+  await Scene.destroy({ where: { id: e.args.deploymentId } });
 }

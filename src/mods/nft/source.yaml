@@ -44,6 +44,8 @@ dataSources:
           handler: handleTransfer
         - event: DeployNew
           handler: handleDeploy
+        - event: DeploymentRemoved
+          handler: handleRemove
 
   - name: nft-factory
     network: 0
