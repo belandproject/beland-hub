@@ -13,10 +13,7 @@ async function isOperator(objects, owner: string, operator: string, contractName
     objects.filter(
       parcel =>
         owner == owner &&
-        (parcel.operator == operator ||
-          parcel.operator == owner ||
-          _isOperatorUpdates ||
-          parcel.owner == operator)
+        (parcel.operator == operator || _isOperatorUpdates || parcel.owner == operator)
     ).length > 0
   );
 }
