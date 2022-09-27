@@ -44,6 +44,10 @@ module.exports = sequelize => {
         allowNull: true,
         type: DataTypes.INTEGER,
       },
+      operator: {
+        allowNull: true,
+        type: DataTypes.STRING,
+      },
     },
     {
       indexes: [],

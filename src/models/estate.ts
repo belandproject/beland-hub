@@ -28,6 +28,10 @@ module.exports = sequelize => {
         allowNull: false,
         type: DataTypes.STRING,
       },
+      operator: {
+        allowNull: true,
+        type: DataTypes.STRING,
+      },
     },
     {
       indexes: [],
