@@ -1,12 +1,13 @@
-import { Event } from 'ethers';
+import { ethers, Event } from 'ethers';
 import database from '../../../database';
 import { getNFTId, newNFT } from '../../../utils/nft';
 import { getBlock } from '../../../utils/web3';
 import { getLandName, isMarket } from './utils';
 import _ from 'lodash';
 import { parseCSV } from '../../../utils/csv';
+import { updateOperator } from '../../../service/operator.service';
 
-const { parcel: Parcel, nft: NFT, scene: Scene } = database.models;
+const { parcel: Parcel, nft: NFT, scene: Scene, operator: Operator } = database.models;
 
 export const handleTransfer = async (e: Event) => {
   if (isMarket(e.args.to)) return;
@@ -72,4 +73,19 @@ export async function handleUpdateMetadata(e: Event) {
   parcel.description = _.nth(data, 2) || '';
   parcel.image = _.nth(data, 3) || '';
   await parcel.save();
+}
+
+export async function handleSetOperatorUpdates(e: Event) {
+  await updateOperator({
+    contract: e.address.toString(),
+    operator: e.args.operator.toString(),
+    owner: e.args.owner.toString(),
+    approved: e.args.approved,
+  });
+}
+
+export async function handleSetOperator(e: Event) {
+  const estate = await Parcel.findByPk(e.args.tokenId.toString());
+  estate.operator = e.args.operator;
+  await estate.save();
 }

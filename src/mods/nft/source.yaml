@@ -12,6 +12,10 @@ dataSources:
           handler: handleTransfer
         - event: MetadataUpdate
           handler: handleUpdateMetadata
+        - event: SetOperatorUpdates
+          handler: handleSetOperatorUpdates
+        - event: SetOperator
+          handler: handleSetOperator
   - name: estate
     network: 0
     source:
@@ -31,6 +35,10 @@ dataSources:
           handler: handleBundleRemoveItems
         - event: MetadataUpdate
           handler: handleUpdateMetadata
+        - event: SetOperatorUpdates
+          handler: handleSetOperatorUpdates
+        - event: SetOperator
+          handler: handleSetOperator
   - name: scene
     network: 0
     source:

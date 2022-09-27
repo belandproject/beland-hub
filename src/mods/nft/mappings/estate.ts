@@ -6,6 +6,7 @@ import { getBlock } from '../../../utils/web3';
 import { getNftId, isMarket } from './utils';
 import _ from 'lodash';
 import { parseCSV } from '../../../utils/csv';
+import { updateOperator } from '../../../service/operator.service';
 
 const { estate: Estate, parcel: Parcel, nft: NFT } = database.models;
 
@@ -138,4 +139,19 @@ export async function handleUpdateMetadata(e: Event) {
   promises.push(estate.save());
 
   await Promise.all(promises);
+}
+
+export async function handleSetOperatorUpdates(e: Event) {
+  await updateOperator({
+    contract: e.address.toString(),
+    operator: e.args.operator.toString(),
+    owner: e.args.owner.toString(),
+    approved: e.args.approved,
+  });
+}
+
+export async function handleSetOperator(e: Event) {
+  const estate = await Estate.findByPk(e.args.tokenId.toString());
+  estate.operator = e.args.operator;
+  await estate.save();
 }
