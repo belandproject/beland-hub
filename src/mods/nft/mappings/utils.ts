@@ -5,6 +5,8 @@ import database from '../../../database';
 import axios from 'axios';
 axios.defaults.timeout = 5000;
 
+export const MODULE_NAME = 'nft';
+
 const { bid: Bid } = database.models;
 export function getNftId(contract, tokenId) {
   return contract.toString() + '-' + tokenId.toString();

@@ -105,7 +105,7 @@ export class Module {
   };
 
   createTemplate = async (name: string, address: string, creationBlock) => {
-    await Template.create({ address, name, creationBlock });
+    await Template.create({ address, name, creationBlock, module: this.name });
     this.mapSourceAddress(address, name);
     const filter = _getLogFilters(creationBlock, this.endBlock, Object.keys(this.handlers[name]), [
       address,
@@ -115,7 +115,7 @@ export class Module {
   };
 
   loadAllTemplateContract = async () => {
-    const templates = await Template.findAll();
+    const templates = await Template.findAll({ module: this.name });
     for (var template of templates) {
       this.mapSourceAddress(template.address, template.name);
     }
@@ -162,11 +162,18 @@ const getDirectories = source =>
     .filter(dirent => dirent.isDirectory())
     .map(dirent => dirent.name);
 
+const modules = {};
+
 export async function initDataSource() {
   await syncLatestBlock();
   const moduleNames = getDirectories('./src/mods');
   for (let moduleName of moduleNames) {
     const module = new Module(moduleName);
+    modules[moduleName] = module;
     module.start();
   }
+}
+
+export function getModule(name: string): Module {
+  return modules[name];
 }
