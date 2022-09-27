@@ -17,6 +17,8 @@ function validateParcels(parcels: string[]) {
   return true;
 }
 
-export const deploymentValidate = (data: any) => {
-  return validateParcels(data.scene.parcels);
+export const validateDeploymentMetadata = (data: any) => {
+  if (!validateParcels(data.scene.parcels)) {
+    throw Error('Unauthorized');
+  }
 };

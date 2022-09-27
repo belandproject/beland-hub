@@ -11,6 +11,14 @@ export function fetchMetadata(hash: string): any {
   return axios.get(getIpfsURL(hash)).then(res => res.data);
 }
 
+export async function fetchDeploymentMetadata(tokenURI: string) {
+  const rootData: any = await fetchMetadata(tokenURI);
+  let sceneHash = rootData.contents.find(content => content.path == 'scene.json');
+  if (!sceneHash) return;
+  const sceneData: any = await fetchMetadata(sceneHash.hash);
+  return { contents: rootData.contents, sceneData };
+}
+
 async function _fetchAndValidateMetadata(hash: string) {
   const data = await fetchMetadata(hash);
   const validateResult = await validateMetadata(data);

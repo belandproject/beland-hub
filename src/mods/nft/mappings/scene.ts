@@ -28,12 +28,7 @@ export const handleTransfer = async (e: Event) => {
       updatedAt: datetime,
       isDeployed: false,
     });
-    try {
-      await saveDeploymentDataFromIPFS(tokenId, tokenUri.toString());
-    } catch (e) {
-      console.error(e);
-    }
-    return;
+    return await saveDeploymentDataFromIPFS(tokenId, tokenUri.toString())
   }
   scene.updatedAt = datetime;
   scene.owner = e.args.to;
@@ -55,11 +50,7 @@ export async function handleDeploy(e: Event) {
     updatedAt: datetime,
     isDeployed: false,
   });
-  try {
-    await saveDeploymentDataFromIPFS(e.args.deploymentId.toNumber(), e.args.tokenURI.toString());
-  } catch (e) {
-    console.error(e.message);
-  }
+  await saveDeploymentDataFromIPFS(e.args.deploymentId.toNumber(), e.args.tokenURI.toString());
 }
 
 export async function handleRemote(e: Event) {

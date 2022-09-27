@@ -1,47 +1,78 @@
 import { Op } from 'sequelize';
 import database from '../database';
-import { deploymentValidate } from '../mods/nft/validators/deployment';
-import { fetchMetadata } from '../utils/metadata';
+import { validateDeploymentMetadata } from '../mods/nft/validators/deployment';
+import { fetchDeploymentMetadata, fetchMetadata } from '../utils/metadata';
 import { getParcelIdsFromPointers } from '../utils/parcel';
 import _ from 'lodash';
-const { scene: Scene, parcel: Parcel } = database.models;
+import { isOperatorUpdates } from './operator.service';
+const { scene: Scene, parcel: Parcel, estate: Estate } = database.models;
+
+async function isOperator(objects, owner: string, operator: string, contractName: string) {
+  const _isOperatorUpdates = await isOperatorUpdates(owner, operator, contractName);
+  return (
+    objects.filter(
+      parcel =>
+        owner == owner &&
+        (parcel.operator == operator ||
+          parcel.operator == owner ||
+          _isOperatorUpdates ||
+          parcel.owner == operator)
+    ).length > 0
+  );
+}
+
+async function hasParcelsPermission(parcels, owner: string, operator: string) {
+  // validate all parcels without estate
+  const parcelsWithoutEstate = parcels.filter(parcel => parcel.estateId == null);
+  if (parcelsWithoutEstate.length > 0) {
+    if (!(await isOperator(parcelsWithoutEstate, owner, operator, 'parcel'))) return false;
+  }
+
+  // validate all estate
+  const estateIds = _.uniq(
+    parcels.filter(parcel => parcel.estateId != null).map(parcel => parcel.estateId)
+  );
+  const estates = await Estate.findAll({ where: { [Op.in]: estateIds } });
+  if (estates.length > 0) {
+    if (!(await isOperator(parcelsWithoutEstate, owner, operator, 'estate'))) return false;
+  }
+  return true;
+}
+
+async function validateParcelsPermission(parcels, owner: string, operator: string) {
+  if (!hasParcelsPermission(parcels, owner, operator)) {
+    throw Error('Unauthorized');
+  }
+}
 
 export async function saveDeploymentDataFromIPFS(tokenId: number, tokenURI: string) {
+  try {
+    const { contents, sceneData } = await fetchDeploymentMetadata(tokenURI);
+    validateDeploymentMetadata(sceneData);
+    await saveDeploymentData(tokenId, sceneData, contents);
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+export async function saveDeploymentData(tokenId: number, sceneData: any, contents) {
   const scene = await Scene.findByPk(tokenId);
-  const rootData: any = await fetchMetadata(tokenURI);
-  let sceneHash = rootData.contents.find(content => content.path == 'scene.json');
-
-  if (!sceneHash) return;
-  const sceneData: any = await fetchMetadata(sceneHash.hash);
-  if (!deploymentValidate(sceneData)) return;
-
   const parcelIds = getParcelIdsFromPointers(sceneData.scene.parcels);
-  const where = {
-    owner: scene.owner,
-    id: { [Op.in]: parcelIds },
-  };
+  const where = { id: { [Op.in]: parcelIds } };
 
-  const parcels = await Parcel.findAll({ where });
+  const parcels = await Parcel.findAll({ where: { id: { [Op.in]: parcelIds } } });
   if (parcels.length != parcelIds.length) return;
 
+  await validateParcelsPermission(parcels, parcels[0].owner, scene.owner);
   await removeUnusedDeployment(parcels);
 
   const promises = [];
-  promises.push(
-    Parcel.update(
-      {
-        sceneId: scene.id,
-      },
-      {
-        where,
-      }
-    )
-  );
+  promises.push(Parcel.update({ sceneId: scene.id }, { where }));
 
   scene.name = sceneData.display.title;
   scene.description = sceneData.display.description || '';
   scene.metadata = sceneData;
-  scene.contents = rootData.contents;
+  scene.contents = contents;
   scene.isDeployed = true;
 
   promises.push(scene.save());

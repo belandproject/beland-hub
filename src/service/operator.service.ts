@@ -21,3 +21,16 @@ export async function updateOperator(operatorData: UpdateOperatorData) {
     await Operator.create(operatorData);
   }
 }
+
+
+export async function isOperatorUpdates(owner: string, operator: string, contract: string) {
+  if (owner == operator) return true;
+  const operatorCount = await Operator.count({
+    where: {
+      owner,
+      operator,
+      contract
+    },
+  });
+  return operatorCount > 0
+}
