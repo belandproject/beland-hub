@@ -1,31 +1,25 @@
+require('dotenv').config();
 import Koa from 'koa';
 import helmet from 'koa-helmet';
 import body from 'koa-bodyparser';
 import cors from '@koa/cors';
 import conditional from 'koa-conditional-get';
 import etag from 'koa-etag';
-require('dotenv').config();
+import cls from 'cls-hooked';
+const namespace = cls.createNamespace('server');
+const Sequelize = require('sequelize');
+Sequelize.useCLS(namespace);
+
 import { assertDatabaseConnectionOk } from './setup';
 const app = new Koa();
 import router from './api/router';
+import { errorsMiddleware } from './middlewares/errors';
+import { INDEXER } from './constants';
+import * as datasourceService from './service/datasource';
+import { syncLatestBlock } from './utils/blockNumber';
+import { sync } from './utils/sync';
 
-// custom 401 handling
-app.use(async (ctx, next) => {
-  try {
-    await next();
-  } catch (err) {
-    if (401 == err.status) {
-      ctx.status = 401;
-      ctx.set('WWW-Authenticate', 'Basic');
-      ctx.body = {
-        error: 'Unauthentication',
-      };
-    } else {
-      throw err;
-    }
-  }
-});
-
+app.use(errorsMiddleware);
 app.use(conditional());
 app.use(etag());
 app.use(helmet());
@@ -40,4 +34,19 @@ async function listen() {
   console.log(`> nft-api running! (:${port})`);
 }
 
-listen();
+async function startIndexer() {
+  await assertDatabaseConnectionOk();
+  await syncLatestBlock();
+  await datasourceService.init();
+  sync(datasourceService);
+}
+
+function start() {
+  listen();
+
+  if (INDEXER) {
+    startIndexer();
+  }
+}
+
+start();

@@ -1,22 +1,11 @@
 import { Op } from 'sequelize';
 import database from '../database';
 import { validateDeploymentMetadata } from '../mods/nft/validators/deployment';
-import { fetchDeploymentMetadata, fetchMetadata } from '../utils/metadata';
+import { fetchDeploymentMetadata } from '../utils/metadata';
 import { getParcelIdsFromPointers } from '../utils/parcel';
 import _ from 'lodash';
-import { isOperatorUpdates } from './operator.service';
+import { isOperator } from './operator.service';
 const { scene: Scene, parcel: Parcel, estate: Estate } = database.models;
-
-async function isOperator(objects, owner: string, operator: string, contractName: string) {
-  const _isOperatorUpdates = await isOperatorUpdates(owner, operator, contractName);
-  return (
-    objects.filter(
-      parcel =>
-        owner == owner &&
-        (parcel.operator == operator || _isOperatorUpdates || parcel.owner == operator)
-    ).length > 0
-  );
-}
 
 async function hasParcelsPermission(parcels, owner: string, operator: string) {
   // validate all parcels without estate
@@ -57,7 +46,7 @@ export async function saveDeploymentData(tokenId: number, sceneData: any, conten
   const parcelIds = getParcelIdsFromPointers(sceneData.scene.parcels);
   const where = { id: { [Op.in]: parcelIds } };
 
-  const parcels = await Parcel.findAll({ where: { id: { [Op.in]: parcelIds } } });
+  const parcels = await Parcel.findAll({ where });
   if (parcels.length != parcelIds.length) return;
 
   await validateParcelsPermission(parcels, parcels[0].owner, scene.owner);
@@ -77,14 +66,10 @@ export async function saveDeploymentData(tokenId: number, sceneData: any, conten
 }
 
 async function removeUnusedDeployment(parcels) {
-  let sceneIdsToRemove = _.uniqBy(
-    parcels.map((parcels: { sceneId: any }) => parcels.sceneId),
-    null
-  );
-
+  let sceneIds = _.uniq(parcels.map((parcels: { sceneId: any }) => parcels.sceneId));
   await Scene.destroy({
     where: {
-      id: { [Op.in]: sceneIdsToRemove },
+      id: { [Op.in]: sceneIds },
     },
   });
 }

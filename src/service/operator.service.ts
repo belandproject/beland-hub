@@ -34,3 +34,14 @@ export async function isOperatorUpdates(owner: string, operator: string, contrac
   });
   return operatorCount > 0
 }
+
+export async function isOperator(objects, owner: string, operator: string, contractName: string) {
+  const _isOperatorUpdates = await isOperatorUpdates(owner, operator, contractName);
+  return (
+    objects.filter(
+      parcel =>
+        owner == owner &&
+        (parcel.operator == operator || _isOperatorUpdates || parcel.owner == operator)
+    ).length > 0
+  );
+}
