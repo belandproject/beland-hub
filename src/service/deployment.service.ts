@@ -34,7 +34,7 @@ async function hasParcelsPermission(parcels, owner: string, operator: string) {
   );
   const estates = await Estate.findAll({ where: { [Op.in]: estateIds } });
   if (estates.length > 0) {
-    if (!(await isOperator(parcelsWithoutEstate, owner, operator, 'estate'))) return false;
+    if (!(await isOperator(estates, owner, operator, 'estate'))) return false;
   }
   return true;
 }
