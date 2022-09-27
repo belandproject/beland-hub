@@ -6,7 +6,7 @@ const SyncStatus = database.models.sync_status;
 const SYNC_MAX_BLOCK = 100;
 export async function sync(options) {
   const syncStatuses = await SyncStatus.findOrCreate({
-    where: { id: 'nft' },
+    where: { id: options.name },
     defaults: { lastBlock: options.getFirtBlockNumber() },
   });
   const syncStatus: any = syncStatuses[0];
@@ -19,7 +19,6 @@ export async function sync(options) {
         await sleep(5000);
         continue;
       }
-
       let endBlock = startBlock;
       if (lastestBlock - startBlock > SYNC_MAX_BLOCK) {
         endBlock += SYNC_MAX_BLOCK;

@@ -15,9 +15,7 @@ const app = new Koa();
 import router from './api/router';
 import { errorsMiddleware } from './middlewares/errors';
 import { INDEXER } from './constants';
-import * as datasourceService from './service/datasource';
-import { syncLatestBlock } from './utils/blockNumber';
-import { sync } from './utils/sync';
+import { initDataSource } from './service/datasource';
 
 app.use(errorsMiddleware);
 app.use(conditional());
@@ -36,9 +34,7 @@ async function listen() {
 
 async function startIndexer() {
   await assertDatabaseConnectionOk();
-  await syncLatestBlock();
-  await datasourceService.init();
-  sync(datasourceService);
+  initDataSource()
 }
 
 function start() {
