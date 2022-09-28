@@ -12,7 +12,7 @@ module.exports = sequelize => {
         primaryKey: true,
         type: DataTypes.INTEGER,
       },
-
+      
       contract: {
         allowNull: false,
         type: DataTypes.STRING,

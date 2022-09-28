@@ -33,7 +33,6 @@ async function listen() {
 }
 
 async function startIndexer() {
-  await assertDatabaseConnectionOk();
   initDataSource()
 }
 

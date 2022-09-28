@@ -121,7 +121,7 @@ export class Module {
   };
 
   loadAllTemplateContract = async () => {
-    const templates = await Template.findAll({ module: this.name });
+    const templates = await Template.findAll({ where: {module: this.name} });
     for (var template of templates) {
       this.mapSourceAddress(template.address, template.name);
     }
