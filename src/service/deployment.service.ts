@@ -18,7 +18,7 @@ async function hasParcelsPermission(parcels, owner: string, operator: string) {
   const estateIds = _.uniq(
     parcels.filter(parcel => parcel.estateId != null).map(parcel => parcel.estateId)
   );
-  const estates = await Estate.findAll({ where: { [Op.in]: estateIds } });
+  const estates = await Estate.findAll({ where: { id: { [Op.in]: estateIds } } });
   if (estates.length > 0) {
     if (!(await isOperator(estates, owner, operator, 'estate'))) return false;
   }

@@ -28,7 +28,7 @@ export const handleTransfer = async (e: Event) => {
       updatedAt: datetime,
       isDeployed: false,
     });
-    return await saveDeploymentDataFromIPFS(tokenId, tokenUri.toString())
+    return await saveDeploymentDataFromIPFS(tokenId, tokenUri.toString());
   }
   scene.updatedAt = datetime;
   scene.owner = e.args.to;
@@ -36,21 +36,24 @@ export const handleTransfer = async (e: Event) => {
 };
 
 export async function handleDeploy(e: Event) {
-  const block = await getBlock(e.blockNumber);
-  const datetime = new Date(block.timestamp * 1000);
-  await Scene.create({
-    id: e.args.deploymentId.toNumber(),
-    owner: e.args.owner,
-    name: '',
-    description: '',
-    metadata: {},
-    contents: [],
-    tokenUri: e.args.tokenURI.toString(),
-    createdAt: datetime,
-    updatedAt: datetime,
-    isDeployed: false,
-  });
-  await saveDeploymentDataFromIPFS(e.args.deploymentId.toNumber(), e.args.tokenURI.toString());
+  // const block = await getBlock(e.blockNumber);
+  const deploymentId = e.args.sceneId.toNumber();
+  const tokenURI = e.args.tokenURI.toString();
+  
+  // const datetime = new Date(block.timestamp * 1000);
+  // await Scene.create({
+  //   id: deploymentId,
+  //   owner: e.args.owner,
+  //   name: '',
+  //   description: '',
+  //   metadata: {},
+  //   contents: [],
+  //   tokenUri: e.args.tokenURI.toString(),
+  //   createdAt: datetime,
+  //   updatedAt: datetime,
+  //   isDeployed: false,
+  // });
+  await saveDeploymentDataFromIPFS(deploymentId, tokenURI);
 }
 
 export async function handleRemote(e: Event) {

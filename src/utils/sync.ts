@@ -57,7 +57,7 @@ async function handleLogs(logs, options, endBlock, syncStatus) {
     });
   } catch (e) {
     const d = new Date();
-    console.error(d.toString(), ': sync err: ', e.message);
+    console.error(d.toString(), ': sync err: ', e);
     await sleep(10000);
     await handleLogs(logs, options, endBlock, syncStatus);
   }
