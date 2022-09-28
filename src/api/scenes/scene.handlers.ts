@@ -1,6 +1,6 @@
 import { Op } from 'sequelize';
 import database from '../../database';
-import { getPointerFromID } from '../../mods/nft/mappings/utils';
+import { getPointerFromID } from '../../modules/nft/mappings/utils';
 import { getParcelIdsFromPointers } from '../../utils/parcel';
 import { buildQuery } from '../../utils/query';
 const { scene: Scene, parcel: Parcel } = database.models;

@@ -15,6 +15,7 @@ export class Module {
   firstBlock = 0;
   endBlock = 0;
   name = '';
+  enabled = false;
 
   constructor(name: string) {
     this.name = name;
@@ -22,15 +23,20 @@ export class Module {
 
   start = async () => {
     this.init();
-    await this.loadAllTemplateContract();
-    sync(this);
+    if (this.enabled) {
+      await this.loadAllTemplateContract();
+      sync(this);
+    }
   };
 
   init = () => {
-    const sourceRaw = fs.readFileSync(`./src/mods/${this.name}/source.yaml`, 'utf8');
+    const sourceRaw = fs.readFileSync(`./src/modules/${this.name}/source.yaml`, 'utf8');
     const sourceConfig = YAML.parse(sourceRaw);
-    sourceConfig.dataSources.map(dataSource => this.initDataSource(dataSource));
-    sourceConfig.templates.map(template => this.initTemplate(template));
+    this.enabled = sourceConfig.enabled || false;
+    if (this.enabled) {
+      sourceConfig.dataSources.map(dataSource => this.initDataSource(dataSource));
+      sourceConfig.templates.map(template => this.initTemplate(template));
+    }
   };
 
   initDataSource = dataSource => {
@@ -73,7 +79,7 @@ export class Module {
   };
 
   getMapping = dataSource => {
-    return require(`../mods/${this.name}/` + dataSource.mapping.file.replace('./', ''));
+    return require(`../modules/${this.name}/` + dataSource.mapping.file.replace('./', ''));
   };
 
   mapSourceAddress = (addr, sourceName) => {
@@ -86,7 +92,7 @@ export class Module {
 
   getAbi = dataSource => {
     return fs.readFileSync(
-      `./src/mods/${this.name}/` + dataSource.source.abi.replace('./', ''),
+      `./src/modules/${this.name}/` + dataSource.source.abi.replace('./', ''),
       'utf8'
     );
   };
@@ -166,7 +172,7 @@ const modules = {};
 
 export async function initDataSource() {
   await syncLatestBlock();
-  const moduleNames = getDirectories('./src/mods');
+  const moduleNames = getDirectories('./src/modules');
   for (let moduleName of moduleNames) {
     const module = new Module(moduleName);
     modules[moduleName] = module;

@@ -1,3 +1,5 @@
+name: nft
+enabled: true
 dataSources:
   - name: parcel
     network: 0

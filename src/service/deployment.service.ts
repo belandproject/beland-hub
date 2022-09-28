@@ -1,6 +1,6 @@
 import { Op } from 'sequelize';
 import database from '../database';
-import { validateDeploymentMetadata } from '../mods/nft/validators/deployment';
+import { validateDeploymentMetadata } from '../modules/nft/validators/deployment';
 import { fetchDeploymentMetadata } from '../utils/metadata';
 import { getParcelIdsFromPointers } from '../utils/parcel';
 import _ from 'lodash';
