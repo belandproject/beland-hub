@@ -22,26 +22,29 @@ export async function updateOperator(operatorData: UpdateOperatorData) {
   }
 }
 
-
 export async function isOperatorUpdates(owner: string, operator: string, contract: string) {
   if (owner == operator) return true;
   const operatorCount = await Operator.count({
     where: {
       owner,
       operator,
-      contract
+      contract,
     },
   });
-  return operatorCount > 0
+  return operatorCount > 0;
 }
 
-export async function isOperator(objects, owner: string, operator: string, contractName: string) {
+export async function isOperator(
+  objects: any[],
+  owner: string,
+  operator: string,
+  contractName: string
+) {
   const _isOperatorUpdates = await isOperatorUpdates(owner, operator, contractName);
   return (
     objects.filter(
-      parcel =>
-        owner == owner &&
-        (parcel.operator == operator || _isOperatorUpdates || parcel.owner == operator)
-    ).length > 0
+      obj =>
+        owner == owner && (obj.operator == operator || _isOperatorUpdates || obj.owner == operator)
+    ).length === objects.length
   );
 }
