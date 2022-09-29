@@ -40,11 +40,13 @@ export async function isOperator(
   operator: string,
   contractName: string
 ) {
+  let _isOperator: boolean;
   const _isOperatorUpdates = await isOperatorUpdates(owner, operator, contractName);
-  return (
-    objects.filter(
-      obj =>
-        owner == owner && (obj.operator == operator || _isOperatorUpdates || obj.owner == operator)
-    ).length === objects.length
-  );
+  for (var obj of objects) {
+    _isOperator =
+      owner == obj.owner &&
+      (obj.operator == operator || _isOperatorUpdates || obj.owner == operator);
+    if (!_isOperator) return false;
+  }
+  return true;
 }
