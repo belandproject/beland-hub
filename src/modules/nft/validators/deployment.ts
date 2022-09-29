@@ -9,16 +9,14 @@ function validateParcels(parcels: string[]) {
   }
   for (let parcel of parcels) {
     const [x, y] = parcel.split(',').map(v => Number(v));
-    const pointersToCheck = [`${x + 1},${y}`, `${x},${y + 1}`, `${x - 1},${y}`, `${x},${y - 1}`];
-    for (let p of pointersToCheck) {
-      if (!parcelMap[p]) return false;
-    }
+    const toCheck = [`${x + 1},${y}`, `${x},${y + 1}`, `${x - 1},${y}`, `${x},${y - 1}`];
+    if (!toCheck.find(p => !!parcelMap[p])) return false;
   }
   return true;
 }
 
 export const validateDeploymentMetadata = (data: any) => {
   if (!validateParcels(data.scene.parcels)) {
-    throw Error('Unauthorized');
+    throw Error('Incorrect parcels');
   }
 };
