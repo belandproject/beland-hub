@@ -1,5 +1,5 @@
 import { Event } from 'ethers';
-import { getNftId } from './utils';
+import { getNftId, isParcelContract } from './utils';
 import database from '../../../database';
 import { getBlock } from '../../../utils/web3';
 import {
@@ -9,6 +9,7 @@ import {
   createOfferRentEvent,
   createRentEvent,
 } from './event';
+import { updateRenterForRelatedModels } from '../../../service/rent.service';
 
 const { nft: NFT, lend_offer: Offer } = database.models;
 
@@ -49,7 +50,7 @@ export async function handleRent(e: Event) {
 
   nft.renter = e.args.renter;
   nft.expiredAt = new Date(e.args.expiredAt.toNumber() * 1000);
-  await Promise.all([nft.save(), createRentEvent(e, nft)]);
+  await Promise.all([nft.save(), createRentEvent(e, nft), updateRenterForRelatedModels(nft)]);
 }
 
 export async function handleCreateOffer(e: Event) {
@@ -92,6 +93,7 @@ export async function handleAcceptOffer(e: Event) {
   nft.renter = e.args.renter;
   nft.expiredAt = new Date(e.args.expiredAt.toNumber() * 1000);
   await Promise.all([
+    updateRenterForRelatedModels(nft),
     nft.save(),
     Offer.destroy({ where: { nftId, renter: e.args.renter.toString() } }),
     createRentEvent(e, nft),

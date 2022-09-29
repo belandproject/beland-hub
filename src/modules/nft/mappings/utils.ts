@@ -19,6 +19,17 @@ const MARKETS = [
   '0x7b966AE5E32fE61F0F3ea9c9468FfBEbb3Bd1611',
 ];
 
+const PARCEL_ADDR = '0x80974C4249b212178B4B54f63F6F4d6597C71c0f';
+const ESTATE_ADDR = '0x871F3a16fF9d267854628966a2bA36665e0bD437';
+
+export function isParcelContract(addr: string): boolean {
+  return PARCEL_ADDR === addr;
+}
+
+export function isEstateContract(addr: string): boolean {
+  return ESTATE_ADDR === addr;
+}
+
 export async function getTx(event: Event): Promise<TransactionResponse> {
   let cached: any = txs.get(event.transactionHash);
   if (cached) return cached;

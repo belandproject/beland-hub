@@ -42,11 +42,19 @@ export async function isOperator(
 ) {
   let _isOperator: boolean;
   const _isOperatorUpdates = await isOperatorUpdates(owner, operator, contractName);
+  const now = Date.now();
   for (var obj of objects) {
     _isOperator =
       owner == obj.owner &&
-      (obj.operator == operator || _isOperatorUpdates || obj.owner == operator);
+      (obj.operator == operator ||
+        _isOperatorUpdates ||
+        obj.owner == operator ||
+        isRenter(obj, operator, now));
     if (!_isOperator) return false;
   }
   return true;
+}
+
+function isRenter(obj, operator: string, now: number) {
+  return obj.renter === operator && obj.expiredAt != null && obj.expiredAt.getTime() >= now;
 }
